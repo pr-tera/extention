@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PlanOfCharacteristicKindPredefinedItems" version="2.10">
+	<Item id="6c150cd1-2437-42be-bdbb-f8f07bdf3cda">
+		<Name>Google</Name>
+		<Code>05000</Code>
+		<Description>Google</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="afa2036a-f384-4a5b-a583-a1c5fa12bab0">
+				<Name>пр_GoogleDrive</Name>
+				<Code>90034</Code>
+				<Description>Google drive</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="1f727033-23b5-4e90-bd5a-79b4506ad5dc">
+						<Name>AccessTokenGApiDrive</Name>
+						<Code>90035</Code>
+						<Description>Access token g api drive</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>255</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="89b0ef5a-1585-4337-ad4b-2280fc216d9a">
+						<Name>RefreshTokenGApiDrive</Name>
+						<Code>90036</Code>
+						<Description>Refresh token g api drive</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>255</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="9ed11a27-46ca-45b7-a977-28af13f26ef6">
+						<Name>ВремяЖизниТокенаAPIDrive</Name>
+						<Code>90037</Code>
+						<Description>Время жизни токена APIDrive</Description>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>DateTime</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2b61339c-bb86-4f6a-976b-91dbf8a79e13">
+						<Name>СинхронизоватьGoogleDrive</Name>
+						<Code>90038</Code>
+						<Description>Синхронизовать google drive</Description>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="621ac375-4746-40a5-98c1-51d160210065">
+		<Name>сфпНастройкиСофтФон</Name>
+		<Code>90000</Code>
+		<Description>Настройки СофтФон</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="f282cd70-9b21-43ed-8109-0cc0d584ea6b">
+				<Name>сфпАвторизацияНаСерверСофтфона</Name>
+				<Code>90014</Code>
+				<Description>Ввод данных для авторизации на сервер Софтфона</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="93115bd7-8887-4ccd-9885-b9755bb27b3c">
+						<Name>сфпЛогинНаСерверСофтФон</Name>
+						<Code>90015</Code>
+						<Description>Логин на сервер Софтфона</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>255</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="a38a3984-5402-407d-95a2-6f5b6d70ae8d">
+						<Name>сфпПарольНаСерверСофтФон</Name>
+						<Code>90016</Code>
+						<Description>Пароль на сервер Софтфона</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>255</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="246288a7-fdff-42a1-9149-b2c85c885ebb">
+				<Name>сфпДействияПриЗвонке</Name>
+				<Code>90010</Code>
+				<Description>Настройка действий при звонке (только для внешних звонков)</Description>
+				<Type/>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="8dae97b4-3b3e-4eab-815b-78eda8d923be">
+						<Name>сфпДействиеПриВходящемЗвонке</Name>
+						<Code>90011</Code>
+						<Description>Действие при входящем звонке</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>100</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="916781c6-3b26-4ac7-a670-e0b175f5afb4">
+						<Name>сфпДействиеПриИсходящемЗвонке</Name>
+						<Code>90012</Code>
+						<Description>Действие при исходящем звонке</Description>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>100</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="72a5a570-cce4-414b-b42f-91850cff4ae4">
+				<Name>сфпЗакрыватьПанельПриЗавершенииРаботы</Name>
+				<Code>90004</Code>
+				<Description>Закрывать панель при завершении работы</Description>
+				<Type>
+					<v8:Type>xs:boolean</v8:Type>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="a16db9dc-3d5b-48f1-a07f-77f3534ede5d">
+		<Name>СинхронизацияКалендарей</Name>
+		<Code>90018</Code>
+		<Description>Синхронизация календарей</Description>
+		<Type/>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="ec5de5cd-e568-4859-9065-f142ec45c737">
+				<Name>КалендарьДляСинхронизации</Name>
+				<Code>90020</Code>
+				<Description>Календарь для синхронизации</Description>
+				<Type>
+					<v8:TypeId>13989a73-d5fa-4d43-a5e4-e8ed53702588</v8:TypeId>
+				</Type>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

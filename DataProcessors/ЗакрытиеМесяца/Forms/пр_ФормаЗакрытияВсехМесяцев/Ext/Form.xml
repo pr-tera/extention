@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Параметры закрытия месяца</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗакрытьМесяцы" id="83">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.ЗакрытьМесяцы</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьМесяцыРасширеннаяПодсказка" id="84"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<PeriodField name="Период" id="1">
+			<DataPath>Период</DataPath>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</PeriodField>
+		<UsualGroup name="Операции1" id="4">
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Операции1ExtendedTooltip" id="5"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНачислениеАмортизации1" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа начисление амортизации1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНачислениеАмортизации1ExtendedTooltip" id="7"/>
+					<ChildItems>
+						<CheckBoxField name="НачислениеАмортизации1" id="8">
+							<DataPath>НачислениеАмортизации1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Начислить амортизацию</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Начислить амортизацию". Если в компании имеется имущество, то необходимо каждый месяц начислять амортизацию.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НачислениеАмортизации1КонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="НачислениеАмортизации1ExtendedTooltip" id="10"/>
+						</CheckBoxField>
+						<LabelDecoration name="НачислятьАмортизациюРазделительПустой1" id="11">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="НачислятьАмортизациюРазделительПустой1КонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="НачислятьАмортизациюРазделительПустой1ExtendedTooltip" id="13"/>
+						</LabelDecoration>
+						<PictureDecoration name="НачислениеАмортизацииКартинка1" id="14">
+							<Width>2</Width>
+							<Height>1</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Начисление амортизации картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="НачислениеАмортизацииКартинка1КонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="НачислениеАмортизацииКартинка1ExtendedTooltip" id="16"/>
+							<Events>
+								<Event name="Click">НачислениеАмортизацииКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетПрямыхЗатрат1" id="17">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расчет прямых затрат1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетПрямыхЗатрат1ExtendedTooltip" id="18"/>
+					<ChildItems>
+						<CheckBoxField name="РасчетПрямыхЗатрат1" id="19">
+							<DataPath>РасчетПрямыхЗатрат1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать прямые затраты</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Рассчитать прямые затраты". Для определения базы косвенных затрат необходимо предварительно осуществить расчет прямых.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасчетПрямыхЗатрат1КонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="РасчетПрямыхЗатрат1ExtendedTooltip" id="21"/>
+						</CheckBoxField>
+						<LabelDecoration name="РасчетПрямыхЗатратРазделительПустой1" id="22">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РасчетПрямыхЗатратРазделительПустой1КонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="РасчетПрямыхЗатратРазделительПустой1ExtendedTooltip" id="24"/>
+						</LabelDecoration>
+						<PictureDecoration name="РасчетПрямыхЗатратКартинка1" id="25">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет прямых затрат картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РасчетПрямыхЗатратКартинка1КонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="РасчетПрямыхЗатратКартинка1ExtendedTooltip" id="27"/>
+							<Events>
+								<Event name="Click">РасчетПрямыхЗатратКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРаспределениеЗатрат1" id="28">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа распределение затрат1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРаспределениеЗатрат1ExtendedTooltip" id="29"/>
+					<ChildItems>
+						<CheckBoxField name="РаспределениеЗатрат1" id="30">
+							<DataPath>РаспределениеЗатрат1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Распределить затраты</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Распределить затраты". Распределение косвенных и прямых затрат имеющих базу распределения.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РаспределениеЗатрат1КонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="РаспределениеЗатрат1ExtendedTooltip" id="32"/>
+						</CheckBoxField>
+						<LabelDecoration name="РаспределениеЗатратРазделительПустой1" id="33">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РаспределениеЗатратРазделительПустой1КонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="РаспределениеЗатратРазделительПустой1ExtendedTooltip" id="35"/>
+						</LabelDecoration>
+						<PictureDecoration name="РаспределениеЗатратКартинка1" id="36">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Распределение затрат картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РаспределениеЗатратКартинка1КонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="РаспределениеЗатратКартинка1ExtendedTooltip" id="38"/>
+							<Events>
+								<Event name="Click">РаспределениеЗатратКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетФактическойСебестоимости1" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расчет фактической себестоимости1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетФактическойСебестоимости1ExtendedTooltip" id="40"/>
+					<ChildItems>
+						<CheckBoxField name="РасчетФактическойСебестоимости1" id="41">
+							<DataPath>РасчетФактическойСебестоимости1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать фактическую себестоимость</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Рассчитать фактическую себестоимость". Расчет себестоимости с учетом распределения косвенных и прямых затрат.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасчетФактическойСебестоимости1КонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="РасчетФактическойСебестоимости1ExtendedTooltip" id="43"/>
+						</CheckBoxField>
+						<LabelDecoration name="РасчетФактическойСебестоимостиРазделительПустой1" id="44">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РасчетФактическойСебестоимостиРазделительПустой1КонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="РасчетФактическойСебестоимостиРазделительПустой1ExtendedTooltip" id="46"/>
+						</LabelDecoration>
+						<PictureDecoration name="РасчетФактическойСебестоимостиКартинка1" id="47">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет фактической себестоимости картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РасчетФактическойСебестоимостиКартинка1КонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="РасчетФактическойСебестоимостиКартинка1ExtendedTooltip" id="49"/>
+							<Events>
+								<Event name="Click">РасчетФактическойСебестоимостиКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетСебестоимостиВРознице1" id="50">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расчет себестоимости в рознице1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетСебестоимостиВРознице1ExtendedTooltip" id="51"/>
+					<ChildItems>
+						<CheckBoxField name="РасчетСебестоимостиВРознице1" id="52">
+							<DataPath>РасчетСебестоимостиВРознице1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать себестоимость в рознице (суммовой учет)</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Рассчитать себестоимость в рознице (суммовой учет)". Если в компании имеется розница с суммовым учетом, то необходимо выполнить расчет себестоимости в ней.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасчетСебестоимостиВРознице1КонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="РасчетСебестоимостиВРознице1ExtendedTooltip" id="54"/>
+						</CheckBoxField>
+						<LabelDecoration name="РасчетСебестоимостиВРозницеРазделительПустой1" id="55">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РасчетСебестоимостиВРозницеРазделительПустой1КонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="РасчетСебестоимостиВРозницеРазделительПустой1ExtendedTooltip" id="57"/>
+						</LabelDecoration>
+						<PictureDecoration name="РасчетСебестоимостиВРозницеКартинка1" id="58">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет себестоимости в рознице картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РасчетСебестоимостиВРозницеКартинка1КонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="РасчетСебестоимостиВРозницеКартинка1ExtendedTooltip" id="60"/>
+							<Events>
+								<Event name="Click">РасчетСебестоимостиВРозницеКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетКурсовыхРазниц1" id="61">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расчет курсовых разниц1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетКурсовыхРазниц1ExtendedTooltip" id="62"/>
+					<ChildItems>
+						<CheckBoxField name="РасчетКурсовыхРазниц1" id="63">
+							<DataPath>РасчетКурсовыхРазниц1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать курсовые разницы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Рассчитать курсовые разницы". Расчет курсовых разниц при изменении курсов валют.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасчетКурсовыхРазниц1КонтекстноеМеню" id="64"/>
+							<ExtendedTooltip name="РасчетКурсовыхРазниц1ExtendedTooltip" id="65"/>
+						</CheckBoxField>
+						<LabelDecoration name="РасчетКурсовыхРазницРазделительПустой1" id="66">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РасчетКурсовыхРазницРазделительПустой1КонтекстноеМеню" id="67"/>
+							<ExtendedTooltip name="РасчетКурсовыхРазницРазделительПустой1ExtendedTooltip" id="68"/>
+						</LabelDecoration>
+						<PictureDecoration name="РасчетКурсовыхРазницКартинка1" id="69">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет курсовых разниц картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РасчетКурсовыхРазницКартинка1КонтекстноеМеню" id="70"/>
+							<ExtendedTooltip name="РасчетКурсовыхРазницКартинка1ExtendedTooltip" id="71"/>
+							<Events>
+								<Event name="Click">РасчетКурсовыхРазницКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетФинансовогоРезультата1" id="72">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа расчет финансового результата1</v8:content>
+						</v8:item>
+					</Title>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетФинансовогоРезультата1ExtendedTooltip" id="73"/>
+					<ChildItems>
+						<CheckBoxField name="РасчетФинансовогоРезультата1" id="74">
+							<DataPath>РасчетФинансовогоРезультата1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Рассчитать финансовый результат</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>"Рассчитать финансовый результат". Отнесение доходов и расходов на финансовый результат по определенной базе распределения.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РасчетФинансовогоРезультата1КонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="РасчетФинансовогоРезультата1ExtendedTooltip" id="76"/>
+						</CheckBoxField>
+						<LabelDecoration name="РасчетФинансовогоРезультатаРазделительПустой1" id="77">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<HorizontalStretch>true</HorizontalStretch>
+							<ContextMenu name="РасчетФинансовогоРезультатаРазделительПустой1КонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="РасчетФинансовогоРезультатаРазделительПустой1ExtendedTooltip" id="79"/>
+						</LabelDecoration>
+						<PictureDecoration name="РасчетФинансовогоРезультатаКартинка1" id="80">
+							<Width>2</Width>
+							<Height>1</Height>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет финансового результата картинка1</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<Picture>
+								<xr:Ref>CommonPicture.ЗакрытиеМесяцаНепроводилось</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="РасчетФинансовогоРезультатаКартинка1КонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="РасчетФинансовогоРезультатаКартинка1ExtendedTooltip" id="82"/>
+							<Events>
+								<Event name="Click">РасчетФинансовогоРезультатаКартинкаНажатие</Event>
+							</Events>
+						</PictureDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗакрытиеМесяца</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Период" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НачислениеАмортизации1" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Начисление амортизации1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетПрямыхЗатрат1" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет прямых затрат1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РаспределениеЗатрат1" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Распределение затрат1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетФактическойСебестоимости1" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет фактической себестоимости1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетСебестоимостиВРознице1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет себестоимости в рознице (суммовой учет)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетКурсовыхРазниц1" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет курсовых разниц1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="РасчетФинансовогоРезультата1" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Расчет финансового результата1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Организация" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Организация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗакрытьМесяцы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть месяцы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть месяцы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьМесяцы</Action>
+		</Command>
+	</Commands>
+</Form>

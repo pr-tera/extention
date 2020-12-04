@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="cb3781b2-b7ba-4e55-93c5-cbd6cdae19d4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Сотрудники" category="Record">
+				<xr:TypeId>eb818d25-5e5b-4612-8656-bbe2182a7b75</xr:TypeId>
+				<xr:ValueId>a78b5fd6-723b-4bef-93d7-ba872fc91aef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Сотрудники" category="Manager">
+				<xr:TypeId>fdfd20c2-3b51-467b-9ba4-a1d84f26c79e</xr:TypeId>
+				<xr:ValueId>90be56f9-5155-4997-a2ee-4396f561a2ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Сотрудники" category="Selection">
+				<xr:TypeId>536676c2-4493-4484-ae74-d7cc7055f112</xr:TypeId>
+				<xr:ValueId>bbe3e647-fc2b-4579-ad93-1c67342fbd55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Сотрудники" category="List">
+				<xr:TypeId>4ab882bb-27a2-4271-b0ac-b02265fbd431</xr:TypeId>
+				<xr:ValueId>0e93346b-85c5-4ebf-9f02-d908bb84db18</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Сотрудники" category="RecordSet">
+				<xr:TypeId>796a61bb-cd75-4e9c-a664-d0730e846b5b</xr:TypeId>
+				<xr:ValueId>d354f99b-e8b4-455f-9e83-f7de85ce5d46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Сотрудники" category="RecordKey">
+				<xr:TypeId>aab8cb51-1295-453c-9c2d-ea24b7eb367b</xr:TypeId>
+				<xr:ValueId>0d233c62-0ac5-48fe-aa42-f98315b1f703</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Сотрудники" category="RecordManager">
+				<xr:TypeId>411c585d-fe46-4948-a9ab-3be56a769139</xr:TypeId>
+				<xr:ValueId>ae165e06-23f4-441b-b678-f8505951022f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Сотрудники</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9a16b349-3f4a-4e67-894d-de4e3818c946</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5fa4842a-8f0e-47a5-9d21-78d823e183de">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_Грейд</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>009c3772-76cc-4ce9-b0c6-acca9d842a83</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.пр_ГрейдыСпециалистов</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

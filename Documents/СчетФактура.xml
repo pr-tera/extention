@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="a4acf0af-8efc-4ca8-8e5c-332b9f223c36">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактура" category="Object">
+				<xr:TypeId>0f46be0c-f4f2-4a03-8d50-e99fe24b513f</xr:TypeId>
+				<xr:ValueId>52c1372d-e4ac-420b-a0e8-a0a0b756d783</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактура" category="Ref">
+				<xr:TypeId>2ede3b90-1a78-4948-849a-b31fed49368a</xr:TypeId>
+				<xr:ValueId>507c5a0a-5dcb-405d-b963-0d3289250e79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактура" category="Selection">
+				<xr:TypeId>5c0e802f-e4e0-4670-b11e-0e550a1b5ef1</xr:TypeId>
+				<xr:ValueId>6304c9c8-ae21-4efc-ac28-147731d77c7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактура" category="List">
+				<xr:TypeId>cf7ba389-628a-4f4e-84e1-0ff311085fb7</xr:TypeId>
+				<xr:ValueId>70373189-c43c-4c91-a10e-9751f25e3080</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактура" category="Manager">
+				<xr:TypeId>4902d8d7-7537-479a-ae52-9b31b8378faf</xr:TypeId>
+				<xr:ValueId>67c8b35e-a8b7-4ff7-ad1d-614837b49b44</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СчетФактура</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bc0f80db-2084-4ebc-8fab-df30c343112b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="18f38a40-a6df-4e77-8a98-35b7cd6c0542">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдалитьДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9ca93a73-5ef5-4ac1-8f41-38d40f3b215c</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="c3942ce2-b7f9-4405-992d-2c83bf7db51c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СчетФактура.ДокументыОснования" category="TabularSection">
+						<xr:TypeId>07f8f111-92c8-45c8-a1bb-5d75d9fd43d2</xr:TypeId>
+						<xr:ValueId>8d8e009f-d7f8-4523-8905-1346fe695930</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СчетФактура.ДокументыОснования" category="TabularSectionRow">
+						<xr:TypeId>93b24a84-3141-4c23-9ec8-10942c012fd8</xr:TypeId>
+						<xr:ValueId>861ad4c3-2f2b-4f50-8e8e-599596d410b5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДокументыОснования</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8e6536ca-9e87-4b11-9bfe-68a98ba07d88</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ec5121aa-165b-4b0d-96b9-fe8ea5f5c861">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДокументОснование</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>27c8cdad-a38b-43e0-9acf-5a6278f16c98</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

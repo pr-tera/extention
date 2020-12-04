@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="ac01b8b1-d331-4766-b06d-49c41eef8f6f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ГруппыСобытий" category="Object">
+				<xr:TypeId>fbc921a6-bdb9-4b7e-be8e-d5b57b2306d3</xr:TypeId>
+				<xr:ValueId>4e43acd2-986d-4d2d-afbe-0db349400cb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ГруппыСобытий" category="Ref">
+				<xr:TypeId>1fb4a9b2-15bd-4e93-968c-8e3db7b5b081</xr:TypeId>
+				<xr:ValueId>d2d896e7-d50e-410e-a37b-3650ff44bf43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ГруппыСобытий" category="Selection">
+				<xr:TypeId>df018401-b867-4165-9ff7-e3daab657029</xr:TypeId>
+				<xr:ValueId>866f8e4b-da6b-460e-9550-648ece828e84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ГруппыСобытий" category="List">
+				<xr:TypeId>a108223d-5a54-4ed6-bbc5-12382bdeef48</xr:TypeId>
+				<xr:ValueId>65535f97-fbc8-4730-83ed-207126249ede</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ГруппыСобытий" category="Manager">
+				<xr:TypeId>1b624eed-a6cd-4d75-a7fb-45a13cbcb068</xr:TypeId>
+				<xr:ValueId>01c6b03c-6f48-4ed6-b2d0-dfaec2d8e8f9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГруппыСобытий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>454d4370-821c-48bb-93af-23822bd6a79d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

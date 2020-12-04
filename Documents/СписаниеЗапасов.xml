@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="e3452dad-ca00-435b-b7b4-f7276c5fadce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеЗапасов" category="Object">
+				<xr:TypeId>d858bdeb-0318-4ded-9737-fafc28a01d6b</xr:TypeId>
+				<xr:ValueId>b961cd2b-94e7-420f-9966-3bb9437c8ea1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеЗапасов" category="Ref">
+				<xr:TypeId>26d9dd9c-4f9b-476d-ba58-2b2e073546a7</xr:TypeId>
+				<xr:ValueId>a17c3c6a-2e95-45c0-a237-492819b19bd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеЗапасов" category="Selection">
+				<xr:TypeId>3f76b741-5798-4fb6-802b-e6a4cb1bae14</xr:TypeId>
+				<xr:ValueId>81e814d0-c5c8-4ab2-a349-accd15cc0c47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеЗапасов" category="List">
+				<xr:TypeId>ce612759-4c4f-4003-b63d-b7d2caf1f197</xr:TypeId>
+				<xr:ValueId>5a295329-f7bb-44b4-bb5b-d9ea7cbc4bea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеЗапасов" category="Manager">
+				<xr:TypeId>fb76b2cb-b1fd-4f8f-8cfa-3e1f359fe927</xr:TypeId>
+				<xr:ValueId>cacdc218-e096-4b85-b1cf-d698120758a6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СписаниеЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>63fc9824-0dd1-4e3b-bce6-34e0806fc11f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8216b04f-3b00-496f-86d9-df342b576b02">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e9d41dcf-85b5-450e-b0ac-556e91ac8fba</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИнвентаризацияЗапасов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

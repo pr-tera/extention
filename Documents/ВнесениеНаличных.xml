@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="57acdf2b-db35-4751-a62d-d068ea84727c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВнесениеНаличных" category="Object">
+				<xr:TypeId>44e7ba1a-037e-492c-b92e-d1971442bfa2</xr:TypeId>
+				<xr:ValueId>1b2e0b34-2944-414e-97e3-53e732524055</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВнесениеНаличных" category="Ref">
+				<xr:TypeId>08f2f592-5d95-4a5d-aede-1b798f265861</xr:TypeId>
+				<xr:ValueId>c516ef27-076b-4045-b885-d0b935a80193</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВнесениеНаличных" category="Selection">
+				<xr:TypeId>cbac9bc3-ebfd-4cb7-aac7-0d1dc98eccd2</xr:TypeId>
+				<xr:ValueId>d1b09092-b4d8-432b-828f-c13d93413682</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВнесениеНаличных" category="List">
+				<xr:TypeId>26128f93-9386-4ce0-83f6-39bfc85726db</xr:TypeId>
+				<xr:ValueId>10776aae-fa98-4865-9c18-d229fcb31b93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВнесениеНаличных" category="Manager">
+				<xr:TypeId>c4aaa9ae-6af5-4421-8472-c5d004ac1e85</xr:TypeId>
+				<xr:ValueId>fc536a32-7f0c-487c-a5bd-e3a5835aac5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВнесениеНаличных</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>76711e4f-8112-465e-afc4-feaec83a4c9e</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4a1b5f4c-864a-415d-b5a3-ed8ff920cb7f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2822584b-7c6c-431e-8ea1-34ffbd54a0c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

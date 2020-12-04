@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AccumulationRegister uuid="fce543b0-51f0-4265-a921-e15f0379a566">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.пр_НачисленныеБаллы" category="Record">
+				<xr:TypeId>df516acd-fb89-4f23-8c6b-4aca553005d0</xr:TypeId>
+				<xr:ValueId>1facc5b5-3c82-4d98-9fe2-8e86ea57c09b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.пр_НачисленныеБаллы" category="Manager">
+				<xr:TypeId>9c850b2e-67ea-474c-be64-5aa322fd0425</xr:TypeId>
+				<xr:ValueId>29374434-be25-44ed-9df8-fb8d2f7e6a11</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.пр_НачисленныеБаллы" category="Selection">
+				<xr:TypeId>1778505f-1bbf-46fc-b24d-1af02783cc4a</xr:TypeId>
+				<xr:ValueId>83d3bdc3-7755-4113-a497-7da7f296d9ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.пр_НачисленныеБаллы" category="List">
+				<xr:TypeId>17269a9c-2c8d-4b49-ae37-adf759855cb7</xr:TypeId>
+				<xr:ValueId>a6afca35-9fda-4934-8382-24178844ecc9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.пр_НачисленныеБаллы" category="RecordSet">
+				<xr:TypeId>90fb492b-0ce5-4dcb-98b4-60d0d2edcf60</xr:TypeId>
+				<xr:ValueId>a3bbf7b1-0159-4e29-afce-637e0a9447b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.пр_НачисленныеБаллы" category="RecordKey">
+				<xr:TypeId>70c342f0-2d05-4f54-b67e-fe0efe2178f9</xr:TypeId>
+				<xr:ValueId>dc355591-7634-4654-ac1b-8ce70bec9c23</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_НачисленныеБаллы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>175275fc-db80-4b1d-ae4d-696780eee4ad</ExtendedConfigurationObject>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

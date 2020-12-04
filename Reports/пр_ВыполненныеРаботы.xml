@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="58324b22-2677-4493-b8fd-02a099121327">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.пр_ВыполненныеРаботы" category="Object">
+				<xr:TypeId>7231ac2b-4011-4c36-8e3b-9217a0620986</xr:TypeId>
+				<xr:ValueId>8a9f955e-e233-45db-a6f6-1a0f7db834be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.пр_ВыполненныеРаботы" category="Manager">
+				<xr:TypeId>38b8bc13-610b-4811-b1dd-275b06c6c2d4</xr:TypeId>
+				<xr:ValueId>8b8fd03f-7030-41b2-88e3-bb056232ac9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ВыполненныеРаботы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>50c6031a-c99f-44c9-979e-b093dbed1194</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Report>
+</MetaDataObject>

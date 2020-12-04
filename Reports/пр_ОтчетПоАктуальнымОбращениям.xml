@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="a9aeca37-65d7-485c-8da7-8afab6fbbca7">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.пр_ОтчетПоАктуальнымОбращениям" category="Object">
+				<xr:TypeId>ceee65e4-df2a-4faa-a32c-d220df536013</xr:TypeId>
+				<xr:ValueId>8effe899-2ebc-41a0-a588-94bb7de0257d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.пр_ОтчетПоАктуальнымОбращениям" category="Manager">
+				<xr:TypeId>7f46306b-badd-4b83-b15d-f0ffbcb4d93c</xr:TypeId>
+				<xr:ValueId>1fc1f6a4-3ced-49b4-b821-dbbb39449db1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ОтчетПоАктуальнымОбращениям</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>88531c07-fe9c-491b-9dbe-c74e162aaaa5</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Report>
+</MetaDataObject>

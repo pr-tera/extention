@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="f3c0d60c-4737-4c2c-8256-8a2150e31d2e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийРасходСоСчета" category="Ref">
+				<xr:TypeId>7a346c08-5199-497e-ad50-f3c43a5e062d</xr:TypeId>
+				<xr:ValueId>9e5d6f7a-55f2-41cd-b9b5-e95503059ae5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийРасходСоСчета" category="Manager">
+				<xr:TypeId>e26643d2-88c4-43d2-8286-9010b41a39b7</xr:TypeId>
+				<xr:ValueId>1e64bd88-e9f2-4c07-8f0b-ffd04e1772f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийРасходСоСчета" category="List">
+				<xr:TypeId>37fc2ece-7e0c-41b3-aa78-92a4ad85f78a</xr:TypeId>
+				<xr:ValueId>0381f318-a9f9-4baf-b3ea-eb8597b5d36c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийРасходСоСчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fdfd6a3f-40ac-4442-b833-58c1baeedda1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="6e47fe53-735b-4342-ac3f-4915d6b75c25">
+				<InternalInfo/>
+				<Properties>
+					<Name>Поставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>63c42d70-51ad-4e71-adbb-e23dd686e6ff</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

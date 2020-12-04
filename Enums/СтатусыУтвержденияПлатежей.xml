@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="55546c29-60a4-40ac-8a7b-43af969876e2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыУтвержденияПлатежей" category="Ref">
+				<xr:TypeId>f6bf5cfa-3933-4a20-88ec-e4a2511f389f</xr:TypeId>
+				<xr:ValueId>efb44a25-6cec-437b-b9f8-9c1479a71878</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыУтвержденияПлатежей" category="Manager">
+				<xr:TypeId>0b9bf127-0999-41f3-a15f-bedaad20bfa5</xr:TypeId>
+				<xr:ValueId>272f608b-d41c-404c-803d-7f20f2accfed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыУтвержденияПлатежей" category="List">
+				<xr:TypeId>e68d3897-bb4d-4f06-821a-563387a03e7b</xr:TypeId>
+				<xr:ValueId>e66e543c-da3c-4ec3-9851-5f73036db53f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыУтвержденияПлатежей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9612b90f-4096-4829-a824-819d69d504ea</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="421f7460-6b43-46f0-8bef-99d789e1e058">
+				<InternalInfo/>
+				<Properties>
+					<Name>Утвержден</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e5fc0b53-3924-47cf-b154-a001b06ce0e3</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="dd431a31-951a-4332-bd11-d8a683f4798c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РезервированиеЗапасов" category="Object">
+				<xr:TypeId>0071201a-50f4-48e4-be81-f671ae2f7682</xr:TypeId>
+				<xr:ValueId>5fe3d61b-9e61-4032-af65-95f101a195a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РезервированиеЗапасов" category="Ref">
+				<xr:TypeId>d19de0eb-3059-43fe-9a58-4a26d9e4231d</xr:TypeId>
+				<xr:ValueId>c801b68a-0c70-4e7c-a524-25b94f43d26a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РезервированиеЗапасов" category="Selection">
+				<xr:TypeId>47c32052-1bd3-4828-a341-bf44d753a9a5</xr:TypeId>
+				<xr:ValueId>23a136b5-0672-4d58-8d68-dd82ad8d5bc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РезервированиеЗапасов" category="List">
+				<xr:TypeId>dab5df3d-914d-44ed-a3ae-cfcbfa8fa293</xr:TypeId>
+				<xr:ValueId>0b0c36f9-1220-4752-b4dd-b5348e0d58e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РезервированиеЗапасов" category="Manager">
+				<xr:TypeId>bfd6016d-6a5c-48a8-b9e5-876f5eae5c6c</xr:TypeId>
+				<xr:ValueId>9f93d6f9-0383-4383-88c0-f6ad73233e2c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РезервированиеЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8711b331-cef2-41f4-8536-236670f816d8</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2ef22bca-89b6-4cee-9886-cd1a7a461f29">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаказПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9d73dd54-7737-4224-9ed7-5dbcb66cf5f5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="b5446fdb-b12c-4f1e-985e-56fab38c0a2d">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РезервированиеЗапасов.Запасы" category="TabularSection">
+						<xr:TypeId>c7045eb6-4589-4a47-b277-8b590126e2cf</xr:TypeId>
+						<xr:ValueId>be4917bb-29f7-494a-894e-f7e093d3e538</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РезервированиеЗапасов.Запасы" category="TabularSectionRow">
+						<xr:TypeId>8ca6624e-2b8b-4bfa-950b-bb4c1334ff76</xr:TypeId>
+						<xr:ValueId>b3c63766-b520-4cdc-9dc9-49e8a6be65d4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Запасы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7f9cd375-0c77-41f4-8c8c-6870db3b3aaa</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e26f4aaa-141b-4294-8556-c16f9e0ec6cd">
+						<InternalInfo/>
+						<Properties>
+							<Name>ИсходноеМестоРезерва</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>371c27e1-79df-4af6-b1b0-f27523a174b0</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7f7cc8c7-c555-4cff-9549-a3a8aa540a19">
+						<InternalInfo/>
+						<Properties>
+							<Name>НовоеМестоРезерва</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>4a0f3372-a59b-439e-81fd-8e7044dabf86</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

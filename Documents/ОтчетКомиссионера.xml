@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="4beb2daa-267c-491d-83d2-c46e6fc7c1eb">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОтчетКомиссионера" category="Object">
+				<xr:TypeId>1286d6a1-0a0c-4336-b2b1-92792a412694</xr:TypeId>
+				<xr:ValueId>bbd3d8ca-ce15-4571-8c54-e0be2a0cc613</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОтчетКомиссионера" category="Ref">
+				<xr:TypeId>7c539cca-e0e4-403d-971e-dbd0835215a5</xr:TypeId>
+				<xr:ValueId>2ab4fde5-9fad-467b-9416-4e41016ec588</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОтчетКомиссионера" category="Selection">
+				<xr:TypeId>3350a8ff-e95d-4a9b-86bb-42c461a66464</xr:TypeId>
+				<xr:ValueId>bcf822b9-5b90-4626-87ac-d11a1fb0fd15</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОтчетКомиссионера" category="List">
+				<xr:TypeId>cbff1faf-108e-4f73-91b7-a9184ab45d8c</xr:TypeId>
+				<xr:ValueId>e3bdad13-92ef-49f6-829b-5183214ca89d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОтчетКомиссионера" category="Manager">
+				<xr:TypeId>3aae3728-2e4a-433a-8e9c-4af3ca3e411d</xr:TypeId>
+				<xr:ValueId>a239a2bb-8dea-4e59-b391-18c50bd76751</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтчетКомиссионера</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9910e8a7-9126-4c09-b0f7-fe7afb707f5d</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="b485f38b-f40b-4eec-b03a-045918093b0a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОтчетКомиссионера.Покупатели" category="TabularSection">
+						<xr:TypeId>156dd712-3b02-4f54-b252-3d20735e2389</xr:TypeId>
+						<xr:ValueId>747e9505-e2f0-4017-ab69-cefff29df01f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОтчетКомиссионера.Покупатели" category="TabularSectionRow">
+						<xr:TypeId>ed7a6981-31cb-4d47-970a-cc3a88da2a06</xr:TypeId>
+						<xr:ValueId>c07860b1-087e-4577-a8e2-4a630281ed88</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Покупатели</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ebc3974-f81b-4bd7-b1a2-7fe265579b13</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2b5cd711-a0d8-406a-a149-5be17acf796f">
+						<InternalInfo/>
+						<Properties>
+							<Name>СчетФактура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>3f3b6a06-5aa1-42e8-a4e8-3ec6bdd9faa8</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.СчетФактура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="930b7fc9-7d3b-4dd7-9847-2b23523a3ec0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CRM_ЧисленностьСотрудниковКлиента" category="Object">
+				<xr:TypeId>8d89d815-c61a-4246-95e9-e01f333ad251</xr:TypeId>
+				<xr:ValueId>072925a1-4e9a-4dda-a25d-6b829352825b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CRM_ЧисленностьСотрудниковКлиента" category="Ref">
+				<xr:TypeId>9a3698e7-647a-4ca3-882f-139b3c89aa78</xr:TypeId>
+				<xr:ValueId>729c24e4-6964-41b7-ba86-f3cb3e5d7008</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CRM_ЧисленностьСотрудниковКлиента" category="Selection">
+				<xr:TypeId>0420f722-697c-4b04-a58c-a42b90779e15</xr:TypeId>
+				<xr:ValueId>5fb5c08a-f21f-49d2-a64f-5af1d007b55b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CRM_ЧисленностьСотрудниковКлиента" category="List">
+				<xr:TypeId>1134974e-8a87-4e27-9983-c70a638730bd</xr:TypeId>
+				<xr:ValueId>564cc7a8-de5b-4393-a5f1-6c1f6cf8bd30</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CRM_ЧисленностьСотрудниковКлиента" category="Manager">
+				<xr:TypeId>8b9e5137-a743-4ea9-8e38-74885407ec9c</xr:TypeId>
+				<xr:ValueId>dc2f3347-d0a8-4a51-8209-12c9928d73bd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_ЧисленностьСотрудниковКлиента</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>266481ad-525a-4186-90f3-0e4e12fa1fb8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

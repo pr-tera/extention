@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="8a420649-5bfb-482e-a2fc-1385a8bf2c55">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.франПрограммныеПродуктыКонтрагентов" category="Record">
+				<xr:TypeId>9063545e-d86d-47e3-b2a1-ce3e7775a026</xr:TypeId>
+				<xr:ValueId>46074a65-906d-4adc-b7ea-bf86034dc178</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.франПрограммныеПродуктыКонтрагентов" category="Manager">
+				<xr:TypeId>10d724e9-627a-4e5d-9711-242077bc005f</xr:TypeId>
+				<xr:ValueId>54054858-2fd7-46d6-b25a-f8b63478ed58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.франПрограммныеПродуктыКонтрагентов" category="Selection">
+				<xr:TypeId>2c5e7da0-3e25-4af7-94f0-4368110ec794</xr:TypeId>
+				<xr:ValueId>49939b95-63d4-4541-a54b-710324afcaf9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.франПрограммныеПродуктыКонтрагентов" category="List">
+				<xr:TypeId>23294893-6c4e-4115-9804-a4817f7b3172</xr:TypeId>
+				<xr:ValueId>014d625d-e4fc-42a7-9d86-17e9c4905d8d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.франПрограммныеПродуктыКонтрагентов" category="RecordSet">
+				<xr:TypeId>dc27316a-9162-43f6-9527-94361b2c8476</xr:TypeId>
+				<xr:ValueId>68632255-af0e-4a6f-9068-cc8cbf4886b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.франПрограммныеПродуктыКонтрагентов" category="RecordKey">
+				<xr:TypeId>ba718930-b0ac-4d29-9aec-3e4122351359</xr:TypeId>
+				<xr:ValueId>d2550c64-4d2e-4b66-8256-f834977dfd23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.франПрограммныеПродуктыКонтрагентов" category="RecordManager">
+				<xr:TypeId>c69a5b89-29b7-4aa3-a429-db65e3350675</xr:TypeId>
+				<xr:ValueId>db43dacb-55d0-4c91-ba29-c1f8d7ea7057</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>франПрограммныеПродуктыКонтрагентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3f92b135-f4a1-478d-8a00-23ee72c48076</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>RecorderPosition</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

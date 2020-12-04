@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="4d0848c5-c1e1-46af-9bad-a86ddcdf7ee5">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОперацияПоПлатежнымКартам" category="Object">
+				<xr:TypeId>2262703b-7f89-4b69-80b8-b2d30cbcbd27</xr:TypeId>
+				<xr:ValueId>3e1deb6f-707e-4ace-ad65-6f91acccd018</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОперацияПоПлатежнымКартам" category="Ref">
+				<xr:TypeId>58fc395d-8318-41bb-90b2-5f6d489f3130</xr:TypeId>
+				<xr:ValueId>29b1ba51-8a47-4659-aa9e-450e7ec50f2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОперацияПоПлатежнымКартам" category="Selection">
+				<xr:TypeId>50ddc2d0-27d4-403e-af74-d0f4b6623420</xr:TypeId>
+				<xr:ValueId>d8b48aea-3d04-4b75-a3ac-4b5b26a674c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОперацияПоПлатежнымКартам" category="List">
+				<xr:TypeId>8eba7636-6d3f-4314-a876-16c6e8023ee5</xr:TypeId>
+				<xr:ValueId>2a7fafe4-a121-4c2b-907e-f7f6eae5189a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОперацияПоПлатежнымКартам" category="Manager">
+				<xr:TypeId>9c983d90-7122-4c64-b949-d4e86f2c6600</xr:TypeId>
+				<xr:ValueId>2489ecab-9129-4aa3-b751-e18ce328aa6a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОперацияПоПлатежнымКартам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>b57d8ff4-fd9e-4f2f-b0cf-762d593b7c40</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9861b0cd-f33c-478b-b8eb-bf37de571f9e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>278f0d2f-cca2-4342-9c85-861e4b2e6aac</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="97297dc0-44e8-4686-98c3-17818e3299fd">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e76105a0-2295-44d0-b74b-d9cbf0d1d50e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8d584e1e-fd39-464c-9937-2408631bd299">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВУправленческомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3789c896-d9e4-473c-8f37-f8acd9fe75cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="9724656c-4b59-40f6-891f-f2a83bf5be99">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ОперацияПоПлатежнымКартам.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>31793a39-2e1e-4099-9b4d-00a53a410482</xr:TypeId>
+						<xr:ValueId>dde3aefb-bdfe-49a7-bf3f-9bd389d33d4a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ОперацияПоПлатежнымКартам.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>7cb55e83-58e7-4358-a592-55809879d579</xr:TypeId>
+						<xr:ValueId>353be2ca-a19e-4fb7-a81c-469e6c5216bd</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>23e2a2b0-6992-47ce-bfe0-3fed3e461473</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="aab13cac-3b2e-495c-8f48-7cf2f1ecb766">
+						<InternalInfo/>
+						<Properties>
+							<Name>Документ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>015db737-0c0a-44a4-bdd4-63c96487877e</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ea2ea05a-2bdc-4033-ba34-001ea09a633d">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДокументПланирования</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>1942390b-45de-4797-864a-886fbdd45f24</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

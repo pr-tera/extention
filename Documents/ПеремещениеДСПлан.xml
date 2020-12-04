@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="4f10d130-8a1e-431f-a81d-02fda0b53067">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеДСПлан" category="Object">
+				<xr:TypeId>7ffcafe9-016c-414e-b66c-ca43516c35ad</xr:TypeId>
+				<xr:ValueId>ddc77e66-aec6-449c-b917-9b3057f2ef1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеДСПлан" category="Ref">
+				<xr:TypeId>f5e58311-1058-46e9-be29-954390a57b9a</xr:TypeId>
+				<xr:ValueId>cac0d5f8-5740-4777-9178-c092ad47292c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеДСПлан" category="Selection">
+				<xr:TypeId>2385351a-9575-493f-936b-6e1479534c30</xr:TypeId>
+				<xr:ValueId>f3ad9138-5ca7-439d-bc2e-cf590a698200</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеДСПлан" category="List">
+				<xr:TypeId>39b0afec-e4ea-4000-969a-5d13760bd50b</xr:TypeId>
+				<xr:ValueId>8d5416dc-f2ca-4b30-b421-fd4e5940d78a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеДСПлан" category="Manager">
+				<xr:TypeId>77d10d49-3cd5-4980-b419-4033c7c537e0</xr:TypeId>
+				<xr:ValueId>d5baef93-eeec-45f3-b118-50a234a54c7f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеДСПлан</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d3c8023d-e221-49f9-bc78-c868eb783c91</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

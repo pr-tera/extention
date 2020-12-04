@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="1de513da-f901-4dae-9cf1-fe14fcdabdb0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.пр_ГрейдыСпециалистов" category="Object">
+				<xr:TypeId>b8fd5515-d5f5-4ba4-bd4a-daced0c5ad6c</xr:TypeId>
+				<xr:ValueId>1be476ca-082f-4bf4-b316-11fb51320b77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.пр_ГрейдыСпециалистов" category="Ref">
+				<xr:TypeId>12565b11-a976-4afe-ab2a-11d6e3164717</xr:TypeId>
+				<xr:ValueId>c213db05-5483-488f-803b-c838db6698b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.пр_ГрейдыСпециалистов" category="Selection">
+				<xr:TypeId>fe306e04-2db4-4368-93b6-1cd769ea8851</xr:TypeId>
+				<xr:ValueId>33c1c302-abeb-41f9-b902-11f4475df631</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.пр_ГрейдыСпециалистов" category="List">
+				<xr:TypeId>7abd2fde-7bff-44cd-9135-f4314ddbac35</xr:TypeId>
+				<xr:ValueId>06890d23-f2d6-4be1-8846-ca99b62cac1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.пр_ГрейдыСпециалистов" category="Manager">
+				<xr:TypeId>f58ae493-e9ce-4eb4-aceb-2bdd46f91163</xr:TypeId>
+				<xr:ValueId>e7240b1a-bafd-48d1-bfbb-c6e388127ec9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ГрейдыСпециалистов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2c006390-a7f6-4749-ad7c-2f8d46f563e6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="61a003fc-9441-49cf-ba6b-03bf9c11219a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Оклад</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cf583735-0d3f-4220-831e-84d6ff1f145f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0d947f67-7d6e-4e6f-99c2-2bf5daf3cfa7">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПремияЗаРезультат</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>500195bd-07de-44a0-ab50-80ab73ac978c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c9032a07-ef13-4e17-a1d2-a23b12d1caf6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Премия4Плюс</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6162fd2f-2f73-4956-afe5-feb6d155ce01</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

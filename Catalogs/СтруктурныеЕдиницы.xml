@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="5c7ec821-6a28-4d59-8984-f247ae8a9df0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтруктурныеЕдиницы" category="Object">
+				<xr:TypeId>b14094f6-d29c-412f-a8f9-83b5596e503b</xr:TypeId>
+				<xr:ValueId>9b753ebd-894d-4ee0-b7c5-51ab5cf0e747</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтруктурныеЕдиницы" category="Ref">
+				<xr:TypeId>59d3f496-499a-4641-a0ad-acdbceadcb45</xr:TypeId>
+				<xr:ValueId>ba07c98c-24be-4304-ab05-baf771d53b7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтруктурныеЕдиницы" category="Selection">
+				<xr:TypeId>2e84b33e-f172-47fb-b733-3ac8a6bccedd</xr:TypeId>
+				<xr:ValueId>c78b869c-ec02-4954-a81d-fc50e3d98837</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтруктурныеЕдиницы" category="List">
+				<xr:TypeId>64c86c3e-113f-43c3-bc5b-9cdfb1e6f9bb</xr:TypeId>
+				<xr:ValueId>822e5536-5f72-4ea8-8b42-ec88f7234f60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтруктурныеЕдиницы" category="Manager">
+				<xr:TypeId>6dd38b97-da71-4cae-bf7f-7e679d799032</xr:TypeId>
+				<xr:ValueId>245af079-bb78-4fd1-af94-c3af3dcaaac2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтруктурныеЕдиницы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ed14c926-38a5-4a0b-b570-c106d8d9419d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3db5aa23-32b6-4cf6-b9bc-34464ff122cd">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_НеУпоминатьВЧате</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6b2ec3b1-dbcf-4388-b8ee-a0e9f715e696</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="25b7f366-099d-40bc-91c0-774cd33531d2">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_GSuiteГруппа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>298710e1-3bea-47a7-94c1-d8ab7d632de7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.пр_GSuiteГруппы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f2b3ada9-4cb1-4c82-ba7c-47be16270d5e">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_RocketChatОбщийКанал</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5458a43f-4778-48e7-a92a-d7d5f8a4b638</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.пр_RocketChatКаналы</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4a57b640-3d17-43e9-827d-67ee8bef7bd5">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_ОсновнойТипЗадания</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>30527d2a-8bf1-443d-ae8d-bf00126c90ca</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.франТипыЗаданий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>CRM_УНФ_ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

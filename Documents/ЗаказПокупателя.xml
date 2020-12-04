@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="bce862b0-befe-4a1b-9997-a762b7475167">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаказПокупателя" category="Object">
+				<xr:TypeId>7a5e1bfe-4fc0-4038-b2c4-361b02cf3c50</xr:TypeId>
+				<xr:ValueId>9fa0db7c-c9f5-4ed9-b56f-cc35a3cc89ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаказПокупателя" category="Ref">
+				<xr:TypeId>79ca6ce1-addd-4b6e-b33b-859a1aef3913</xr:TypeId>
+				<xr:ValueId>63d0b72f-3611-4d3a-a460-23e3da3a8e6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаказПокупателя" category="Selection">
+				<xr:TypeId>7619a9a2-0622-41f3-81bd-8307d948a503</xr:TypeId>
+				<xr:ValueId>3ad3da2d-474e-408e-a3ef-470ca7ca63ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаказПокупателя" category="List">
+				<xr:TypeId>e31cdcd1-652b-42ae-bae2-14130441246b</xr:TypeId>
+				<xr:ValueId>98ecf017-cbab-49da-bd07-0592fc4cf49b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаказПокупателя" category="Manager">
+				<xr:TypeId>c84c6184-9570-4cfa-a20b-a200bcb402bb</xr:TypeId>
+				<xr:ValueId>d230971b-3a6a-47f6-8a3b-918833690ef4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаказПокупателя</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9133d1ee-54e6-4556-8f42-a94010c0b021</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c8bd7072-e9a2-4946-bf75-4ae5a6595b25">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2186dc65-f31c-4133-bdee-31b527383342</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80ab50c3-696f-48e5-8547-055d1468e268">
+				<InternalInfo/>
+				<Properties>
+					<Name>Событие</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>76453cfb-cbad-4fd8-b92d-21fb31ff16b2</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Command uuid="2c84cfb9-ac54-4c86-8b9c-1bacfd42a742">
+				<InternalInfo/>
+				<Properties>
+					<Name>СоздатьИзНоменклатурыЗаказПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>49358cfe-67ba-490d-9786-d27295d5098c</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+			<Command uuid="d9837fb1-0625-4389-a62b-97e4b5751823">
+				<InternalInfo/>
+				<Properties>
+					<Name>СоздатьИзНоменклатурыЗаказНаряд</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d877e6d7-fa13-4ba6-bebf-92e7cc47cacf</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

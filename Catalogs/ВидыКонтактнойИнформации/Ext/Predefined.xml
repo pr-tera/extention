@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="16ea7549-3f54-43ae-9e7a-1b69f8cecab3">
+		<Name>СправочникКонтрагенты</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контрагенты"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a4bd4c9c-2c41-46d5-a9f8-4bbf1a59f63d">
+				<Name>ТелефонКонтрагента</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="c27969db-bad4-4469-bad4-9e16a3a6b6ac">
+		<Name>СправочникКонтактныеЛица</Name>
+		<Code/>
+		<Description>Контактная информация справочника "Контактные лица"</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="01371de4-d2f7-41da-a075-c152bb7b7312">
+				<Name>ТелефонКонтактногоЛица</Name>
+				<Code/>
+				<Description>Телефон</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+</PredefinedData>

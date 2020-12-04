@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="75eaab70-58a7-4926-8566-45232ea552fe">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДвоичныеДанныеФайлов" category="Record">
+				<xr:TypeId>7f80eca0-685f-4d80-9e8c-ca6b3dd9135f</xr:TypeId>
+				<xr:ValueId>208a980a-eb40-4a1f-9c4c-b6a3b3dd0ee9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДвоичныеДанныеФайлов" category="Manager">
+				<xr:TypeId>79fbe550-3cdf-4e78-951a-0b4e588824fa</xr:TypeId>
+				<xr:ValueId>ec450dc7-368d-4626-8c14-e020013cc550</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДвоичныеДанныеФайлов" category="Selection">
+				<xr:TypeId>51bdbbb0-5395-42a1-af55-de0f0bd42de7</xr:TypeId>
+				<xr:ValueId>d31aea93-a25f-4cae-bf0c-acb7d2bdb22b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДвоичныеДанныеФайлов" category="List">
+				<xr:TypeId>de6aabea-6201-4aa4-9d0a-02e1f625f55e</xr:TypeId>
+				<xr:ValueId>55429024-f234-484e-8017-9f3913a135dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДвоичныеДанныеФайлов" category="RecordSet">
+				<xr:TypeId>36111104-ad7a-4935-9a3f-1b06e031430e</xr:TypeId>
+				<xr:ValueId>d19addd5-5033-4134-b494-599354f1ee0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДвоичныеДанныеФайлов" category="RecordKey">
+				<xr:TypeId>76a4beb7-31a1-4ddc-801f-c696f5644361</xr:TypeId>
+				<xr:ValueId>250782bc-504a-49c1-8c40-fbf227f6d356</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДвоичныеДанныеФайлов" category="RecordManager">
+				<xr:TypeId>0cac322b-30ae-4edf-b762-9b3aa265aaa3</xr:TypeId>
+				<xr:ValueId>7f7f67b3-4cbc-47a5-b748-85632cac9316</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДвоичныеДанныеФайлов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ecaba9aa-fca7-42f5-a4fe-d8176cf875b9</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="6afe3e10-473a-4ad9-872a-e200014c5042">
+				<InternalInfo/>
+				<Properties>
+					<Name>Файл</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>55e47901-c79c-41c5-9d7f-6b6846ed2782</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ПрисоединенныйФайл</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

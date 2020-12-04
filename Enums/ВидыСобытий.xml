@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="9fc831f9-b035-4b21-b8f4-e6c6b3677308">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСобытий" category="Ref">
+				<xr:TypeId>d29565a8-da61-4962-bd36-3fa0af492122</xr:TypeId>
+				<xr:ValueId>3228d64e-f7b6-482e-a717-b78cb5eb4db7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСобытий" category="Manager">
+				<xr:TypeId>bc80b8c9-4e8f-4265-b8b8-f5d82b75696e</xr:TypeId>
+				<xr:ValueId>cf810d45-e8f7-403c-9ad6-15bc911d109f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСобытий" category="List">
+				<xr:TypeId>c0ac8d8e-b30c-47a7-a64b-864b1f7513dd</xr:TypeId>
+				<xr:ValueId>b8e3c5d3-659e-4fbf-85f3-7cdc4fad0744</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСобытий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0000bc2d-df66-4337-b536-322e5c219914</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d28ef331-accf-4c2f-ac20-47747b29d40a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТелефонныйЗвонок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d5343de9-737d-460f-be54-d44f627ad44f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

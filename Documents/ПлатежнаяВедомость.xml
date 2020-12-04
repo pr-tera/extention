@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="da8b4b36-2bf9-4836-a894-c4c0e536e5c7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПлатежнаяВедомость" category="Object">
+				<xr:TypeId>eaf4db8d-9237-4894-aa80-7cd21ead0c03</xr:TypeId>
+				<xr:ValueId>2c98d106-f2f2-4ba0-a072-6fb7ee6a0da8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПлатежнаяВедомость" category="Ref">
+				<xr:TypeId>f8bf6ad0-893a-4abf-9eeb-333dea3ab445</xr:TypeId>
+				<xr:ValueId>33c87892-3a0a-4e9d-b01a-7f00dab67ff9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПлатежнаяВедомость" category="Selection">
+				<xr:TypeId>759a5843-455c-4652-841e-66409d00f6d9</xr:TypeId>
+				<xr:ValueId>449d1068-b2f8-4b9d-ab52-f575c7653bd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПлатежнаяВедомость" category="List">
+				<xr:TypeId>28140d61-7936-4ee8-b059-34de77d9d7ad</xr:TypeId>
+				<xr:ValueId>a7116eb3-4281-4473-8ffa-c371e9715e75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПлатежнаяВедомость" category="Manager">
+				<xr:TypeId>f99ec2a3-262b-4324-8604-a2ded23fd4fe</xr:TypeId>
+				<xr:ValueId>c6d7c48e-f731-4c77-9463-e6c079034042</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПлатежнаяВедомость</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>09ab10ac-bdfc-432e-9aa6-2c2acc445c6a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="2986181e-9192-4868-bf4c-64b202966140">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.пр_ВидНачисленияПремияЗаРезультат" category="Manager">
+				<xr:TypeId>baf16508-d9eb-4e1d-9f75-ca141031d6a6</xr:TypeId>
+				<xr:ValueId>e8cf48b3-8434-429c-ad32-a0165170554b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.пр_ВидНачисленияПремияЗаРезультат" category="ValueManager">
+				<xr:TypeId>25005727-5f71-43c3-88da-dcde36e3a57a</xr:TypeId>
+				<xr:ValueId>3638a49b-abd4-4eb0-a986-5c87ac554390</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.пр_ВидНачисленияПремияЗаРезультат" category="ValueKey">
+				<xr:TypeId>75aa1cfe-de89-45b3-b462-0a61bba31805</xr:TypeId>
+				<xr:ValueId>a394d051-3998-413b-94cd-fd6577a6b706</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ВидНачисленияПремияЗаРезультат</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ad636bda-923e-40f1-b149-44fb347f4436</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыНачисленийИУдержаний</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="9b51539f-8d56-4819-a4d9-9742af6523a8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийВзаимозачет" category="Ref">
+				<xr:TypeId>6e51ae1e-070b-4d73-b061-3685380c9ef9</xr:TypeId>
+				<xr:ValueId>e7b5dfe8-0696-4c75-b971-5ac22248585c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийВзаимозачет" category="Manager">
+				<xr:TypeId>67ec2a02-37e9-495a-898c-89bfc207fc24</xr:TypeId>
+				<xr:ValueId>ba790c2c-36bf-4d52-bc09-5fb1d2b5a64d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийВзаимозачет" category="List">
+				<xr:TypeId>75475a67-5ef6-4cb8-8638-779c1a7a1c40</xr:TypeId>
+				<xr:ValueId>1a7ba27d-766e-4f61-a712-90c01191773e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийВзаимозачет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>b70f6563-62f5-4b6e-aae1-33dfc63fcf01</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="714e53bc-aefd-42ab-b653-0fd8ec1cca85">
+				<InternalInfo/>
+				<Properties>
+					<Name>Взаимозачет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>892592f1-e4a8-4c3c-b9a9-0bfb565f24b1</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f6cbcf2e-1235-4283-9004-cca3830d9b12">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗачетАвансовПоставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>502e3201-a054-4fd9-b2bd-eed71797e5e2</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6501b741-f1e0-42dd-ba29-5afd8a3776b6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПереуступкаДолгаПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d7dc701f-ba9e-4daf-a416-fd6270d294d7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="513fa56a-4e59-4c6b-a57b-9e2e727fd964">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПереуступкаДолгаПоставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f16f80c7-cedf-46cf-b492-ee44494b6c59</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba8c4149-72fe-4038-9231-e8080831b1c9">
+				<InternalInfo/>
+				<Properties>
+					<Name>КорректировкаДолгаПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>be1bf26f-5214-4a23-9f93-91a1f95869ce</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7a0e215c-cba5-41a2-a808-36c7bc85a59d">
+				<InternalInfo/>
+				<Properties>
+					<Name>КорректировкаДолгаПоставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8757f0b4-b7de-4327-943d-ccf6c7c26a65</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="92fe72b6-8e31-4a29-b35d-921d6ea732aa">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПрочийВзаимозачет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>59f15b26-c8df-4c09-bf41-66d86264b4d7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="50f097f0-d6b5-4b26-b5c2-77b62d91156e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗачетАвансовПокупателя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c4bc54ca-a29e-4466-8f79-b14d92e03052</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

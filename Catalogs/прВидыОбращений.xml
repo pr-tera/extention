@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="71c121da-9c5c-4d76-8eb3-0814b19542c8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.прВидыОбращений" category="Object">
+				<xr:TypeId>28535abc-2d08-4dec-a0b3-e85263d1eec8</xr:TypeId>
+				<xr:ValueId>19f76a03-f0f2-4509-884e-d1277c3162a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.прВидыОбращений" category="Ref">
+				<xr:TypeId>9eec938e-814d-4a8a-9f50-b0b2d9bec76e</xr:TypeId>
+				<xr:ValueId>1c62d1da-bb82-4285-b523-84f2a5d2bc3b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.прВидыОбращений" category="Selection">
+				<xr:TypeId>5a943f17-9f67-4602-9544-9d061b687888</xr:TypeId>
+				<xr:ValueId>22f27077-e9d6-4a03-ba1d-48b08300868e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.прВидыОбращений" category="List">
+				<xr:TypeId>d52c5d99-4ab5-4394-a68d-3cd3e75689a8</xr:TypeId>
+				<xr:ValueId>b09d1d68-f315-4b84-bb44-a19fe7b41e70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.прВидыОбращений" category="Manager">
+				<xr:TypeId>71c5680e-0e79-49d8-b78e-d240e46e0757</xr:TypeId>
+				<xr:ValueId>7c784dfe-e762-450c-af81-1fa4a43ae49a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>прВидыОбращений</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d6bfa0df-5b70-44d2-99ce-0f4e374aa3af</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

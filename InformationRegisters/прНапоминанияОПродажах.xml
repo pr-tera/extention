@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="ece8f90f-836a-4a3b-90e8-e4e2dc393cda">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.прНапоминанияОПродажах" category="Record">
+				<xr:TypeId>d454fd1f-ffd2-46c8-831c-6161e8afa905</xr:TypeId>
+				<xr:ValueId>3568b67d-6b54-496e-b9d4-527aa8422818</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.прНапоминанияОПродажах" category="Manager">
+				<xr:TypeId>bc5e6dae-7f67-47c4-833f-fae71078208e</xr:TypeId>
+				<xr:ValueId>423b9183-d118-4d77-aa4c-aedb4234f79e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.прНапоминанияОПродажах" category="Selection">
+				<xr:TypeId>a7779d6c-a440-4b33-b0c3-c3f34ce560ad</xr:TypeId>
+				<xr:ValueId>d818b7fd-7bde-4671-b081-3fd5fc36489c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.прНапоминанияОПродажах" category="List">
+				<xr:TypeId>f421cc86-1d65-4c41-b1a8-58c31221289a</xr:TypeId>
+				<xr:ValueId>90218557-1022-4258-82f6-d3476632b1ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.прНапоминанияОПродажах" category="RecordSet">
+				<xr:TypeId>40e68c95-e2f6-4ac2-8c45-709fc806739b</xr:TypeId>
+				<xr:ValueId>2a81c389-8dfd-4b8e-bfba-a0a4751c7e2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.прНапоминанияОПродажах" category="RecordKey">
+				<xr:TypeId>56758fc9-1ee9-49f2-bb4e-0bdb327a8e51</xr:TypeId>
+				<xr:ValueId>e5a6e574-adff-48d7-9bbd-ccfc9ac7b5f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.прНапоминанияОПродажах" category="RecordManager">
+				<xr:TypeId>d2c2c977-b7f1-4262-aa3f-e0821a3f9bd5</xr:TypeId>
+				<xr:ValueId>7f3295cb-b2cb-42b6-9e7a-a450838fa5bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>прНапоминанияОПродажах</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>4e403a0c-b3e6-4f78-84c9-0023cdf04a81</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="6cac5da4-ebf8-4c95-86de-9efb155090bc">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CRM_СостоянияСобытий" category="Object">
+				<xr:TypeId>ab8d9963-aac9-4fcd-aefb-7450f1df6241</xr:TypeId>
+				<xr:ValueId>ecd74420-373f-453f-9d32-c775f82633ff</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CRM_СостоянияСобытий" category="Ref">
+				<xr:TypeId>b8eb6fa4-b436-4261-8d04-d4b9f58ceeac</xr:TypeId>
+				<xr:ValueId>a7ed1427-ae9a-4edf-96fb-c33c709ece1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CRM_СостоянияСобытий" category="Selection">
+				<xr:TypeId>6bf0c142-d73b-4837-b833-ffcf57ecbab7</xr:TypeId>
+				<xr:ValueId>0234302f-518d-492d-9365-7817c48a30ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CRM_СостоянияСобытий" category="List">
+				<xr:TypeId>f72c6109-7d1c-4551-b45c-5b511f3ef988</xr:TypeId>
+				<xr:ValueId>c092b75d-3c49-464e-9394-8adf87bc8a4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CRM_СостоянияСобытий" category="Manager">
+				<xr:TypeId>0cefb19a-e93c-4fb9-b6e6-2e4d7227a6fe</xr:TypeId>
+				<xr:ValueId>5eb1f569-9358-49fa-b6b6-84e0c95ebf7f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_СостоянияСобытий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>daea4212-9c17-419e-a68f-1c070a028341</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

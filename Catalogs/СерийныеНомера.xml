@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="56ede259-649f-4de5-98e5-9c6d9a9018e1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СерийныеНомера" category="Object">
+				<xr:TypeId>665cf1ba-a6c3-4771-b176-64ae6dbf20e2</xr:TypeId>
+				<xr:ValueId>8fecb052-39a0-4171-bed7-d2f0ee8b37f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СерийныеНомера" category="Ref">
+				<xr:TypeId>ee44cae6-6c9e-471f-a4a7-5a586d29cb53</xr:TypeId>
+				<xr:ValueId>a18e6b5f-b71e-43bc-a543-bf10efc295a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СерийныеНомера" category="Selection">
+				<xr:TypeId>dd2f3c7f-0ac4-4699-bdfb-1e32562d3ea2</xr:TypeId>
+				<xr:ValueId>2234a577-5738-495c-b840-4fe11939807b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СерийныеНомера" category="List">
+				<xr:TypeId>e915a440-516d-4d4b-b180-265853d67814</xr:TypeId>
+				<xr:ValueId>6d0081e6-afbb-4231-bf4f-c51cea72ed1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СерийныеНомера" category="Manager">
+				<xr:TypeId>ec63aacd-c1fc-4335-a2ed-2e5d8a43ab40</xr:TypeId>
+				<xr:ValueId>e2782551-94d1-4587-a33c-31d731cfc6b4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СерийныеНомера</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d1e46e3c-8210-4b5c-960b-0721efcdb4b1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="91f59b56-15a4-42d6-930c-57c01c27b1f8">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сертификат</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f9eb7f1-2e02-4541-8a28-9275173f687c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5ffad153-6420-4cc5-a463-a56055765b33">
+				<InternalInfo/>
+				<Properties>
+					<Name>Подтверждение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3d5e9442-9a1c-4065-bf97-f8137d669c02</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.прСтатусыПодтверждения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d0ce9404-b630-4fcf-9ec7-b710b2065f33">
+				<InternalInfo/>
+				<Properties>
+					<Name>Отзыв</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>92255999-3d9d-4ace-9dd7-40b987cd6acc</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bfc95931-9df1-4848-aeef-45e49db5f7e6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>808ea417-d3fc-43b9-83b7-35b874eb3811</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаВыбора</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

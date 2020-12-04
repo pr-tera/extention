@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="c1d3af40-72cd-44fe-b8d0-bfd21de37cb2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетНаОплату" category="Object">
+				<xr:TypeId>23bebb06-a16b-4900-a91f-14ff799fbba7</xr:TypeId>
+				<xr:ValueId>1fedd0c7-428a-4189-9a69-3cd538a96d5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетНаОплату" category="Ref">
+				<xr:TypeId>d55792ad-acfb-4735-b6fc-7d24afd56e8b</xr:TypeId>
+				<xr:ValueId>0372e261-0440-4f1c-b7c1-778235d01da2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетНаОплату" category="Selection">
+				<xr:TypeId>4d29f26c-006e-4a3f-82c3-157f799d8822</xr:TypeId>
+				<xr:ValueId>65ecf075-0dea-499c-8a29-19dfcd9df19e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетНаОплату" category="List">
+				<xr:TypeId>8ac79de5-7bc8-4494-8ae3-3454fdeb2f29</xr:TypeId>
+				<xr:ValueId>d6ebc7ec-7ed0-4c3c-9f64-6e5f25632c44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетНаОплату" category="Manager">
+				<xr:TypeId>de0c38f9-4852-46d2-97dd-d29680bc1b0d</xr:TypeId>
+				<xr:ValueId>ca0de5c3-54c8-478d-b15f-94edeaee249a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СчетНаОплату</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2186b103-f68e-4fdc-80a1-6dacced11af6</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0708ab5a-2f78-4c4c-8442-b0d7ea8cee18">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8f0d5ada-d9ad-4974-b53d-8afa553f80e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="806ab4c3-8d85-4ba7-81b3-2b564104bbaf">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a1799c3b-26e8-4386-ad27-92a554108a34</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="51bad732-379a-4db4-99ac-01a8090fdc9b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e0e5eb41-7864-46df-a610-99cc50a45c48</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0d56607a-4bb9-4942-8806-feb0b623c394">
+				<InternalInfo/>
+				<Properties>
+					<Name>Событие</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6eb5cb7f-5331-40fa-89dd-f0146327e87a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Событие</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="82e5f38a-d483-49cc-b7b2-f60ff35ba4e2">
+				<InternalInfo/>
+				<Properties>
+					<Name>франСозданОбработкой</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>baa42900-9c1d-43b9-81c3-eb3af5e84228</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Command uuid="2f498903-60b1-42a9-89fa-d1d2d7d23bc2">
+				<InternalInfo/>
+				<Properties>
+					<Name>СоздатьИзНоменклатуры</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cce484f3-5ab2-49f2-a684-449d8717a27a</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

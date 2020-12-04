@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="459afa91-e450-4e8f-b81e-aa476285016a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.франПериоды" category="Object">
+				<xr:TypeId>350e285c-35ab-4d99-974f-ed1f8db923f0</xr:TypeId>
+				<xr:ValueId>810ab129-a2a9-41b8-a918-56fafeee04e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.франПериоды" category="Ref">
+				<xr:TypeId>2402127d-5010-41e1-b526-95fbfa8fd5dc</xr:TypeId>
+				<xr:ValueId>8e00f2c3-1ddb-465b-be69-7e2191a41f7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.франПериоды" category="Selection">
+				<xr:TypeId>8856b5fe-ad9b-4687-8005-d50dffc9228b</xr:TypeId>
+				<xr:ValueId>3c0b5483-2900-44aa-bbe1-267c5b5d0ae8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.франПериоды" category="List">
+				<xr:TypeId>c9c53dea-2df4-4453-aa00-97f22ef233cb</xr:TypeId>
+				<xr:ValueId>4c493c2a-c517-4ae9-8399-eb87a714f2ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.франПериоды" category="Manager">
+				<xr:TypeId>074d6270-d4ef-4d43-9930-623f2ca3dbcc</xr:TypeId>
+				<xr:ValueId>1629dc14-9af3-4c16-b434-3a1574f79bb8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>франПериоды</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c982eeb7-24fb-4d79-a005-07cde0ad1017</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

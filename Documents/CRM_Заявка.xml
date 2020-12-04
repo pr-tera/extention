@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="987cd102-e284-4aaa-8c37-8c4e6b063ec2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.CRM_Заявка" category="Object">
+				<xr:TypeId>445e7b0b-5be2-4ddd-a58c-fc33f15ac5e6</xr:TypeId>
+				<xr:ValueId>6c0b5f4c-2ab6-498a-9647-5ca721c98e73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.CRM_Заявка" category="Ref">
+				<xr:TypeId>f0947ff3-1061-4475-b3b5-6103f54126ce</xr:TypeId>
+				<xr:ValueId>386df188-1562-4151-aac6-7427af297040</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.CRM_Заявка" category="Selection">
+				<xr:TypeId>c9b0f39c-3aa7-466c-b730-d71b299705ed</xr:TypeId>
+				<xr:ValueId>33678e4b-77a1-4541-85b3-c8d9d5e52b75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.CRM_Заявка" category="List">
+				<xr:TypeId>059a3a6f-0dc9-4515-a931-c866b969b16d</xr:TypeId>
+				<xr:ValueId>cf8ef5e7-efd0-424a-9cad-a1e7278227c7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.CRM_Заявка" category="Manager">
+				<xr:TypeId>47709c30-7980-441c-bbfe-1927861c2f52</xr:TypeId>
+				<xr:ValueId>03bc7a52-d30f-4c1c-9465-4953decd90a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_Заявка</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bdaa81db-11dc-4119-be34-38d97b6fdad3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="68089de0-6e97-4e63-98ee-4e15f12e1fd9">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>41b90ffd-67cb-4703-b9b8-47dcab0c97e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

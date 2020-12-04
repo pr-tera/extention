@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="c98702ca-2eff-438c-8e24-d4e504d7c811">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеПоЯчейкам" category="Object">
+				<xr:TypeId>d8fe3842-3278-494b-b672-6c91dfd757c2</xr:TypeId>
+				<xr:ValueId>44ef66ac-0260-41f7-a31a-998611478a5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеПоЯчейкам" category="Ref">
+				<xr:TypeId>e6d5ff58-c259-4baf-8445-8ee4596f6b35</xr:TypeId>
+				<xr:ValueId>47d9518c-d96f-4851-8a19-1dd623162470</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеПоЯчейкам" category="Selection">
+				<xr:TypeId>0223d47c-b370-4462-9009-96bc33cdfb68</xr:TypeId>
+				<xr:ValueId>07d93945-7360-4735-a196-1cc0034ade76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеПоЯчейкам" category="List">
+				<xr:TypeId>b3fc2b2f-df60-4146-8a1e-9bb78049a0b9</xr:TypeId>
+				<xr:ValueId>0a9a3177-0e26-43ae-ba93-78c32ed75cb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеПоЯчейкам" category="Manager">
+				<xr:TypeId>26f46210-8960-4e0f-869d-89efa2b8bc8e</xr:TypeId>
+				<xr:ValueId>fee3bf8e-71d4-45c7-95ed-b5dc2655fabe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеПоЯчейкам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>91471b5f-b5c5-4f2b-8391-da9a4223fbe4</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ad38fdb5-e666-403a-8a47-27cf82a79a7b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6cfaa9d3-74ad-4af8-a656-8eb77d76994e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ПриходнаяНакладная</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

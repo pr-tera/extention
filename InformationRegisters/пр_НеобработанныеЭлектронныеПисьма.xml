@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="ae3123e9-a090-48f1-aca1-ba6901100076">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.пр_НеобработанныеЭлектронныеПисьма" category="Record">
+				<xr:TypeId>e27b639f-4333-477e-af09-1ef9381a8382</xr:TypeId>
+				<xr:ValueId>12028e44-2c33-445d-aeb1-910a5fdf80ac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.пр_НеобработанныеЭлектронныеПисьма" category="Manager">
+				<xr:TypeId>fdd26a54-ae6d-4610-a313-961e2ad2b377</xr:TypeId>
+				<xr:ValueId>7fbd609f-4ac2-4be0-9643-94984b0ca26e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.пр_НеобработанныеЭлектронныеПисьма" category="Selection">
+				<xr:TypeId>858debff-efb5-4bde-925e-df55569f11e5</xr:TypeId>
+				<xr:ValueId>3633dc9a-ec5a-4607-93b4-e09d7fb9c6dc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.пр_НеобработанныеЭлектронныеПисьма" category="List">
+				<xr:TypeId>69c14dd8-f56b-445b-94fe-906f560c921a</xr:TypeId>
+				<xr:ValueId>663fa187-ef2d-4331-b9e1-7bbe173b027d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.пр_НеобработанныеЭлектронныеПисьма" category="RecordSet">
+				<xr:TypeId>edd8465f-8fd7-4218-b373-96d97d89d374</xr:TypeId>
+				<xr:ValueId>7bd8a5be-c3ed-42f5-ba6d-d879cbe10abf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.пр_НеобработанныеЭлектронныеПисьма" category="RecordKey">
+				<xr:TypeId>177d4318-3b8d-439f-965b-6224b6e44bc5</xr:TypeId>
+				<xr:ValueId>1accef2d-1ecb-4052-8abe-4c973105d4ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.пр_НеобработанныеЭлектронныеПисьма" category="RecordManager">
+				<xr:TypeId>70e67f48-09fb-4cea-9b80-569c38d2e210</xr:TypeId>
+				<xr:ValueId>0a46593f-4a21-4f7b-b21e-4c2c9e89d721</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_НеобработанныеЭлектронныеПисьма</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>de35638a-7134-468b-bc53-d902659196db</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

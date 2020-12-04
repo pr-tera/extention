@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="ffdab10b-60a1-4b4b-b9c9-57c9abc5652b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Взаимозачет" category="Object">
+				<xr:TypeId>91a7c0fe-e22d-4009-ac3e-dda494765da8</xr:TypeId>
+				<xr:ValueId>b26313fb-950a-4f32-ac15-b283adcd5099</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Взаимозачет" category="Ref">
+				<xr:TypeId>e825880b-5519-4b43-beed-ee3c73417563</xr:TypeId>
+				<xr:ValueId>3894538b-215c-4520-b769-227481902084</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Взаимозачет" category="Selection">
+				<xr:TypeId>b209590a-b775-4aef-a648-dffc5ab7300f</xr:TypeId>
+				<xr:ValueId>fac650ca-bf73-462f-939e-097d4d480349</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Взаимозачет" category="List">
+				<xr:TypeId>99f1e544-58ec-44de-ae63-99ea33b57516</xr:TypeId>
+				<xr:ValueId>653dd056-d7b6-41b8-834b-31bea9b3ac61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Взаимозачет" category="Manager">
+				<xr:TypeId>e6a6c144-9192-4536-b033-7ab4be467cc4</xr:TypeId>
+				<xr:ValueId>9aa2976c-c121-4a32-b11a-0b16318bde29</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Взаимозачет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6f2fdd80-5c01-4f1e-9992-abaf187051eb</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="4391a0a2-1e1a-45ce-87bc-39cef54d43bf">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>19895250-880f-4057-8e11-dfa804161e37</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d75e98cf-999b-47f8-bc44-432c22c72788">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВУправленческомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>611c12c4-d08e-4bd5-897f-0a29d1f8f730</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

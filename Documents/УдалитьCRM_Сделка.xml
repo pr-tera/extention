@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="97c25f7c-64db-446f-aa1a-a3ea22c82f22">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдалитьCRM_Сделка" category="Object">
+				<xr:TypeId>030ad373-94d5-4d1e-bc3e-fef2f3a55bb1</xr:TypeId>
+				<xr:ValueId>6e0e31b5-3c02-4de2-ac76-4b7b64200897</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдалитьCRM_Сделка" category="Ref">
+				<xr:TypeId>13fb4e09-2858-48ac-90da-c44c46427ae1</xr:TypeId>
+				<xr:ValueId>b82fdcc3-8868-40c3-916a-b5c584907dc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдалитьCRM_Сделка" category="Selection">
+				<xr:TypeId>76ac7856-527c-4c77-8236-a0f3b9e39710</xr:TypeId>
+				<xr:ValueId>48deafbf-0546-4094-8f35-ecb529370830</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдалитьCRM_Сделка" category="List">
+				<xr:TypeId>b49d7377-d901-45e7-bea6-147c39dc0e5d</xr:TypeId>
+				<xr:ValueId>b26a878a-a9c0-4cb4-b522-0462c3865201</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдалитьCRM_Сделка" category="Manager">
+				<xr:TypeId>ed9fa4fb-018d-470f-b9bd-64777c8ba989</xr:TypeId>
+				<xr:ValueId>a4925f8c-8ac3-4738-b9cc-57c077c2e95a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьCRM_Сделка</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6b3d66a3-fc82-4915-a033-b01b8af2c835</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="25e82be0-4085-4d5b-bf49-18691b214047">
+				<InternalInfo/>
+				<Properties>
+					<Name>Основание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2b2eb644-ae3c-40ab-90bb-22c1b9b5b0ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="ba9928e3-1ea2-415e-826b-20e0d84a9643">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЗакрытиеМесяца" category="Object">
+				<xr:TypeId>526571ba-a92e-4138-8d0b-3c0fd75b578d</xr:TypeId>
+				<xr:ValueId>ba96921b-9559-48a7-a1c7-7345c23df620</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЗакрытиеМесяца" category="Manager">
+				<xr:TypeId>f45216a7-ffbc-4949-806a-86d7c4ccd8a8</xr:TypeId>
+				<xr:ValueId>b6f57ecc-29bf-4ede-9402-1778579e5d3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗакрытиеМесяца</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2a7070c4-e8fd-4e16-88cb-801760b9e6de</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Form>пр_ФормаЗакрытияВсехМесяцев</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

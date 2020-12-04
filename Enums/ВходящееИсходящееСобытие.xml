@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="28e5ee40-64af-4a10-9800-b16413f9c45d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВходящееИсходящееСобытие" category="Ref">
+				<xr:TypeId>f43b7f82-c5f4-4055-8c95-ba8ea707ac08</xr:TypeId>
+				<xr:ValueId>6f57e719-a85d-4324-9656-e39fbd8f21f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВходящееИсходящееСобытие" category="Manager">
+				<xr:TypeId>44400f8a-b508-45ff-99bd-c0f6edf7e841</xr:TypeId>
+				<xr:ValueId>d3f52088-55ac-4d2a-ac18-ef7a055ccf39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВходящееИсходящееСобытие" category="List">
+				<xr:TypeId>71baed2d-eaed-44ca-80c9-ac5794f72f56</xr:TypeId>
+				<xr:ValueId>b5cefe43-40eb-4905-a5ac-1c05bfb6fc3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВходящееИсходящееСобытие</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>7cda3802-92fd-4108-a3ba-012426a04166</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

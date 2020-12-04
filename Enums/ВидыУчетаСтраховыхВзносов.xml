@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="fe9902d5-bffa-4a95-99eb-ace5fca4ae19">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыУчетаСтраховыхВзносов" category="Ref">
+				<xr:TypeId>e14fec04-77f3-498e-b294-248d05759dd6</xr:TypeId>
+				<xr:ValueId>c4714a2c-4d20-4bc9-b04c-3a18faaa9243</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыУчетаСтраховыхВзносов" category="Manager">
+				<xr:TypeId>3fdfb180-00f9-45cc-bd71-c41b5621e39d</xr:TypeId>
+				<xr:ValueId>0ef0d28d-81ea-43a1-a71d-c839b216153e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыУчетаСтраховыхВзносов" category="List">
+				<xr:TypeId>4a52cb00-217d-401c-acfd-79e2289b94c2</xr:TypeId>
+				<xr:ValueId>01a54eb8-60ef-4413-b511-d7eaa5a59a4f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыУчетаСтраховыхВзносов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>875b88e1-d544-4e28-b352-a7deb97ea1b6</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c526ba24-927e-4efc-843f-5853d61ce414">
+				<InternalInfo/>
+				<Properties>
+					<Name>УчитыватьВЕНВД</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9b9c5f1d-771a-4077-aad7-5b2d9e221917</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="485ecb36-bed3-41af-8690-750336daacd3">
+				<InternalInfo/>
+				<Properties>
+					<Name>УчитыватьВУСН</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9d71ec9e-489f-46e1-b58e-a550f98a1f4f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="a8e7418d-2153-4d06-a163-a533a30e5d4c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.прОбращение" category="Object">
+				<xr:TypeId>7bf29c6c-e8a1-4f13-99f0-010e108da096</xr:TypeId>
+				<xr:ValueId>341585ef-d174-4870-9682-bf83287bc561</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.прОбращение" category="Ref">
+				<xr:TypeId>70467652-9292-46e0-b70d-94fe3e545509</xr:TypeId>
+				<xr:ValueId>dea6d41d-b96e-4972-bb9d-f7b77e89ff6f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.прОбращение" category="Selection">
+				<xr:TypeId>c68a9d0a-fceb-45ee-8da7-fc7fc4e3af33</xr:TypeId>
+				<xr:ValueId>aaf20bf1-9c23-4b76-9c07-f918cda02a43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.прОбращение" category="List">
+				<xr:TypeId>1b704b85-c713-492a-a159-4dcbed8b2755</xr:TypeId>
+				<xr:ValueId>b0532290-d743-4b9a-8a15-cbbd1b116891</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.прОбращение" category="Manager">
+				<xr:TypeId>1e402df1-2c92-4354-bd8e-0724a6f7c34d</xr:TypeId>
+				<xr:ValueId>838212ca-18f8-4955-9089-8fe4bbc5bc46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>прОбращение</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ce5288d5-7a9b-466d-8822-13d15ca24946</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="74cc6e48-5fd5-40a9-80ba-19c70be7d93a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаНачала</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b02a1a13-e966-429f-b3ba-736ee8e5275b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6b0ff487-4367-4d5e-a4a7-7ca25406612f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Описание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5b58bd7c-ba6c-414d-9a29-eea554f14e19</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d59d5b80-9a8b-4a88-8134-cbd4c9896cb6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e80453fd-edd3-4a18-9b99-58fa0e64abe3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cac4dac2-c990-414b-8a75-ad810ac9327d">
+				<InternalInfo/>
+				<Properties>
+					<Name>КонтактноеЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e40e13bf-8ed8-427c-9ac5-69e895290470</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КонтактныеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f85788c0-1418-4f7c-98e1-e38f31478db1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидОбращения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8c66fa95-3be2-4a82-a3d6-b1b1bd3fffd0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.прВидыОбращений</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="92a5ea74-692b-4616-90f7-0ac4e399d66d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e1b09775-75e9-47a9-bc53-cf64b8c32268</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="81de6aa8-bf20-4496-8b95-09e0e4b3ac0d">
+				<InternalInfo/>
+				<Properties>
+					<Name>НомерСокращенный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6102d776-9975-4e61-9132-c8d6be5b2937</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6629d797-92e2-4580-983f-c3f2ef09cf19">
+				<InternalInfo/>
+				<Properties>
+					<Name>Состояние</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6446e8cf-8c68-4b2e-bd0d-0ee47d783c40</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.СостоянияСобытий</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8446c063-c5fe-4ad0-9ac3-1ba9c567c5a8">
+				<InternalInfo/>
+				<Properties>
+					<Name>Основание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c7a702f8-97a4-479c-97a2-28e54b50cbdc</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

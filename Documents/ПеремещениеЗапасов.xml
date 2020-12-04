@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="0ce2e17f-dbd7-4c77-8376-1aea53a15571">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеЗапасов" category="Object">
+				<xr:TypeId>db318615-5439-4797-8b42-9c6b201f45ad</xr:TypeId>
+				<xr:ValueId>c26a1d7d-d888-4d97-afe1-84314ed9a83a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеЗапасов" category="Ref">
+				<xr:TypeId>890f70a4-7318-4744-a1d5-1920c2168495</xr:TypeId>
+				<xr:ValueId>fc718577-294c-48f8-a052-34309d9956ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеЗапасов" category="Selection">
+				<xr:TypeId>3abe4b0d-9b48-4611-8ac5-7b5864f77c4c</xr:TypeId>
+				<xr:ValueId>40ac3b07-6746-40ab-b948-39a693240f25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеЗапасов" category="List">
+				<xr:TypeId>a46b4d52-7814-465d-983d-5ccd85a2e40f</xr:TypeId>
+				<xr:ValueId>5ea44e0c-8ca0-4d01-84fc-140e27eedfa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеЗапасов" category="Manager">
+				<xr:TypeId>14685e19-9520-4a92-8b0b-f481cc4f7f99</xr:TypeId>
+				<xr:ValueId>6842541a-a809-4947-aba6-3af44e8a1b52</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c63e7296-8bd5-4572-b1ca-d62e9d4681b3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ab9dab84-bede-48e7-b2b9-0431c4dc1a7c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7aac74b0-dad1-4683-b774-99427e67983a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9defaf69-9e6c-4cdd-89a3-2626151808a0">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВУправленческомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>290cb5c1-7d44-436e-8034-0e240b269a19</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="153f2330-0b98-4418-9b2e-8215fe325b26">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4ffbd391-e377-411a-b7ff-50372f47b7e9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e392c7a-a82b-42a5-8ec7-0bedd52fc681">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидОперации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>aa5b33fe-cf43-49b9-b5ea-b7826671f562</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыОперацийПеремещениеЗапасов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="0d72806e-e306-49a7-840f-0e1d385081f7">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПеремещениеЗапасов.Запасы" category="TabularSection">
+						<xr:TypeId>a1eeb62f-7d7d-4245-8501-1da7b6e9cc14</xr:TypeId>
+						<xr:ValueId>0956ac71-e2d1-46a3-a857-10cdf1d0fab8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПеремещениеЗапасов.Запасы" category="TabularSectionRow">
+						<xr:TypeId>b17a570a-df36-4b72-add9-48f9139246f7</xr:TypeId>
+						<xr:ValueId>dd343e7c-a7f4-40b7-a9e9-1729236f2998</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Запасы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2e1d10ce-4594-477f-ace1-dcad764157ce</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="4c75ede4-38b2-4744-93e0-94c49c885cf5">
+						<InternalInfo/>
+						<Properties>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>0ab759b1-5453-423a-9808-dae7f0d62e7d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0334c632-43ab-4bce-9741-4fa98fd83c08">
+						<InternalInfo/>
+						<Properties>
+							<Name>СчетЗатрат</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>8f94233a-6caa-4dd2-bd8b-55d47a1d57c1</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfAccountsRef.Управленческий</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

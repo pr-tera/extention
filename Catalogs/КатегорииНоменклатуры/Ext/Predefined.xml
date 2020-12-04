@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="e0493609-db8c-4ca1-9fd7-c30fb87ec364">
+		<Name>пр_Кассы</Name>
+		<Code>00-000005</Code>
+		<Description>Кассы и ТО</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4815388b-e4e4-4e31-b629-30948f4bbe72">
+		<Name>пр_ПрограммныйПродуктПраво</Name>
+		<Code>00-000006</Code>
+		<Description>Программный продукт (право)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="06abe74f-7bc9-4794-983c-67dda88cfb04">
+		<Name>пр_СобственныеРазработки</Name>
+		<Code>00-000007</Code>
+		<Description>Собственные разработки (Простые решения)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

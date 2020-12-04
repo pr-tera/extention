@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="04e97499-a1a9-4b43-86f4-b22e2f03709b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
+				<xr:TypeId>4adb7191-13cd-423b-a960-4b1628c67169</xr:TypeId>
+				<xr:ValueId>2652eeeb-b794-4b31-9751-44dc561070bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
+				<xr:TypeId>eccc1ced-d1e8-4370-8b68-83d6b924dc54</xr:TypeId>
+				<xr:ValueId>5561089e-16cc-4cea-b5f1-319e814ac5ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
+				<xr:TypeId>21c84810-c141-4608-bc85-55290266649f</xr:TypeId>
+				<xr:ValueId>2a8de2b3-8d3d-430c-ba51-9eaac06ca9e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
+				<xr:TypeId>2904ad4d-f4e8-417d-82c6-172cd56a262a</xr:TypeId>
+				<xr:ValueId>43fc8a6d-7f94-4c55-b3f4-fbe4a18ffcfa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
+				<xr:TypeId>b98abcf6-e898-4a73-bc7c-4c9190342fa5</xr:TypeId>
+				<xr:ValueId>04db5526-8168-46fd-a6ed-7ae79df9e465</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Номенклатура</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bea7f781-5f18-4219-997c-9a767fb284be</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="f3189d17-cb38-407e-ab9d-29056d0b153b">
+				<InternalInfo/>
+				<Properties>
+					<Name>КатегорияНоменклатуры</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>684049cc-bea4-46ee-b11f-a71286339275</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КатегорииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7cebec49-55b9-4460-b4d2-4344f67c7664">
+				<InternalInfo/>
+				<Properties>
+					<Name>франРегистрацияПродаж</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a139aa29-b261-4c5b-81cb-d31b708b106c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7256c412-e713-47c2-9446-9c6a51befe9f">
+				<InternalInfo/>
+				<Properties>
+					<Name>франБесплатнаяПодпискаИТС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4bc4cfb5-4d59-4551-be7e-17e2333c6ffd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

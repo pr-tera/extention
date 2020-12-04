@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="16fe9570-c3be-4380-ba49-eda613f972f2">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.прПараметрыНапоминанийОПродажах" category="Record">
+				<xr:TypeId>3a744809-ee2c-423c-b453-3af5b579cddb</xr:TypeId>
+				<xr:ValueId>375638e5-5b46-45e5-b916-fb6ae0edda75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.прПараметрыНапоминанийОПродажах" category="Manager">
+				<xr:TypeId>fb6bce1a-e5a5-4880-a738-37f30515c93b</xr:TypeId>
+				<xr:ValueId>acdcd5da-b47d-4f7a-981c-7e68257c2294</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.прПараметрыНапоминанийОПродажах" category="Selection">
+				<xr:TypeId>c340e6a3-415e-4ea5-8b07-fa63a8a33710</xr:TypeId>
+				<xr:ValueId>95860b6c-0f4d-4add-8717-50a3e3425398</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.прПараметрыНапоминанийОПродажах" category="List">
+				<xr:TypeId>a8ead2dc-809e-41c4-9dae-98ecec38db05</xr:TypeId>
+				<xr:ValueId>2e0c573d-e3d4-4edb-8415-6344c3ef0224</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.прПараметрыНапоминанийОПродажах" category="RecordSet">
+				<xr:TypeId>0f584c3e-030b-4cb8-b1f9-099cdcb34960</xr:TypeId>
+				<xr:ValueId>044df48d-ff33-4649-8f01-faf5a6f67f47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.прПараметрыНапоминанийОПродажах" category="RecordKey">
+				<xr:TypeId>7c82b7eb-1d4c-44c0-b279-13e39a87ccd8</xr:TypeId>
+				<xr:ValueId>e55db47f-8657-4d49-83e1-37cedf2262b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.прПараметрыНапоминанийОПродажах" category="RecordManager">
+				<xr:TypeId>a46f9f2e-fee2-4d80-8607-0766f0fcfc9b</xr:TypeId>
+				<xr:ValueId>012675e8-3ff9-4125-93d9-28485489d0be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>прПараметрыНапоминанийОПродажах</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>79d0737a-e2d6-406e-a897-c1f8edd6b331</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="fb3085cc-0a6d-4843-adee-9378d58a3335">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДнейДействия</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>732631c4-baac-4a9e-9116-cf1c18a9a8bd</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="fc6c1e3f-37fc-4c17-970b-75edc1a398d6">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2615e596-507d-46ab-a750-c4ad2bc98a2d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="48f3d052-5169-4d36-90c0-2ce024381edc">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекККМВозврат" category="Object">
+				<xr:TypeId>358fa9d8-5609-4b87-a91c-848d60b4d0a2</xr:TypeId>
+				<xr:ValueId>1c25e070-0031-4849-8181-ff2cbe3dea8f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекККМВозврат" category="Ref">
+				<xr:TypeId>6f12f340-e9e7-4705-9b64-d69ae27ce76e</xr:TypeId>
+				<xr:ValueId>f8f0c6fc-a488-436e-b395-9d0ff5c0b520</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекККМВозврат" category="Selection">
+				<xr:TypeId>6f9ea32d-501b-4019-8b12-dce503f59afc</xr:TypeId>
+				<xr:ValueId>80023afb-c89c-4727-bf3e-a4501655c6d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекККМВозврат" category="List">
+				<xr:TypeId>6dfd3f11-ecb6-420c-9881-05f648ba9b22</xr:TypeId>
+				<xr:ValueId>b3cc42f6-ae6c-4a3c-997b-84a992c0e613</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекККМВозврат" category="Manager">
+				<xr:TypeId>2be2c46c-8598-42df-b94f-2a41e7c45903</xr:TypeId>
+				<xr:ValueId>d9ee5713-8c37-4bfb-bf29-6e04cab64645</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЧекККМВозврат</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5c87dde9-1727-48e8-aef5-67317291c046</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="cfcacc53-2eff-40a1-8f44-a49487b659fe">
+				<InternalInfo/>
+				<Properties>
+					<Name>Заказ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cababa15-702f-4026-b18d-01c27d5f1a14</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="52c9da01-38b7-4829-a921-47e43297df4a">
+				<InternalInfo/>
+				<Properties>
+					<Name>КассоваяСмена</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a537a7c5-ac25-42c2-b3c0-d16a278f6553</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ОтчетОРозничныхПродажах</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="32943ae5-dcb7-4320-a756-4489621f2923">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЧекККМ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1298a7a3-8919-473f-9089-8196a325b2c2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЧекККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="20f397bb-5064-44e3-a1f1-eefcf02b77b3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЧекККМВозврат.Запасы" category="TabularSection">
+						<xr:TypeId>5dd9201c-12e8-43f2-8ed4-3f502c22439c</xr:TypeId>
+						<xr:ValueId>570e88f8-0484-4732-bf4d-4a3c62b6755f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЧекККМВозврат.Запасы" category="TabularSectionRow">
+						<xr:TypeId>40fd5ea5-be69-4605-b3da-047291969123</xr:TypeId>
+						<xr:ValueId>f2de5006-a08e-43a3-996b-0899e22f629c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Запасы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>09b5e6cf-add9-45cc-a6d4-fbb531e46c80</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="3d4e43f8-1171-4557-b547-bdc7439655b2">
+						<InternalInfo/>
+						<Properties>
+							<Name>Заказ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>a4ca074b-6f33-440a-b2b4-a2cb22dc3ade</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

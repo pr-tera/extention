@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="100">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="101"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">пр_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаЗаполнить" id="72">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа заполнить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа заполнить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Height>2</Height>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ToolTipBackColor</BackColor>
+			<ExtendedTooltip name="ГруппаЗаполнитьРасширеннаяПодсказка" id="73"/>
+			<ChildItems>
+				<InputField name="ШаблонСерийногоНомера" id="69">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шаблон</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>20</MaxWidth>
+					<InputHint>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>00000001</v8:content>
+						</v8:item>
+					</InputHint>
+					<ContextMenu name="ШаблонСерийногоНомераКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ШаблонСерийногоНомераРасширеннаяПодсказка" id="71"/>
+				</InputField>
+				<Button name="ФормаДобавитьСерийныйНомер" id="65">
+					<Type>UsualButton</Type>
+					<CommandName>0</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сгенерировать по шаблону</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ФормаДобавитьСерийныйНомерРасширеннаяПодсказка" id="66"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="СерийныйНомер" id="1">
+			<DefaultItem>true</DefaultItem>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серийный номер</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMarkIncomplete>true</AutoMarkIncomplete>
+			<ContextMenu name="СерийныйНомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="СерийныйНомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<UsualGroup name="ГруппаПродан" id="74">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа продан</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа продан</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Height>2</Height>
+			<Group>Horizontal</Group>
+			<VerticalAlign>Center</VerticalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПроданРасширеннаяПодсказка" id="75"/>
+			<ChildItems>
+				<CheckBoxField name="Продан" id="44">
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ПроданКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПроданРасширеннаяПодсказка" id="46"/>
+				</CheckBoxField>
+				<LabelField name="ПродажаИнфо" id="76">
+					<TitleLocation>None</TitleLocation>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>38</MaxWidth>
+					<Height>2</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>3</MaxHeight>
+					<VerticalStretch>true</VerticalStretch>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="ПродажаИнфоКонтекстноеМеню" id="77"/>
+					<ExtendedTooltip name="ПродажаИнфоРасширеннаяПодсказка" id="78"/>
+				</LabelField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Владелец" id="41">
+			<ReadOnly>true</ReadOnly>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameters>
+				<app:item name="Отбор.ИспользоватьСерийныеНомера">
+					<app:value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation/>
+						<Value xsi:type="xs:boolean">true</Value>
+					</app:value>
+				</app:item>
+			</ChoiceParameters>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="43"/>
+		</InputField>
+		<UsualGroup name="СтраницаДополнительныеРеквизиты" id="47">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<United>false</United>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="48"/>
+		</UsualGroup>
+		<Button name="СоздатьНовыйДопРеквизит" id="105">
+			<Type>UsualButton</Type>
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<CommandName>0</CommandName>
+			<ShapeRepresentation>None</ShapeRepresentation>
+			<ExtendedTooltip name="СоздатьНовыйДопРеквизитРасширеннаяПодсказка" id="106"/>
+		</Button>
+		<UsualGroup name="ГруппаRFIDГИСМ" id="79">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа RFIDГИСМ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа RFIDГИСМ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<United>false</United>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаRFIDГИСМРасширеннаяПодсказка" id="80"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаГИСМ" id="81">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контрольный идентификационный знак ГИСМ</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ГИСМ</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаГИСМРасширеннаяПодсказка" id="82"/>
+					<ChildItems>
+						<InputField name="НомерКиЗГИСМ" id="83">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Номер ГИСМ</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НомерКиЗГИСМКонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="НомерКиЗГИСМРасширеннаяПодсказка" id="85"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаRFID" id="86">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RFID-метка</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа RFID</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ThroughAlign>Use</ThroughAlign>
+					<ExtendedTooltip name="ГруппаRFIDРасширеннаяПодсказка" id="87"/>
+					<ChildItems>
+						<InputField name="RFIDTID" id="88">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>TID</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="RFIDTIDКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="RFIDTIDРасширеннаяПодсказка" id="90"/>
+						</InputField>
+						<InputField name="RFIDUser" id="91">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>User</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="RFIDUserКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="RFIDUserРасширеннаяПодсказка" id="93"/>
+						</InputField>
+						<InputField name="RFIDEPC" id="94">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>EPC</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="RFIDEPCКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="RFIDEPCРасширеннаяПодсказка" id="96"/>
+						</InputField>
+						<InputField name="НомерГИСМ" id="102">
+							<ContextMenu name="НомерГИСМКонтекстноеМеню" id="103"/>
+							<ExtendedTooltip name="НомерГИСМРасширеннаяПодсказка" id="104"/>
+						</InputField>
+						<InputField name="EPCGTIN" id="97">
+							<ContextMenu name="EPCGTINКонтекстноеМеню" id="98"/>
+							<ExtendedTooltip name="EPCGTINРасширеннаяПодсказка" id="99"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="100">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="101"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаЗаполнить" id="72">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа заполнить</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа заполнить</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Height>2</Height>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ToolTipBackColor</BackColor>
+				<ExtendedTooltip name="ГруппаЗаполнитьРасширеннаяПодсказка" id="73"/>
+				<ChildItems>
+					<InputField name="ШаблонСерийногоНомера" id="69">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Шаблон</v8:content>
+							</v8:item>
+						</Title>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>20</MaxWidth>
+						<InputHint>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>00000001</v8:content>
+							</v8:item>
+						</InputHint>
+						<ContextMenu name="ШаблонСерийногоНомераКонтекстноеМеню" id="70"/>
+						<ExtendedTooltip name="ШаблонСерийногоНомераРасширеннаяПодсказка" id="71"/>
+					</InputField>
+					<Button name="ФормаДобавитьСерийныйНомер" id="65">
+						<Type>UsualButton</Type>
+						<CommandName>0</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сгенерировать по шаблону</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ФормаДобавитьСерийныйНомерРасширеннаяПодсказка" id="66"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="СерийныйНомер" id="1">
+				<DefaultItem>true</DefaultItem>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Серийный номер</v8:content>
+					</v8:item>
+				</Title>
+				<EditMode>EnterOnInput</EditMode>
+				<AutoMarkIncomplete>true</AutoMarkIncomplete>
+				<ContextMenu name="СерийныйНомерКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="СерийныйНомерРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<UsualGroup name="ГруппаПродан" id="74">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа продан</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа продан</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Height>2</Height>
+				<Group>Horizontal</Group>
+				<VerticalAlign>Center</VerticalAlign>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаПроданРасширеннаяПодсказка" id="75"/>
+				<ChildItems>
+					<CheckBoxField name="Продан" id="44">
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ПроданКонтекстноеМеню" id="45"/>
+						<ExtendedTooltip name="ПроданРасширеннаяПодсказка" id="46"/>
+					</CheckBoxField>
+					<LabelField name="ПродажаИнфо" id="76">
+						<TitleLocation>None</TitleLocation>
+						<GroupVerticalAlign>Center</GroupVerticalAlign>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>38</MaxWidth>
+						<Height>2</Height>
+						<AutoMaxHeight>false</AutoMaxHeight>
+						<MaxHeight>3</MaxHeight>
+						<VerticalStretch>true</VerticalStretch>
+						<Hiperlink>true</Hiperlink>
+						<ContextMenu name="ПродажаИнфоКонтекстноеМеню" id="77"/>
+						<ExtendedTooltip name="ПродажаИнфоРасширеннаяПодсказка" id="78"/>
+					</LabelField>
+				</ChildItems>
+			</UsualGroup>
+			<InputField name="Владелец" id="41">
+				<ReadOnly>true</ReadOnly>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Номенклатура</v8:content>
+					</v8:item>
+				</Title>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<ChoiceParameters>
+					<app:item name="Отбор.ИспользоватьСерийныеНомера">
+						<app:value xsi:type="FormChoiceListDesTimeValue">
+							<Presentation/>
+							<Value xsi:type="xs:boolean">true</Value>
+						</app:value>
+					</app:item>
+				</ChoiceParameters>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="43"/>
+			</InputField>
+			<UsualGroup name="СтраницаДополнительныеРеквизиты" id="47">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные реквизиты</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительные реквизиты</v8:content>
+					</v8:item>
+				</ToolTip>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Vertical</Group>
+				<United>false</United>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="48"/>
+			</UsualGroup>
+			<Button name="СоздатьНовыйДопРеквизит" id="105">
+				<Type>UsualButton</Type>
+				<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+				<CommandName>0</CommandName>
+				<ShapeRepresentation>None</ShapeRepresentation>
+				<ExtendedTooltip name="СоздатьНовыйДопРеквизитРасширеннаяПодсказка" id="106"/>
+			</Button>
+			<UsualGroup name="ГруппаRFIDГИСМ" id="79">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа RFIDГИСМ</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа RFIDГИСМ</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<United>false</United>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаRFIDГИСМРасширеннаяПодсказка" id="80"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаГИСМ" id="81">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Контрольный идентификационный знак ГИСМ</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа ГИСМ</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ThroughAlign>Use</ThroughAlign>
+						<ExtendedTooltip name="ГруппаГИСМРасширеннаяПодсказка" id="82"/>
+						<ChildItems>
+							<InputField name="НомерКиЗГИСМ" id="83">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Номер ГИСМ</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="НомерКиЗГИСМКонтекстноеМеню" id="84"/>
+								<ExtendedTooltip name="НомерКиЗГИСМРасширеннаяПодсказка" id="85"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаRFID" id="86">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>RFID-метка</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа RFID</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ThroughAlign>Use</ThroughAlign>
+						<ExtendedTooltip name="ГруппаRFIDРасширеннаяПодсказка" id="87"/>
+						<ChildItems>
+							<InputField name="RFIDTID" id="88">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>TID</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="RFIDTIDКонтекстноеМеню" id="89"/>
+								<ExtendedTooltip name="RFIDTIDРасширеннаяПодсказка" id="90"/>
+							</InputField>
+							<InputField name="RFIDUser" id="91">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>User</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="RFIDUserКонтекстноеМеню" id="92"/>
+								<ExtendedTooltip name="RFIDUserРасширеннаяПодсказка" id="93"/>
+							</InputField>
+							<InputField name="RFIDEPC" id="94">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>EPC</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="RFIDEPCКонтекстноеМеню" id="95"/>
+								<ExtendedTooltip name="RFIDEPCРасширеннаяПодсказка" id="96"/>
+							</InputField>
+							<InputField name="НомерГИСМ" id="102">
+								<ContextMenu name="НомерГИСМКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="НомерГИСМРасширеннаяПодсказка" id="104"/>
+							</InputField>
+							<InputField name="EPCGTIN" id="97">
+								<ContextMenu name="EPCGTINКонтекстноеМеню" id="98"/>
+								<ExtendedTooltip name="EPCGTINРасширеннаяПодсказка" id="99"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="893ae533-a6ef-4065-950a-aefc70a466c8">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ДосьеКонтрагента" category="Object">
+				<xr:TypeId>a87bf2d5-11d8-4528-8bfa-484cfddc9b71</xr:TypeId>
+				<xr:ValueId>adc2a8fb-e401-4f04-8189-f6cd5128d88e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ДосьеКонтрагента" category="Manager">
+				<xr:TypeId>64b652b3-5d10-4ea2-901c-9a8ea395a860</xr:TypeId>
+				<xr:ValueId>3226f96a-2f57-454b-9c67-efbc8a31ba47</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДосьеКонтрагента</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>58e92a42-b650-4282-a2b2-2fe2cc0cf50d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="58512a58-6235-4ca8-bd6e-f1e33c42f4ef">
+				<InternalInfo/>
+				<Properties>
+					<Name>Досье</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>17bc1760-fcd9-4c86-a7bd-89c7883f1abe</ExtendedConfigurationObject>
+					<Group>FormCommandBarImportant</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

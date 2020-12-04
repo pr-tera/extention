@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="7111ffd3-0650-4983-b97c-c24d1974b062">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CRM_ВидыВзаимодействий" category="Object">
+				<xr:TypeId>62cf711e-bc0f-4638-9d96-e2aa86e2383c</xr:TypeId>
+				<xr:ValueId>29728dc9-b956-445c-90c4-275e4ccdad1e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CRM_ВидыВзаимодействий" category="Ref">
+				<xr:TypeId>b508878a-b30e-4111-a62e-14b215b0e0a9</xr:TypeId>
+				<xr:ValueId>44ddfdf2-2f72-4628-a3ef-d7f6c501ffca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CRM_ВидыВзаимодействий" category="Selection">
+				<xr:TypeId>d832046f-6df4-4549-a00c-ec738c5a4c7a</xr:TypeId>
+				<xr:ValueId>86c3998d-eb49-45d4-af4b-57abcb912caa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CRM_ВидыВзаимодействий" category="List">
+				<xr:TypeId>c8b5ca4c-9bc6-4c86-aec6-3a5beebba489</xr:TypeId>
+				<xr:ValueId>1d9c571b-0210-4062-acca-9aa4274ee353</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CRM_ВидыВзаимодействий" category="Manager">
+				<xr:TypeId>39c0dd34-f742-4dcd-a0ee-94ab23227444</xr:TypeId>
+				<xr:ValueId>8cda3cdd-49bd-45f3-81e2-829c0d1db1b3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_ВидыВзаимодействий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>de02f06b-96af-4ac4-ab9b-ae5e83967216</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

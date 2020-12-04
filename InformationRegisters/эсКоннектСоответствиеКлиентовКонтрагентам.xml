@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="ddfab493-56c0-4608-937a-1c8d312b8c99">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.эсКоннектСоответствиеКлиентовКонтрагентам" category="Record">
+				<xr:TypeId>e12f233a-b78d-4289-8221-a77bcb64e168</xr:TypeId>
+				<xr:ValueId>9255346c-8369-4c86-b5e1-6e637203d85e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.эсКоннектСоответствиеКлиентовКонтрагентам" category="Manager">
+				<xr:TypeId>50b0ee5a-e79f-44fa-a0c0-44a05652751c</xr:TypeId>
+				<xr:ValueId>1faec0a4-6bf5-46fd-9bbe-252b99ed2b78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.эсКоннектСоответствиеКлиентовКонтрагентам" category="Selection">
+				<xr:TypeId>f2dd5cee-9d2e-47c6-b568-5489bbfabd25</xr:TypeId>
+				<xr:ValueId>df6bcb1c-fa72-49d0-9246-c662aa2932bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.эсКоннектСоответствиеКлиентовКонтрагентам" category="List">
+				<xr:TypeId>da4f1d29-762b-47e4-acd1-12f0639cec1f</xr:TypeId>
+				<xr:ValueId>a075eb5b-494c-4160-8ee2-8d7377714654</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.эсКоннектСоответствиеКлиентовКонтрагентам" category="RecordSet">
+				<xr:TypeId>b548096c-03f1-4da2-9fa2-0f1c4d97fdcf</xr:TypeId>
+				<xr:ValueId>11146546-b35a-4169-8da2-b380873b67b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.эсКоннектСоответствиеКлиентовКонтрагентам" category="RecordKey">
+				<xr:TypeId>63f60424-f35c-44b5-a284-33618555c831</xr:TypeId>
+				<xr:ValueId>ae4ab460-e7a6-451b-b71a-c5fed5651993</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.эсКоннектСоответствиеКлиентовКонтрагентам" category="RecordManager">
+				<xr:TypeId>cae82c0b-0e08-4ee5-8052-cd3df7e5a6e8</xr:TypeId>
+				<xr:ValueId>955d8c79-4c6c-4a3a-856a-3b07e72db62d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>эсКоннектСоответствиеКлиентовКонтрагентам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>baa9384a-459a-4081-8296-087734d5d558</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="a2e0aa6d-42cf-45a1-baa5-7f92ff747e70">
+				<InternalInfo/>
+				<Properties>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ea5e8565-e2c3-4181-8882-513284f396c4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="638fbc21-4038-4239-9171-c01fd137d3fc">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>cddcc670-88e4-4460-8941-fc508edb9182</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="ab3fb114-a939-4638-a039-825770c7850d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Идентификатор</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>da4274e7-4c9a-4ba4-a150-e576c550dfa0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

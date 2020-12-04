@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="3fa4269b-49a0-4b52-8158-daab01e5876f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CRM_СтатусыРаботыСКлиентом" category="Object">
+				<xr:TypeId>8a22b754-7787-4e6c-b21a-5e5c94e611fd</xr:TypeId>
+				<xr:ValueId>345babab-8dfd-451f-9da0-ff3249fd7fb6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CRM_СтатусыРаботыСКлиентом" category="Ref">
+				<xr:TypeId>3643a855-ff56-4dd8-a6da-fd612ad3ff0f</xr:TypeId>
+				<xr:ValueId>ef9f9144-9422-4e6e-8cb7-c7a087271dc3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CRM_СтатусыРаботыСКлиентом" category="Selection">
+				<xr:TypeId>137c477e-549f-4873-9511-b479a82c5df7</xr:TypeId>
+				<xr:ValueId>33478277-fe60-4ee3-9c87-34bb2f2aafd8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CRM_СтатусыРаботыСКлиентом" category="List">
+				<xr:TypeId>a3393474-3903-4e4e-b72e-90ff4e978ec0</xr:TypeId>
+				<xr:ValueId>23e40318-5e25-4099-8339-63fa0eb591aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CRM_СтатусыРаботыСКлиентом" category="Manager">
+				<xr:TypeId>ca6aed4f-ba11-4dea-9f00-ae274be550ce</xr:TypeId>
+				<xr:ValueId>f4004d8b-cc52-4c58-9bf0-3076a9cbab43</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_СтатусыРаботыСКлиентом</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>0ed4f442-3e56-48f6-9b67-9a917bc5c108</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

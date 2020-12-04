@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="ec440ba8-e217-4b3a-aa23-c51bea168dad">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЭлектронноеПисьмоВходящее" category="Object">
+				<xr:TypeId>2d6b29b4-1185-4fbe-954d-7586e6877edc</xr:TypeId>
+				<xr:ValueId>91746af9-41e6-4998-88a2-c5cf41959390</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЭлектронноеПисьмоВходящее" category="Ref">
+				<xr:TypeId>d1762613-12e8-4750-b04d-cce0f0a5b7db</xr:TypeId>
+				<xr:ValueId>195f3632-1eeb-437d-8b8d-5bfd3ba7d2a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЭлектронноеПисьмоВходящее" category="Selection">
+				<xr:TypeId>fa1d9ff4-8708-448f-937d-43c15fb00bc0</xr:TypeId>
+				<xr:ValueId>6301295e-949e-44ec-bc5f-ff282bc56359</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЭлектронноеПисьмоВходящее" category="List">
+				<xr:TypeId>d0633c29-5cf8-4801-8749-8461de716305</xr:TypeId>
+				<xr:ValueId>48c75781-6c11-4c0f-80c4-5b89bb859af1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЭлектронноеПисьмоВходящее" category="Manager">
+				<xr:TypeId>c8d175da-95d1-40b5-8847-f61e27c4a3a9</xr:TypeId>
+				<xr:ValueId>8318b645-b038-416c-baee-d0441cc71f6e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭлектронноеПисьмоВходящее</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f50fcf2b-90bb-4d73-9fda-f4575e7682fa</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c9de52f4-c05b-4343-a150-85b60224cb2d">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдалитьПредмет</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7caabe33-184f-45db-bef4-59d4e9cd2394</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ПредметВзаимодействия</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="011e530f-31e2-435b-aaca-c9d546f9d23e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВзаимодействиеОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6131e875-3254-4281-9343-9118564c5451</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>CRM_ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

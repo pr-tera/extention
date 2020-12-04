@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="e305599a-56bb-4e60-81c7-d3489eaa00fa">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПересортицаЗапасов" category="Object">
+				<xr:TypeId>208b0dfb-120e-4fc7-8604-22b3cdfa855e</xr:TypeId>
+				<xr:ValueId>3e129ac3-067c-4154-abe9-c8d392b1916a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПересортицаЗапасов" category="Ref">
+				<xr:TypeId>406dddda-6314-4a55-8216-21f55a400a32</xr:TypeId>
+				<xr:ValueId>96c33a93-7f8d-4724-9179-05a5982dece8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПересортицаЗапасов" category="Selection">
+				<xr:TypeId>14c42865-349b-4eed-a024-61d7bbf3b1dc</xr:TypeId>
+				<xr:ValueId>13019df8-408c-4e0a-89c5-4e20b986b385</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПересортицаЗапасов" category="List">
+				<xr:TypeId>6deeb906-5932-4915-9eff-bf40e6301034</xr:TypeId>
+				<xr:ValueId>da1f3bab-e0f9-4f09-af6f-2488b40ba31f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПересортицаЗапасов" category="Manager">
+				<xr:TypeId>a6542f03-f096-412d-ae0e-bff197026795</xr:TypeId>
+				<xr:ValueId>e21637b7-4186-4427-9b64-b0fbb1f13cc2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПересортицаЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>562647ac-eea4-4d7f-b72b-9e914d660cde</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fe6004d6-e261-4137-a836-5d749c42a303">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>75dc71e0-1a7f-4409-8cc3-52ab39dea607</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

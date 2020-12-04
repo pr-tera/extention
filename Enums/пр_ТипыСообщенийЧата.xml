@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="d16fabaa-201d-4fe6-8c69-51e2d885f0c8">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.пр_ТипыСообщенийЧата" category="Ref">
+				<xr:TypeId>c633a6d2-7ba1-4971-9563-5315ade3dd65</xr:TypeId>
+				<xr:ValueId>68f41460-44a1-4606-921f-3f82370d78f9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.пр_ТипыСообщенийЧата" category="Manager">
+				<xr:TypeId>3737fa0b-5485-4f39-9b71-3a6209ca187c</xr:TypeId>
+				<xr:ValueId>c9cc5b31-93d5-437a-94be-ddca6e46188d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.пр_ТипыСообщенийЧата" category="List">
+				<xr:TypeId>2ae15af9-7dd8-492f-a982-e12c0673c866</xr:TypeId>
+				<xr:ValueId>3ad8326e-b6c8-4254-a137-3185dd3d1440</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ТипыСообщенийЧата</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>a2581d05-53b0-471f-98f8-cc9a853584bd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5a356c39-f069-4a5f-8276-2d8560aa811c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаборИзПоиска</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c3ea64b5-321a-4deb-9d83-37077070ba12</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

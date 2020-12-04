@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="f6753431-88c9-45c7-bfe6-0efa334c5790">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.пр_ВидНачисленияПремия4Плюс" category="Manager">
+				<xr:TypeId>e20003fc-fa65-4672-bc8e-12565204e4da</xr:TypeId>
+				<xr:ValueId>a8199fee-50f7-4758-abbe-dddc5f540a23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.пр_ВидНачисленияПремия4Плюс" category="ValueManager">
+				<xr:TypeId>e236eec2-0692-4d18-be7f-d603f011d4bb</xr:TypeId>
+				<xr:ValueId>60eb6148-bc8b-47d1-a370-494d8f06eb8b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.пр_ВидНачисленияПремия4Плюс" category="ValueKey">
+				<xr:TypeId>5172ecf7-df47-457b-a1c0-cc27fa12b772</xr:TypeId>
+				<xr:ValueId>d6ca2676-74b1-43f1-bb5d-daffda02c825</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ВидНачисленияПремия4Плюс</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f85fa5cd-b972-4a5b-be3c-89116e9bed9c</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыНачисленийИУдержаний</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

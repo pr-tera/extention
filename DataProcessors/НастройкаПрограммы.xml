@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="17e0b3e1-406b-4838-a254-e90271da36d5">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.НастройкаПрограммы" category="Object">
+				<xr:TypeId>ecfa0fb3-4f3e-46a2-98b4-3a90637e87ed</xr:TypeId>
+				<xr:ValueId>c2f17ad9-d333-4805-95d6-dce64fe9014d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.НастройкаПрограммы" category="Manager">
+				<xr:TypeId>a7bc8f90-07f4-4a0b-8ed2-2c3dc3b86d1c</xr:TypeId>
+				<xr:ValueId>19b35f55-cc74-4ffd-9787-53f8b0cc0559</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкаПрограммы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>53d5be56-a9d2-4c35-9d31-14f0e40805a7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="d0052a2e-3842-4563-92a4-2fa46342e23f">
+				<InternalInfo/>
+				<Properties>
+					<Name>БольшеВозможностейКонтекст</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>45bc96a5-5bbd-4afe-8d5a-28bb98c91574</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

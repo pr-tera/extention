@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="74956de6-88eb-43b9-9f6f-bf6751cda5d1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.пр_GSuiteГруппы" category="Object">
+				<xr:TypeId>d65bcc47-ce46-48c6-8ad6-fb993311ad98</xr:TypeId>
+				<xr:ValueId>e9f666d8-2363-4c2a-940e-acb283a8a21e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.пр_GSuiteГруппы" category="Ref">
+				<xr:TypeId>936ae5cf-a0f1-4100-90b8-c378ca377f01</xr:TypeId>
+				<xr:ValueId>ba6176d7-af77-44cc-bcb7-7b9fe0e42f8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.пр_GSuiteГруппы" category="Selection">
+				<xr:TypeId>38b3fd99-1e7f-4207-ad86-c9732777ab8c</xr:TypeId>
+				<xr:ValueId>7ff3e057-e857-4a5c-b019-c0af05dfd0fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.пр_GSuiteГруппы" category="List">
+				<xr:TypeId>0d295d73-a30d-4c55-8582-71081b5a4287</xr:TypeId>
+				<xr:ValueId>ec240d09-8ddb-429e-b0db-86d2546ef5b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.пр_GSuiteГруппы" category="Manager">
+				<xr:TypeId>50c1bba8-e0da-4d63-aee0-6e8ff8dcccff</xr:TypeId>
+				<xr:ValueId>979ac8aa-6052-41f8-af23-4f99d3c817cd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_GSuiteГруппы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>60706c5e-4633-4469-9f55-ef47af282682</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

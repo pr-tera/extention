@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="151479ad-3616-4181-b007-e5dc3b664f08">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДоговорыКонтрагентов" category="Object">
+				<xr:TypeId>cf01fbd1-f34f-4882-8e36-4716948777f9</xr:TypeId>
+				<xr:ValueId>f8134795-5660-438f-bddf-e3a54f29e707</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДоговорыКонтрагентов" category="Ref">
+				<xr:TypeId>77c89f37-217d-466e-acc2-3c6d2da73ac8</xr:TypeId>
+				<xr:ValueId>5ba58365-7945-43be-9744-afd3bcfcc61a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДоговорыКонтрагентов" category="Selection">
+				<xr:TypeId>bf0d59d9-cbd0-4ea3-9fdd-c2683c028d8c</xr:TypeId>
+				<xr:ValueId>a2a3cbff-22ea-47ae-9247-bc7bb274fd59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДоговорыКонтрагентов" category="List">
+				<xr:TypeId>5e730393-8b5e-4a27-81e1-7470973c3283</xr:TypeId>
+				<xr:ValueId>f464778e-312f-4b82-a848-c64073c8254a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДоговорыКонтрагентов" category="Manager">
+				<xr:TypeId>fac5f9d1-cd29-4f82-b543-d7340ce2d097</xr:TypeId>
+				<xr:ValueId>439ca05c-f7d1-40b1-8fcb-5f134eb6cdc9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДоговорыКонтрагентов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>f3485b53-c447-4b51-8a87-ed842c7cd798</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="54cceb9b-3e0a-41ca-a968-bf533546696f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВедениеВзаиморасчетов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9a7a4542-2363-427e-930a-095c287c308a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВедениеВзаиморасчетовПоДоговорам</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4786a179-2c4f-4f58-9c9e-05aa94772e0a">
+				<InternalInfo/>
+				<Properties>
+					<Name>франСтоимостьЧасаРаботИсполнителя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a01872e5-b548-449a-badd-1286045c75ae</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f71d0926-c4ea-447d-a918-8dbb422a91b2">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_ОтчетностьПоЗакрытымОбращениям</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1625b2c8-d25c-4b84-b4f8-9a2755df1692</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ce667ebd-14ec-41fd-be3d-629fea6c1836">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_ОповещатьКлиентаОПревышенииЧасов</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5bf7a2c1-b572-4bfe-85bf-846a945aaf24</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9649db61-a580-4bb4-a552-691151f24ad0">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_КаналОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e09ae8a4-c042-4d23-bfcf-439468d578a2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.пр_КаналыОповещения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="181516c2-844c-495b-b097-eca6724da71f">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_ПредставлениеКаналаОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d55ac52a-8344-499a-b6d0-23c1719328c1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f5c898ba-21f6-48a0-88c1-68f49310844c">
+				<InternalInfo/>
+				<Properties>
+					<Name>пр_КритическоеКоличествоЧасовДляОповещения</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e9516913-62c3-477b-8033-d734c1f0eda3</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>4</v8:Digits>
+							<v8:FractionDigits>1</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

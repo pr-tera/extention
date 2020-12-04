@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="4f99beda-664e-481b-b415-cf9e074db712">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыПополненияЗапасов" category="Ref">
+				<xr:TypeId>8c9e469f-e892-4034-8bed-39b20eb1e5c8</xr:TypeId>
+				<xr:ValueId>838ec3ef-d5ba-4d45-a290-19951086363a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыПополненияЗапасов" category="Manager">
+				<xr:TypeId>2aba66d5-911b-45ae-addc-f937997bd90e</xr:TypeId>
+				<xr:ValueId>3086d55b-f9f1-4bd3-b08f-5129f60d675b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыПополненияЗапасов" category="List">
+				<xr:TypeId>2abdd76d-8daf-4c38-a076-671a79b9b35d</xr:TypeId>
+				<xr:ValueId>ebe9c5fd-d6ad-4d75-a2d2-638313395e2c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыПополненияЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>57710b6f-10e2-4355-b356-c8df41e4af22</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="c0238b4e-00af-4f50-a8bd-0c23bc05202e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Закупка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1b665b6f-6b24-4d72-8bc9-e7779885477f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="22eaacd2-acfc-4ccd-aa57-67498cd7c535">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ВалютаУчета" category="Manager">
+				<xr:TypeId>51a4efd0-d102-4459-bbbe-1b8b50b3e9d9</xr:TypeId>
+				<xr:ValueId>e32670da-7d2a-4b89-960a-5a50514bc9f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ВалютаУчета" category="ValueManager">
+				<xr:TypeId>43211ac6-7638-44ec-898e-e5f51f34c82d</xr:TypeId>
+				<xr:ValueId>7f80ee2b-8efd-4742-802e-b8dc10284afc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ВалютаУчета" category="ValueKey">
+				<xr:TypeId>9da8f591-3b36-4710-93ba-20d2e115f9d3</xr:TypeId>
+				<xr:ValueId>a7609e00-cbcd-4b31-b621-219dbeef4082</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВалютаУчета</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fd92f90b-715c-4b6d-82f8-0fe39b1db784</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

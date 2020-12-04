@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="e9839a9d-04ce-4b5c-8080-4debd5c4747f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.CRM_РассылкаЭлектронныхПисем" category="Object">
+				<xr:TypeId>7e393727-b337-42ce-bb95-b03571467908</xr:TypeId>
+				<xr:ValueId>ddc3f857-2a55-4262-8fd7-3e466fdba6c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.CRM_РассылкаЭлектронныхПисем" category="Ref">
+				<xr:TypeId>1212e2a5-948f-44ef-b1ac-9405c45aebfe</xr:TypeId>
+				<xr:ValueId>bfe9c919-39cb-4f6d-bf02-25974056c86b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.CRM_РассылкаЭлектронныхПисем" category="Selection">
+				<xr:TypeId>da0d408b-58b9-4661-8a81-1e1b31f3f5cb</xr:TypeId>
+				<xr:ValueId>4cce6244-eb18-4af8-b91e-a1470dcadb25</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.CRM_РассылкаЭлектронныхПисем" category="List">
+				<xr:TypeId>f895a39d-5007-4a58-9d89-7f977d8d5718</xr:TypeId>
+				<xr:ValueId>9a4ce2d8-0ad7-4d9e-be09-0d8b47019daa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.CRM_РассылкаЭлектронныхПисем" category="Manager">
+				<xr:TypeId>07fc7b3a-b115-4914-9008-0388e4db1fb8</xr:TypeId>
+				<xr:ValueId>a6868207-7c3d-47df-b6f7-72b8c38677ad</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_РассылкаЭлектронныхПисем</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8068a9b8-1bae-4ed8-a6af-411d039a5d10</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="84bb7677-edc5-4908-a176-f8f9a56ca5d3">
+				<InternalInfo/>
+				<Properties>
+					<Name>Основание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e1afac29-61f4-4536-aa89-43fd80c7dcff</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="c9ebe149-92ae-49d8-90a5-cfa6140eb72c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.CRM_ПотенциальныеКлиенты" category="Object">
+				<xr:TypeId>ba91e405-9d64-4c72-8fe8-34d50ba2d13d</xr:TypeId>
+				<xr:ValueId>7bfbac35-8816-443b-a03f-a0d6df113a74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.CRM_ПотенциальныеКлиенты" category="Ref">
+				<xr:TypeId>2dc57ab7-35fa-4070-a9a5-531c756ad3a4</xr:TypeId>
+				<xr:ValueId>d0240fb8-c1e2-4335-bf08-7ef3ae528c3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.CRM_ПотенциальныеКлиенты" category="Selection">
+				<xr:TypeId>2e1d14d3-f054-4de4-bfe6-5af7f5745a74</xr:TypeId>
+				<xr:ValueId>af4b9ab8-123b-407a-a09a-04be832cef08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.CRM_ПотенциальныеКлиенты" category="List">
+				<xr:TypeId>c4009a93-c0a6-4484-b755-907b60acf48b</xr:TypeId>
+				<xr:ValueId>9ca8f846-7ec3-4974-85ae-2eabc590d073</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.CRM_ПотенциальныеКлиенты" category="Manager">
+				<xr:TypeId>2dee1e59-b993-4a00-bc49-3a7802143e8c</xr:TypeId>
+				<xr:ValueId>f6680489-1146-4d35-a78e-678aefef4e4a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_ПотенциальныеКлиенты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8a212d81-9cfd-4354-ae32-b83818c7772f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,2476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="ФормаЗаписатьИЗакрыть" id="423">
+				<Type>CommandBarButton</Type>
+				<Representation>Text</Representation>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>14:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="424"/>
+			</Button>
+			<ButtonGroup name="КомандыФормы" id="421">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Commands of the form</v8:content>
+					</v8:item>
+				</Title>
+				<CommandSource>Form</CommandSource>
+				<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="422"/>
+			</ButtonGroup>
+			<Button name="CRM_ОткрытьПерсональныеНастройки" id="416">
+				<Type>CommandBarButton</Type>
+				<CommandName>13:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+				<ExtendedTooltip name="CRM_ОткрытьПерсональныеНастройкиРасширеннаяПодсказка" id="417"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">пр_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаСлужебныйПользователь" id="338">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа служебный пользователь</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group service user</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСлужебныйПользовательРасширеннаяПодсказка" id="339"/>
+			<ChildItems>
+				<PictureDecoration name="СлужебныйПользовательКартинка" id="340">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебный пользователь картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Service user picture</v8:content>
+						</v8:item>
+					</Title>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="СлужебныйПользовательКартинкаКонтекстноеМеню" id="341"/>
+					<ExtendedTooltip name="СлужебныйПользовательКартинкаРасширеннаяПодсказка" id="342"/>
+				</PictureDecoration>
+				<LabelDecoration name="СлужебныйПользовательНадпись" id="335">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Это служебный пользователь для автоматизации некоторых действий в программе.</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This is a service user for automating some actions in the program.</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Служебный пользователь создается и изменяется автоматически,
+скрывается при выборе и подборе, а также в списке пользователей.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ContextMenu name="СлужебныйПользовательНадписьКонтекстноеМеню" id="336"/>
+					<ExtendedTooltip name="СлужебныйПользовательНадписьРасширеннаяПодсказка" id="337"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СвойстваОбработкаНесоответствия" id="164">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства обработка несоответствия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Nonconformance handling properties</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СвойстваОбработкаНесоответствияРасширеннаяПодсказка" id="208"/>
+			<ChildItems>
+				<PictureDecoration name="СвойстваКартинкаПредупреждения" id="165">
+					<Width>5</Width>
+					<Height>2</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<SkipOnInput>false</SkipOnInput>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойства картинка предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Properties warning picture</v8:content>
+						</v8:item>
+					</Title>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="СвойстваКартинкаПредупрежденияКонтекстноеМеню" id="166"/>
+					<ExtendedTooltip name="СвойстваКартинкаПредупрежденияРасширеннаяПодсказка" id="209"/>
+				</PictureDecoration>
+				<UsualGroup name="СвойстваПояснениеИКоманды" id="167">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Свойства пояснение и команды</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Explanation properties and commands</v8:content>
+						</v8:item>
+					</Title>
+					<VerticalStretch>false</VerticalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="СвойстваПояснениеИКомандыРасширеннаяПодсказка" id="210"/>
+					<ChildItems>
+						<LabelDecoration name="СвойстваПояснениеНесоответствия" id="168">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<SkipOnInput>false</SkipOnInput>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Следующие свойства пользователя информационной базы отличаются от указанных в этой форме:
+%1.
+Нажмите "Записать", чтобы устранить различия и не выводить это предупреждение.</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Некоторые свойства пользователя информационной базы сохраняются в карточке пользователя. Между значениями этих свойств найдены различия.</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Some properties of the user of the information database are stored in the user's card. There are differences between the values ​​of these properties.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="СвойстваПояснениеНесоответствияКонтекстноеМеню" id="169"/>
+							<ExtendedTooltip name="СвойстваПояснениеНесоответствияРасширеннаяПодсказка" id="211"/>
+						</LabelDecoration>
+						<UsualGroup name="СвойстваКомандыУстраненияРазличий" id="263">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Свойства команды устранения различий</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Difficulty command properties</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="СвойстваКомандыУстраненияРазличийРасширеннаяПодсказка" id="264"/>
+							<ChildItems>
+								<Button name="ЗаполнитьИзПользователяИБ" id="170">
+									<Type>UsualButton</Type>
+									<SkipOnInput>false</SkipOnInput>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<ExtendedTooltip name="ЗаполнитьИзПользователяИБРасширеннаяПодсказка" id="212"/>
+								</Button>
+								<Button name="Записать" id="261">
+									<Type>UsualButton</Type>
+									<Representation>PictureAndText</Representation>
+									<Width>10</Width>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<Picture>
+										<xr:Ref>StdPicture.Write</xr:Ref>
+										<xr:LoadTransparent>true</xr:LoadTransparent>
+									</Picture>
+									<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="262"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СопоставлениеОбработкаНесоответствия" id="171">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сопоставление обработка несоответствия</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comparison of nonconformity processing</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Horizontal</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СопоставлениеОбработкаНесоответствияРасширеннаяПодсказка" id="213"/>
+			<ChildItems>
+				<PictureDecoration name="СопоставлениеКартинкаПредупреждения" id="172">
+					<Width>5</Width>
+					<Height>2</Height>
+					<HorizontalStretch>false</HorizontalStretch>
+					<SkipOnInput>false</SkipOnInput>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сопоставление картинка предупреждения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Alert picture</v8:content>
+						</v8:item>
+					</Title>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="СопоставлениеКартинкаПредупрежденияКонтекстноеМеню" id="173"/>
+					<ExtendedTooltip name="СопоставлениеКартинкаПредупрежденияРасширеннаяПодсказка" id="214"/>
+				</PictureDecoration>
+				<LabelDecoration name="СопоставлениеПояснениеНесоответствия" id="175">
+					<Width>20</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>2</Height>
+					<HorizontalStretch>true</HorizontalStretch>
+					<SkipOnInput>false</SkipOnInput>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь информационной базы не найден.
+Нажмите "Записать", чтобы устранить проблему и не выводить это предупреждение.</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пользователь информационной базы сопоставлен с этим пользователем справочника,
+однако его не удается найти по сохраненному идентификатору.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<VerticalAlign>Center</VerticalAlign>
+					<ContextMenu name="СопоставлениеПояснениеНесоответствияКонтекстноеМеню" id="176"/>
+					<ExtendedTooltip name="СопоставлениеПояснениеНесоответствияРасширеннаяПодсказка" id="215"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаШапка" id="277">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="278"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНаименование" id="329">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа наименование</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group name</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="330"/>
+					<ChildItems>
+						<InputField name="Наименование" id="49">
+							<DataPath>1/-3</DataPath>
+							<Width>22</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Wrap>false</Wrap>
+							<BorderColor>style:BorderColor</BorderColor>
+							<ContextMenu name="НаименованиеКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="НаименованиеExtendedTooltip" id="216"/>
+						</InputField>
+						<InputField name="ФизическоеЛицо" id="296">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ФизическоеЛицоКонтекстноеМеню" id="297"/>
+							<ExtendedTooltip name="ФизическоеЛицоРасширеннаяПодсказка" id="298"/>
+						</InputField>
+						<InputField name="Подразделение" id="299">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="ПодразделениеКонтекстноеМеню" id="300"/>
+							<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="301"/>
+						</InputField>
+						<InputField name="CRM_УровеньДоступа" id="388">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="CRM_УровеньДоступаКонтекстноеМеню" id="389"/>
+							<ExtendedTooltip name="CRM_УровеньДоступаExtendedTooltip" id="390"/>
+						</InputField>
+						<InputField name="CRM_ДолжностнаяПозиция" id="413">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="CRM_ДолжностнаяПозицияКонтекстноеМеню" id="414"/>
+							<ExtendedTooltip name="CRM_ДолжностнаяПозицияРасширеннаяПодсказка" id="415"/>
+						</InputField>
+						<InputField name="CRM_НаправлениеДеятельности" id="425">
+							<UserVisible>
+								<xr:Common>false</xr:Common>
+							</UserVisible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<ContextMenu name="CRM_НаправлениеДеятельностиКонтекстноеМеню" id="426"/>
+							<ExtendedTooltip name="CRM_НаправлениеДеятельностиРасширеннаяПодсказка" id="427"/>
+						</InputField>
+						<CheckBoxField name="Недействителен" id="194">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>Button</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НедействителенКонтекстноеМеню" id="195"/>
+							<ExtendedTooltip name="НедействителенExtendedTooltip" id="217"/>
+						</CheckBoxField>
+						<CheckBoxField name="CRM_Планируемый" id="394">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="CRM_ПланируемыйКонтекстноеМеню" id="395"/>
+							<ExtendedTooltip name="CRM_ПланируемыйExtendedTooltip" id="396"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИмяиКартинка" id="378">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа имяи картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group имяи picture</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа имяи картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group имяи picture</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИмяиКартинкаExtendedTooltip" id="379"/>
+					<ChildItems>
+						<PictureField name="АдресКартинки" id="400">
+							<DataPath>42</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<Width>15</Width>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Height>6</Height>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<PictureSize>Proportionally</PictureSize>
+							<Hyperlink>true</Hyperlink>
+							<NonselectedPictureText>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Изображение
+не выбрано</v8:content>
+								</v8:item>
+							</NonselectedPictureText>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="401">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="АдресКартинкиКонтекстноеМенюДобавитьИзображение" id="403">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюДобавитьИзображениеРасширеннаяПодсказка" id="404"/>
+									</Button>
+									<Button name="АдресКартинкиКонтекстноеМенюИзменитьИзображение" id="405">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюИзменитьИзображениеРасширеннаяПодсказка" id="406"/>
+									</Button>
+									<Button name="АдресКартинкиКонтекстноеМенюОчиститьИзображение" id="407">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюОчиститьИзображениеРасширеннаяПодсказка" id="408"/>
+									</Button>
+									<Button name="АдресКартинкиКонтекстноеМенюПросмотретьИзображение" id="409">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюПросмотретьИзображениеРасширеннаяПодсказка" id="410"/>
+									</Button>
+									<Button name="АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайлов" id="411">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайловРасширеннаяПодсказка" id="412"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<ExtendedTooltip name="АдресКартинкиExtendedTooltip" id="402"/>
+						</PictureField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаВходВПрограммуРазрешен" id="265">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа вход в программу разрешен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Can log on to application group</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаВходВПрограммуРазрешенРасширеннаяПодсказка" id="266"/>
+			<ChildItems>
+				<CheckBoxField name="ВходВПрограммуРазрешен" id="99">
+					<DataPath>17</DataPath>
+					<TitleLocation>Right</TitleLocation>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разрешить вход пользователя в программу
+указанными способами аутентификации.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="100"/>
+					<ExtendedTooltip name="ВходВПрограммуРазрешенРасширеннаяПодсказка" id="218"/>
+				</CheckBoxField>
+				<UsualGroup name="ГруппаИзменитьОграничение" id="331">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа изменить ограничение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Change restriction group</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИзменитьОграничениеРасширеннаяПодсказка" id="332"/>
+					<ChildItems>
+						<Button name="ИзменитьОграничениеНаВходВПрограмму" id="333">
+							<Type>Hyperlink</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="ИзменитьОграничениеНаВходВПрограммуРасширеннаяПодсказка" id="334"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<LabelDecoration name="РекомендуетсяПроверитьНастройкиДляВхода" id="267">
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рекомендуется проверить настройки для входа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>It is recommended that you check the login settings</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перед разрешением входа в программу рекомендуется проверить настройки, т.к. пользователь
+был введен не администратором, а ответственным за список пользователей.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="РекомендуетсяПроверитьНастройкиДляВходаКонтекстноеМеню" id="268"/>
+					<ExtendedTooltip name="РекомендуетсяПроверитьНастройкиДляВходаРасширеннаяПодсказка" id="269"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="70">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<VerticalStretch>true</VerticalStretch>
+			<ExtendedTooltip name="СтраницыExtendedTooltip" id="219"/>
+			<ChildItems>
+				<Page name="СвойстваПользователяИБ" id="65">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Главное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="СвойстваПользователяИБExtendedTooltip" id="220"/>
+					<ChildItems>
+						<UsualGroup name="ОсновныеСвойства" id="75">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Основные свойства</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Main properties</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОсновныеСвойстваExtendedTooltip" id="221"/>
+							<ChildItems>
+								<Pages name="ИмяПереключениеОтметкиНезаполненного" id="249">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Имя (переключение отметки незаполненного)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Name (toggle the unfilled mark)</v8:content>
+										</v8:item>
+									</Title>
+									<PagesRepresentation>None</PagesRepresentation>
+									<ExtendedTooltip name="ИмяПереключениеОтметкиНезаполненногоРасширеннаяПодсказка" id="250"/>
+									<ChildItems>
+										<Page name="ИмяСОтметкойНезаполненного" id="251">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя с отметкой незаполненного</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Name with a blank</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ИмяСОтметкойНезаполненногоРасширеннаяПодсказка" id="252"/>
+											<ChildItems>
+												<InputField name="ПользовательИБИмя1" id="95">
+													<DataPath>16</DataPath>
+													<Width>28</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<AutoMarkIncomplete>true</AutoMarkIncomplete>
+													<ContextMenu name="ПользовательИБИмя1КонтекстноеМеню" id="96"/>
+													<ExtendedTooltip name="ПользовательИБИмя1РасширеннаяПодсказка" id="222"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+										<Page name="ИмяБезОтметкиНезаполненного" id="253">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Имя без отметки незаполненного</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Name without a blank</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ИмяБезОтметкиНезаполненногоРасширеннаяПодсказка" id="254"/>
+											<ChildItems>
+												<InputField name="ПользовательИБИмя2" id="255">
+													<DataPath>16</DataPath>
+													<Width>28</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<ContextMenu name="ПользовательИБИмя2КонтекстноеМеню" id="256"/>
+													<ExtendedTooltip name="ПользовательИБИмя2РасширеннаяПодсказка" id="257"/>
+												</InputField>
+											</ChildItems>
+										</Page>
+									</ChildItems>
+								</Pages>
+								<UsualGroup name="СвойстваАутентификации1СПредприятия" id="10">
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СвойстваАутентификации1СПредприятияExtendedTooltip" id="223"/>
+									<ChildItems>
+										<CheckBoxField name="ПользовательИБАутентификацияСтандартная" id="19">
+											<DataPath>2</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ входа в программу с помощью имени и пароля,
+указанного для пользователя 1С:Предприятия.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПользовательИБАутентификацияСтандартнаяКонтекстноеМеню" id="20"/>
+											<ExtendedTooltip name="ПользовательИБАутентификацияСтандартнаяРасширеннаяПодсказка" id="224"/>
+										</CheckBoxField>
+										<UsualGroup name="ГруппаОтступ" id="270">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Группа отступ</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group offset</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаОтступРасширеннаяПодсказка" id="271"/>
+											<ChildItems>
+												<LabelDecoration name="Отступ" id="272">
+													<ContextMenu name="ОтступКонтекстноеМеню" id="273"/>
+													<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="274"/>
+												</LabelDecoration>
+												<UsualGroup name="ПараметрыАутентификации1СПредприятия" id="201">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Параметры аутентификации 1С:Предприятия</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>1C:Enterprise authentication parameters</v8:content>
+														</v8:item>
+													</Title>
+													<HorizontalStretch>true</HorizontalStretch>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ПараметрыАутентификации1СПредприятияРасширеннаяПодсказка" id="225"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаПароль" id="319">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа пароль</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Password group</v8:content>
+																</v8:item>
+															</Title>
+															<Group>Horizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаПарольРасширеннаяПодсказка" id="320"/>
+															<ChildItems>
+																<LabelDecoration name="НадписьНаличиеПароля" id="321">
+																	<TextColor>style:ПоясняющийТекст</TextColor>
+																	<Title formatted="false">
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Пустой пароль</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Empty password</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ContextMenu name="НадписьНаличиеПароляКонтекстноеМеню" id="322"/>
+																	<ExtendedTooltip name="НадписьНаличиеПароляРасширеннаяПодсказка" id="323"/>
+																</LabelDecoration>
+																<Button name="СменитьПароль" id="324">
+																	<Type>UsualButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<ExtendedTooltip name="СменитьПарольРасширеннаяПодсказка" id="325"/>
+																</Button>
+															</ChildItems>
+														</UsualGroup>
+														<CheckBoxField name="ПотребоватьСменуПароляПриВходе" id="316">
+															<DataPath>35</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ПотребоватьСменуПароляПриВходеКонтекстноеМеню" id="317"/>
+															<ExtendedTooltip name="ПотребоватьСменуПароляПриВходеРасширеннаяПодсказка" id="318"/>
+														</CheckBoxField>
+														<CheckBoxField name="ПользовательИБЗапрещеноИзменятьПароль" id="51">
+															<DataPath>13</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Запрещает изменение своего пароля
+неполноправному пользователю,
+а также при входе.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ПользовательИБЗапрещеноИзменятьПарольКонтекстноеМеню" id="52"/>
+															<ExtendedTooltip name="ПользовательИБЗапрещеноИзменятьПарольРасширеннаяПодсказка" id="229"/>
+														</CheckBoxField>
+														<CheckBoxField name="ПользовательИБПоказыватьВСпискеВыбора" id="25">
+															<DataPath>6</DataPath>
+															<TitleLocation>Right</TitleLocation>
+															<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ПользовательИБПоказыватьВСпискеВыбораКонтекстноеМеню" id="26"/>
+															<ExtendedTooltip name="ПользовательИБПоказыватьВСпискеВыбораРасширеннаяПодсказка" id="228"/>
+														</CheckBoxField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="СвойстваАутентификацииOpenID" id="275">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Свойства аутентификации open ID</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Open ID authentication properties</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СвойстваАутентификацииOpenIDРасширеннаяПодсказка" id="276"/>
+									<ChildItems>
+										<CheckBoxField name="ПользовательИБАутентификацияOpenID" id="205">
+											<DataPath>25</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ входа в программу с помощью имени, указанного для пользователя 1С:Предприятия,
+которое передается службе аутентификации по протоколу OpenID.
+Используется только при подключении через веб-сервер (адрес службы должен быть настроен).</v8:content>
+												</v8:item>
+											</ToolTip>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПользовательИБАутентификацияOpenIDКонтекстноеМеню" id="206"/>
+											<ExtendedTooltip name="ПользовательИБАутентификацияOpenIDРасширеннаяПодсказка" id="230"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="СвойстваАутентификацииОС" id="11">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Аутентификация операционной системы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Operating system authentication</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СвойстваАутентификацииОСExtendedTooltip" id="231"/>
+									<ChildItems>
+										<CheckBoxField name="ПользовательИБАутентификацияОС" id="27">
+											<DataPath>7</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Способ входа в программу с помощью имени и пароля,
+указанного для пользователя операционной системы,
+связанного с пользователем 1С:Предприятия.</v8:content>
+												</v8:item>
+											</ToolTip>
+											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПользовательИБАутентификацияОСКонтекстноеМеню" id="28"/>
+											<ExtendedTooltip name="ПользовательИБАутентификацияОСРасширеннаяПодсказка" id="232"/>
+										</CheckBoxField>
+										<UsualGroup name="СвойстваПараметрыАутентификацииОС" id="202">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Свойства параметры аутентификации ОС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Properties parameters of authentification of OS</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СвойстваПараметрыАутентификацииОСExtendedTooltip" id="233"/>
+											<ChildItems>
+												<LabelDecoration name="ДекорацияОтступ" id="203">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content> </v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content> </v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="ДекорацияОтступКонтекстноеМеню" id="204"/>
+													<ExtendedTooltip name="ДекорацияОтступExtendedTooltip" id="234"/>
+												</LabelDecoration>
+												<InputField name="ПользовательИБПользовательОС" id="29">
+													<DataPath>8</DataPath>
+													<TitleLocation>Left</TitleLocation>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Пользователь операционной системы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>User of an operating system</v8:content>
+														</v8:item>
+													</ToolTip>
+													<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+													<Width>28</Width>
+													<HorizontalStretch>false</HorizontalStretch>
+													<Wrap>false</Wrap>
+													<ChoiceButton>true</ChoiceButton>
+													<BorderColor>style:BorderColor</BorderColor>
+													<ContextMenu name="ПользовательИБПользовательОСКонтекстноеМеню" id="30"/>
+													<ExtendedTooltip name="ПользовательИБПользовательОСРасширеннаяПодсказка" id="235"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="СвойстваДополнительные" id="91">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Свойства дополнительные</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Properties additional</v8:content>
+										</v8:item>
+									</Title>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Vertical</Group>
+									<Representation>NormalSeparation</Representation>
+									<ChildItemsWidth>Equal</ChildItemsWidth>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СвойстваДополнительныеExtendedTooltip" id="236"/>
+									<ChildItems>
+										<InputField name="ПользовательИБЯзык" id="196">
+											<DataPath>15</DataPath>
+											<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+											<Width>20</Width>
+											<Wrap>false</Wrap>
+											<ClearButton>true</ClearButton>
+											<ListChoiceMode>true</ListChoiceMode>
+											<BorderColor>style:BorderColor</BorderColor>
+											<ContextMenu name="ПользовательИБЯзыкКонтекстноеМеню" id="197"/>
+											<ExtendedTooltip name="ПользовательИБЯзыкРасширеннаяПодсказка" id="237"/>
+										</InputField>
+										<InputField name="ПользовательИБРежимЗапуска" id="198">
+											<DataPath>10</DataPath>
+											<Width>20</Width>
+											<ListChoiceMode>true</ListChoiceMode>
+											<ContextMenu name="ПользовательИБРежимЗапускаКонтекстноеМеню" id="199"/>
+											<ExtendedTooltip name="ПользовательИБРежимЗапускаРасширеннаяПодсказка" id="238"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ОтображениеРолей" id="192">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Разрешенные действия (роли)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The allowed actions (roles)</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОтображениеРолейExtendedTooltip" id="239"/>
+							<ChildItems>
+								<Table name="Роли" id="177">
+									<Representation>Tree</Representation>
+									<TitleLocation>Top</TitleLocation>
+									<SkipOnInput>false</SkipOnInput>
+									<ChangeRowSet>false</ChangeRowSet>
+									<ChangeRowOrder>false</ChangeRowOrder>
+									<SelectionMode>SingleRow</SelectionMode>
+									<Header>false</Header>
+									<UseAlternationRowColor>true</UseAlternationRowColor>
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<InitialTreeView>ExpandAllLevels</InitialTreeView>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
+									<DataPath>11</DataPath>
+									<RowPictureDataPath>11/3</RowPictureDataPath>
+									<RowsPicture>
+										<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</RowsPicture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Разрешенные действия (роли)</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>The allowed actions (roles)</v8:content>
+										</v8:item>
+									</Title>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<ContextMenu name="РолиКонтекстноеМеню" id="178">
+										<Autofill>false</Autofill>
+									</ContextMenu>
+									<AutoCommandBar name="РолиКоманднаяПанель" id="179">
+										<Autofill>false</Autofill>
+										<ChildItems>
+											<Button name="РолиУстановитьФлажки" id="185">
+												<Type>CommandBarButton</Type>
+												<SkipOnInput>false</SkipOnInput>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="РолиУстановитьФлажкиExtendedTooltip" id="240"/>
+											</Button>
+											<Button name="РолиСнятьФлажки" id="186">
+												<Type>CommandBarButton</Type>
+												<SkipOnInput>false</SkipOnInput>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="РолиСнятьФлажкиExtendedTooltip" id="241"/>
+											</Button>
+											<Button name="РолиПоказатьТолькоВыбранныеРоли" id="187">
+												<Type>CommandBarButton</Type>
+												<SkipOnInput>false</SkipOnInput>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="РолиПоказатьТолькоВыбранныеРолиExtendedTooltip" id="242"/>
+											</Button>
+											<Button name="РолиПоказатьПодсистемыРолей" id="193">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<ExtendedTooltip name="РолиПоказатьПодсистемыРолейExtendedTooltip" id="243"/>
+											</Button>
+											<ButtonGroup name="РолиСтандартныеКоманды" id="281">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Роли стандартные команды</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Roles are standard commands</v8:content>
+													</v8:item>
+												</Title>
+												<CommandSource>Item.Роли</CommandSource>
+												<ExtendedTooltip name="РолиСтандартныеКомандыРасширеннаяПодсказка" id="282"/>
+											</ButtonGroup>
+										</ChildItems>
+									</AutoCommandBar>
+									<ExtendedTooltip name="РолиExtendedTooltip" id="244"/>
+									<SearchStringAddition name="РолиСтрокаПоиска" id="283">
+										<AdditionSource>
+											<Item>Роли</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РолиСтрокаПоискаКонтекстноеМеню" id="284"/>
+										<ExtendedTooltip name="РолиСтрокаПоискаРасширеннаяПодсказка" id="285"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="РолиСостояниеПросмотра" id="286">
+										<AdditionSource>
+											<Item>Роли</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="РолиСостояниеПросмотраКонтекстноеМеню" id="287"/>
+										<ExtendedTooltip name="РолиСостояниеПросмотраРасширеннаяПодсказка" id="288"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="РолиУправлениеПоиском" id="289">
+										<AdditionSource>
+											<Item>Роли</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="РолиУправлениеПоискомКонтекстноеМеню" id="290"/>
+										<ExtendedTooltip name="РолиУправлениеПоискомРасширеннаяПодсказка" id="291"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<ColumnGroup name="РолиКолонок" id="180">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Роли колонок</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Roles of columns</v8:content>
+												</v8:item>
+											</Title>
+											<Group>InCell</Group>
+											<ExtendedTooltip name="РолиКолонокExtendedTooltip" id="245"/>
+											<ChildItems>
+												<CheckBoxField name="РолиПометка" id="188">
+													<DataPath>11/1</DataPath>
+													<EditMode>Directly</EditMode>
+													<ShowInHeader>false</ShowInHeader>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="РолиПометкаКонтекстноеМеню" id="189"/>
+													<ExtendedTooltip name="РолиПометкаExtendedTooltip" id="246"/>
+												</CheckBoxField>
+												<InputField name="РолиСиноним" id="190">
+													<DataPath>11/2</DataPath>
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="РолиСинонимКонтекстноеМеню" id="191"/>
+													<ExtendedTooltip name="РолиСинонимExtendedTooltip" id="247"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="КонтактнаяИнформация" id="71">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адреса, телефоны</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Addresses, phones</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КонтактнаяИнформацияExtendedTooltip" id="248"/>
+					<ChildItems>
+						<CheckBoxField name="CRM_ОтписалсяОтEmailРассылок" id="418">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="CRM_ОтписалсяОтEmailРассылокКонтекстноеМеню" id="419"/>
+							<ExtendedTooltip name="CRM_ОтписалсяОтEmailРассылокРасширеннаяПодсказка" id="420"/>
+						</CheckBoxField>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаДополнительныеРеквизитыОбщая" id="376">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительные реквизиты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional details</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаДополнительныеРеквизитыОбщаяExtendedTooltip" id="377"/>
+					<ChildItems>
+						<UsualGroup name="СтраницаДополнительныеРеквизиты" id="292">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional details</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="293"/>
+						</UsualGroup>
+						<UsualGroup name="ГруппаДополнительнаяИнформация" id="346">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительная информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional Information</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Behavior>Collapsible</Behavior>
+							<ControlRepresentation>Picture</ControlRepresentation>
+							<ExtendedTooltip name="ГруппаДополнительнаяИнформацияExtendedTooltip" id="347"/>
+							<ChildItems>
+								<Table name="CRM_ДополнительнаяИнформация" id="348">
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<FileDragMode>AsFile</FileDragMode>
+									<SearchStringLocation>None</SearchStringLocation>
+									<ViewStatusLocation>None</ViewStatusLocation>
+									<SearchControlLocation>None</SearchControlLocation>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="CRM_ДополнительнаяИнформацияКонтекстноеМеню" id="349"/>
+									<AutoCommandBar name="CRM_ДополнительнаяИнформацияКоманднаяПанель" id="350"/>
+									<ExtendedTooltip name="CRM_ДополнительнаяИнформацияРасширеннаяПодсказка" id="351"/>
+									<SearchStringAddition name="CRM_ДополнительнаяИнформацияСтрокаПоиска" id="352">
+										<AdditionSource>
+											<Item>CRM_ДополнительнаяИнформация</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="CRM_ДополнительнаяИнформацияСтрокаПоискаКонтекстноеМеню" id="353"/>
+										<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСтрокаПоискаРасширеннаяПодсказка" id="354"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="CRM_ДополнительнаяИнформацияСостояниеПросмотра" id="355">
+										<AdditionSource>
+											<Item>CRM_ДополнительнаяИнформация</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="CRM_ДополнительнаяИнформацияСостояниеПросмотраКонтекстноеМеню" id="356"/>
+										<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСостояниеПросмотраРасширеннаяПодсказка" id="357"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="CRM_ДополнительнаяИнформацияУправлениеПоиском" id="358">
+										<AdditionSource>
+											<Item>CRM_ДополнительнаяИнформация</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="CRM_ДополнительнаяИнформацияУправлениеПоискомКонтекстноеМеню" id="359"/>
+										<ExtendedTooltip name="CRM_ДополнительнаяИнформацияУправлениеПоискомРасширеннаяПодсказка" id="360"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="CRM_ДополнительнаяИнформацияНомерСтроки" id="361">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияНомерСтрокиКонтекстноеМеню" id="362"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияНомерСтрокиExtendedTooltip" id="363"/>
+										</LabelField>
+										<InputField name="CRM_ДополнительнаяИнформацияСвойство" id="364">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияСвойствоКонтекстноеМеню" id="365"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСвойствоExtendedTooltip" id="366"/>
+										</InputField>
+										<InputField name="CRM_ДополнительнаяИнформацияЗначение" id="367">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияЗначениеКонтекстноеМеню" id="368"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияЗначениеExtendedTooltip" id="369"/>
+										</InputField>
+										<InputField name="CRM_ДополнительнаяИнформацияДатаРегистрации" id="370">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияДатаРегистрацииКонтекстноеМеню" id="371"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияДатаРегистрацииExtendedTooltip" id="372"/>
+										</InputField>
+										<InputField name="CRM_ДополнительнаяИнформацияДатаОкончания" id="373">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияДатаОкончанияКонтекстноеМеню" id="374"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияДатаОкончанияExtendedTooltip" id="375"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаКомментарий" id="279">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Комментарий</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Comment</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="280"/>
+					<ChildItems>
+						<InputField name="Комментарий" id="258">
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<AutoMaxHeight>false</AutoMaxHeight>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="КомментарийКонтекстноеМеню" id="259"/>
+							<ExtendedTooltip name="КомментарийExtendedTooltip" id="260"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Button name="ФормаЗаписатьИЗакрыть" id="423">
+					<Type>CommandBarButton</Type>
+					<Representation>Text</Representation>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>14:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="424"/>
+				</Button>
+				<ButtonGroup name="КомандыФормы" id="421">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Commands of the form</v8:content>
+						</v8:item>
+					</Title>
+					<CommandSource>Form</CommandSource>
+					<ExtendedTooltip name="КомандыФормыРасширеннаяПодсказка" id="422"/>
+				</ButtonGroup>
+				<Button name="CRM_ОткрытьПерсональныеНастройки" id="416">
+					<Type>CommandBarButton</Type>
+					<CommandName>13:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="CRM_ОткрытьПерсональныеНастройкиРасширеннаяПодсказка" id="417"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаСлужебныйПользователь" id="338">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа служебный пользователь</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group service user</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаСлужебныйПользовательРасширеннаяПодсказка" id="339"/>
+				<ChildItems>
+					<PictureDecoration name="СлужебныйПользовательКартинка" id="340">
+						<Width>2</Width>
+						<Height>1</Height>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Служебный пользователь картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Service user picture</v8:content>
+							</v8:item>
+						</Title>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="СлужебныйПользовательКартинкаКонтекстноеМеню" id="341"/>
+						<ExtendedTooltip name="СлужебныйПользовательКартинкаРасширеннаяПодсказка" id="342"/>
+					</PictureDecoration>
+					<LabelDecoration name="СлужебныйПользовательНадпись" id="335">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<TextColor>style:ПоясняющийТекст</TextColor>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Это служебный пользователь для автоматизации некоторых действий в программе.</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>This is a service user for automating some actions in the program.</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Служебный пользователь создается и изменяется автоматически,
+скрывается при выборе и подборе, а также в списке пользователей.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ContextMenu name="СлужебныйПользовательНадписьКонтекстноеМеню" id="336"/>
+						<ExtendedTooltip name="СлужебныйПользовательНадписьРасширеннаяПодсказка" id="337"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="СвойстваОбработкаНесоответствия" id="164">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Свойства обработка несоответствия</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Nonconformance handling properties</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СвойстваОбработкаНесоответствияРасширеннаяПодсказка" id="208"/>
+				<ChildItems>
+					<PictureDecoration name="СвойстваКартинкаПредупреждения" id="165">
+						<Width>5</Width>
+						<Height>2</Height>
+						<HorizontalStretch>false</HorizontalStretch>
+						<SkipOnInput>false</SkipOnInput>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Свойства картинка предупреждения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Properties warning picture</v8:content>
+							</v8:item>
+						</Title>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="СвойстваКартинкаПредупрежденияКонтекстноеМеню" id="166"/>
+						<ExtendedTooltip name="СвойстваКартинкаПредупрежденияРасширеннаяПодсказка" id="209"/>
+					</PictureDecoration>
+					<UsualGroup name="СвойстваПояснениеИКоманды" id="167">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Свойства пояснение и команды</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Explanation properties and commands</v8:content>
+							</v8:item>
+						</Title>
+						<VerticalStretch>false</VerticalStretch>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="СвойстваПояснениеИКомандыРасширеннаяПодсказка" id="210"/>
+						<ChildItems>
+							<LabelDecoration name="СвойстваПояснениеНесоответствия" id="168">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<SkipOnInput>false</SkipOnInput>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Следующие свойства пользователя информационной базы отличаются от указанных в этой форме:
+%1.
+Нажмите "Записать", чтобы устранить различия и не выводить это предупреждение.</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Некоторые свойства пользователя информационной базы сохраняются в карточке пользователя. Между значениями этих свойств найдены различия.</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Some properties of the user of the information database are stored in the user's card. There are differences between the values ​​of these properties.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="СвойстваПояснениеНесоответствияКонтекстноеМеню" id="169"/>
+								<ExtendedTooltip name="СвойстваПояснениеНесоответствияРасширеннаяПодсказка" id="211"/>
+							</LabelDecoration>
+							<UsualGroup name="СвойстваКомандыУстраненияРазличий" id="263">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Свойства команды устранения различий</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Difficulty command properties</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="СвойстваКомандыУстраненияРазличийРасширеннаяПодсказка" id="264"/>
+								<ChildItems>
+									<Button name="ЗаполнитьИзПользователяИБ" id="170">
+										<Type>UsualButton</Type>
+										<SkipOnInput>false</SkipOnInput>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<ExtendedTooltip name="ЗаполнитьИзПользователяИБРасширеннаяПодсказка" id="212"/>
+									</Button>
+									<Button name="Записать" id="261">
+										<Type>UsualButton</Type>
+										<Representation>PictureAndText</Representation>
+										<Width>10</Width>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<Picture>
+											<xr:Ref>StdPicture.Write</xr:Ref>
+											<xr:LoadTransparent>true</xr:LoadTransparent>
+										</Picture>
+										<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="262"/>
+									</Button>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="СопоставлениеОбработкаНесоответствия" id="171">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Сопоставление обработка несоответствия</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Comparison of nonconformity processing</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>Horizontal</Group>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СопоставлениеОбработкаНесоответствияРасширеннаяПодсказка" id="213"/>
+				<ChildItems>
+					<PictureDecoration name="СопоставлениеКартинкаПредупреждения" id="172">
+						<Width>5</Width>
+						<Height>2</Height>
+						<HorizontalStretch>false</HorizontalStretch>
+						<SkipOnInput>false</SkipOnInput>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Сопоставление картинка предупреждения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Alert picture</v8:content>
+							</v8:item>
+						</Title>
+						<FileDragMode>AsFile</FileDragMode>
+						<ContextMenu name="СопоставлениеКартинкаПредупрежденияКонтекстноеМеню" id="173"/>
+						<ExtendedTooltip name="СопоставлениеКартинкаПредупрежденияРасширеннаяПодсказка" id="214"/>
+					</PictureDecoration>
+					<LabelDecoration name="СопоставлениеПояснениеНесоответствия" id="175">
+						<Width>20</Width>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Height>2</Height>
+						<HorizontalStretch>true</HorizontalStretch>
+						<SkipOnInput>false</SkipOnInput>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пользователь информационной базы не найден.
+Нажмите "Записать", чтобы устранить проблему и не выводить это предупреждение.</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пользователь информационной базы сопоставлен с этим пользователем справочника,
+однако его не удается найти по сохраненному идентификатору.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<VerticalAlign>Center</VerticalAlign>
+						<ContextMenu name="СопоставлениеПояснениеНесоответствияКонтекстноеМеню" id="176"/>
+						<ExtendedTooltip name="СопоставлениеПояснениеНесоответствияРасширеннаяПодсказка" id="215"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаШапка" id="277">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="278"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаНаименование" id="329">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа наименование</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group name</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="330"/>
+						<ChildItems>
+							<InputField name="Наименование" id="49">
+								<DataPath>1/-3</DataPath>
+								<Width>22</Width>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Wrap>false</Wrap>
+								<BorderColor>style:BorderColor</BorderColor>
+								<ContextMenu name="НаименованиеКонтекстноеМеню" id="50"/>
+								<ExtendedTooltip name="НаименованиеExtendedTooltip" id="216"/>
+							</InputField>
+							<InputField name="ФизическоеЛицо" id="296">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="ФизическоеЛицоКонтекстноеМеню" id="297"/>
+								<ExtendedTooltip name="ФизическоеЛицоРасширеннаяПодсказка" id="298"/>
+							</InputField>
+							<InputField name="Подразделение" id="299">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="ПодразделениеКонтекстноеМеню" id="300"/>
+								<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="301"/>
+							</InputField>
+							<InputField name="CRM_УровеньДоступа" id="388">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="CRM_УровеньДоступаКонтекстноеМеню" id="389"/>
+								<ExtendedTooltip name="CRM_УровеньДоступаExtendedTooltip" id="390"/>
+							</InputField>
+							<InputField name="CRM_ДолжностнаяПозиция" id="413">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="CRM_ДолжностнаяПозицияКонтекстноеМеню" id="414"/>
+								<ExtendedTooltip name="CRM_ДолжностнаяПозицияРасширеннаяПодсказка" id="415"/>
+							</InputField>
+							<InputField name="CRM_НаправлениеДеятельности" id="425">
+								<UserVisible>
+									<xr:Common>false</xr:Common>
+								</UserVisible>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<ContextMenu name="CRM_НаправлениеДеятельностиКонтекстноеМеню" id="426"/>
+								<ExtendedTooltip name="CRM_НаправлениеДеятельностиРасширеннаяПодсказка" id="427"/>
+							</InputField>
+							<CheckBoxField name="Недействителен" id="194">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>Button</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НедействителенКонтекстноеМеню" id="195"/>
+								<ExtendedTooltip name="НедействителенExtendedTooltip" id="217"/>
+							</CheckBoxField>
+							<CheckBoxField name="CRM_Планируемый" id="394">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="CRM_ПланируемыйКонтекстноеМеню" id="395"/>
+								<ExtendedTooltip name="CRM_ПланируемыйExtendedTooltip" id="396"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИмяиКартинка" id="378">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа имяи картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group имяи picture</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа имяи картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group имяи picture</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИмяиКартинкаExtendedTooltip" id="379"/>
+						<ChildItems>
+							<PictureField name="АдресКартинки" id="400">
+								<DataPath>42</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<Width>15</Width>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Height>6</Height>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<HorizontalStretch>false</HorizontalStretch>
+								<VerticalStretch>false</VerticalStretch>
+								<PictureSize>Proportionally</PictureSize>
+								<Hyperlink>true</Hyperlink>
+								<NonselectedPictureText>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Изображение
+не выбрано</v8:content>
+									</v8:item>
+								</NonselectedPictureText>
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="АдресКартинкиКонтекстноеМеню" id="401">
+									<Autofill>false</Autofill>
+									<ChildItems>
+										<Button name="АдресКартинкиКонтекстноеМенюДобавитьИзображение" id="403">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюДобавитьИзображениеРасширеннаяПодсказка" id="404"/>
+										</Button>
+										<Button name="АдресКартинкиКонтекстноеМенюИзменитьИзображение" id="405">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюИзменитьИзображениеРасширеннаяПодсказка" id="406"/>
+										</Button>
+										<Button name="АдресКартинкиКонтекстноеМенюОчиститьИзображение" id="407">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюОчиститьИзображениеРасширеннаяПодсказка" id="408"/>
+										</Button>
+										<Button name="АдресКартинкиКонтекстноеМенюПросмотретьИзображение" id="409">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюПросмотретьИзображениеРасширеннаяПодсказка" id="410"/>
+										</Button>
+										<Button name="АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайлов" id="411">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<ExtendedTooltip name="АдресКартинкиКонтекстноеМенюВыбратьКартинкуИзПрисоединенныхФайловРасширеннаяПодсказка" id="412"/>
+										</Button>
+									</ChildItems>
+								</ContextMenu>
+								<ExtendedTooltip name="АдресКартинкиExtendedTooltip" id="402"/>
+							</PictureField>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаВходВПрограммуРазрешен" id="265">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа вход в программу разрешен</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Can log on to application group</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаВходВПрограммуРазрешенРасширеннаяПодсказка" id="266"/>
+				<ChildItems>
+					<CheckBoxField name="ВходВПрограммуРазрешен" id="99">
+						<DataPath>17</DataPath>
+						<TitleLocation>Right</TitleLocation>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Разрешить вход пользователя в программу
+указанными способами аутентификации.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ВходВПрограммуРазрешенКонтекстноеМеню" id="100"/>
+						<ExtendedTooltip name="ВходВПрограммуРазрешенРасширеннаяПодсказка" id="218"/>
+					</CheckBoxField>
+					<UsualGroup name="ГруппаИзменитьОграничение" id="331">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа изменить ограничение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Change restriction group</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИзменитьОграничениеРасширеннаяПодсказка" id="332"/>
+						<ChildItems>
+							<Button name="ИзменитьОграничениеНаВходВПрограмму" id="333">
+								<Type>Hyperlink</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="ИзменитьОграничениеНаВходВПрограммуРасширеннаяПодсказка" id="334"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<LabelDecoration name="РекомендуетсяПроверитьНастройкиДляВхода" id="267">
+						<TextColor>style:ПоясняющийТекст</TextColor>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Рекомендуется проверить настройки для входа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>It is recommended that you check the login settings</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Перед разрешением входа в программу рекомендуется проверить настройки, т.к. пользователь
+был введен не администратором, а ответственным за список пользователей.</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<ContextMenu name="РекомендуетсяПроверитьНастройкиДляВходаКонтекстноеМеню" id="268"/>
+						<ExtendedTooltip name="РекомендуетсяПроверитьНастройкиДляВходаРасширеннаяПодсказка" id="269"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<Pages name="Страницы" id="70">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Страницы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<VerticalStretch>true</VerticalStretch>
+				<ExtendedTooltip name="СтраницыExtendedTooltip" id="219"/>
+				<ChildItems>
+					<Page name="СвойстваПользователяИБ" id="65">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Главное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Main</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<ExtendedTooltip name="СвойстваПользователяИБExtendedTooltip" id="220"/>
+						<ChildItems>
+							<UsualGroup name="ОсновныеСвойства" id="75">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Основные свойства</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Main properties</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ОсновныеСвойстваExtendedTooltip" id="221"/>
+								<ChildItems>
+									<Pages name="ИмяПереключениеОтметкиНезаполненного" id="249">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Имя (переключение отметки незаполненного)</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Name (toggle the unfilled mark)</v8:content>
+											</v8:item>
+										</Title>
+										<PagesRepresentation>None</PagesRepresentation>
+										<ExtendedTooltip name="ИмяПереключениеОтметкиНезаполненногоРасширеннаяПодсказка" id="250"/>
+										<ChildItems>
+											<Page name="ИмяСОтметкойНезаполненного" id="251">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Имя с отметкой незаполненного</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Name with a blank</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ИмяСОтметкойНезаполненногоРасширеннаяПодсказка" id="252"/>
+												<ChildItems>
+													<InputField name="ПользовательИБИмя1" id="95">
+														<DataPath>16</DataPath>
+														<Width>28</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<AutoMarkIncomplete>true</AutoMarkIncomplete>
+														<ContextMenu name="ПользовательИБИмя1КонтекстноеМеню" id="96"/>
+														<ExtendedTooltip name="ПользовательИБИмя1РасширеннаяПодсказка" id="222"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+											<Page name="ИмяБезОтметкиНезаполненного" id="253">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Имя без отметки незаполненного</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Name without a blank</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ИмяБезОтметкиНезаполненногоРасширеннаяПодсказка" id="254"/>
+												<ChildItems>
+													<InputField name="ПользовательИБИмя2" id="255">
+														<DataPath>16</DataPath>
+														<Width>28</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<ContextMenu name="ПользовательИБИмя2КонтекстноеМеню" id="256"/>
+														<ExtendedTooltip name="ПользовательИБИмя2РасширеннаяПодсказка" id="257"/>
+													</InputField>
+												</ChildItems>
+											</Page>
+										</ChildItems>
+									</Pages>
+									<UsualGroup name="СвойстваАутентификации1СПредприятия" id="10">
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СвойстваАутентификации1СПредприятияExtendedTooltip" id="223"/>
+										<ChildItems>
+											<CheckBoxField name="ПользовательИБАутентификацияСтандартная" id="19">
+												<DataPath>2</DataPath>
+												<TitleLocation>Right</TitleLocation>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Способ входа в программу с помощью имени и пароля,
+указанного для пользователя 1С:Предприятия.</v8:content>
+													</v8:item>
+												</ToolTip>
+												<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ПользовательИБАутентификацияСтандартнаяКонтекстноеМеню" id="20"/>
+												<ExtendedTooltip name="ПользовательИБАутентификацияСтандартнаяРасширеннаяПодсказка" id="224"/>
+											</CheckBoxField>
+											<UsualGroup name="ГруппаОтступ" id="270">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа отступ</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group offset</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаОтступРасширеннаяПодсказка" id="271"/>
+												<ChildItems>
+													<LabelDecoration name="Отступ" id="272">
+														<ContextMenu name="ОтступКонтекстноеМеню" id="273"/>
+														<ExtendedTooltip name="ОтступРасширеннаяПодсказка" id="274"/>
+													</LabelDecoration>
+													<UsualGroup name="ПараметрыАутентификации1СПредприятия" id="201">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Параметры аутентификации 1С:Предприятия</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>1C:Enterprise authentication parameters</v8:content>
+															</v8:item>
+														</Title>
+														<HorizontalStretch>true</HorizontalStretch>
+														<Group>Vertical</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ПараметрыАутентификации1СПредприятияРасширеннаяПодсказка" id="225"/>
+														<ChildItems>
+															<UsualGroup name="ГруппаПароль" id="319">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Группа пароль</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Password group</v8:content>
+																	</v8:item>
+																</Title>
+																<Group>Horizontal</Group>
+																<Representation>None</Representation>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="ГруппаПарольРасширеннаяПодсказка" id="320"/>
+																<ChildItems>
+																	<LabelDecoration name="НадписьНаличиеПароля" id="321">
+																		<TextColor>style:ПоясняющийТекст</TextColor>
+																		<Title formatted="false">
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Пустой пароль</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Empty password</v8:content>
+																			</v8:item>
+																		</Title>
+																		<ContextMenu name="НадписьНаличиеПароляКонтекстноеМеню" id="322"/>
+																		<ExtendedTooltip name="НадписьНаличиеПароляРасширеннаяПодсказка" id="323"/>
+																	</LabelDecoration>
+																	<Button name="СменитьПароль" id="324">
+																		<Type>UsualButton</Type>
+																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<ExtendedTooltip name="СменитьПарольРасширеннаяПодсказка" id="325"/>
+																	</Button>
+																</ChildItems>
+															</UsualGroup>
+															<CheckBoxField name="ПотребоватьСменуПароляПриВходе" id="316">
+																<DataPath>35</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ПотребоватьСменуПароляПриВходеКонтекстноеМеню" id="317"/>
+																<ExtendedTooltip name="ПотребоватьСменуПароляПриВходеРасширеннаяПодсказка" id="318"/>
+															</CheckBoxField>
+															<CheckBoxField name="ПользовательИБЗапрещеноИзменятьПароль" id="51">
+																<DataPath>13</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Запрещает изменение своего пароля
+неполноправному пользователю,
+а также при входе.</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ПользовательИБЗапрещеноИзменятьПарольКонтекстноеМеню" id="52"/>
+																<ExtendedTooltip name="ПользовательИБЗапрещеноИзменятьПарольРасширеннаяПодсказка" id="229"/>
+															</CheckBoxField>
+															<CheckBoxField name="ПользовательИБПоказыватьВСпискеВыбора" id="25">
+																<DataPath>6</DataPath>
+																<TitleLocation>Right</TitleLocation>
+																<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ПользовательИБПоказыватьВСпискеВыбораКонтекстноеМеню" id="26"/>
+																<ExtendedTooltip name="ПользовательИБПоказыватьВСпискеВыбораРасширеннаяПодсказка" id="228"/>
+															</CheckBoxField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="СвойстваАутентификацииOpenID" id="275">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Свойства аутентификации open ID</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Open ID authentication properties</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СвойстваАутентификацииOpenIDРасширеннаяПодсказка" id="276"/>
+										<ChildItems>
+											<CheckBoxField name="ПользовательИБАутентификацияOpenID" id="205">
+												<DataPath>25</DataPath>
+												<TitleLocation>Right</TitleLocation>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Способ входа в программу с помощью имени, указанного для пользователя 1С:Предприятия,
+которое передается службе аутентификации по протоколу OpenID.
+Используется только при подключении через веб-сервер (адрес службы должен быть настроен).</v8:content>
+													</v8:item>
+												</ToolTip>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ПользовательИБАутентификацияOpenIDКонтекстноеМеню" id="206"/>
+												<ExtendedTooltip name="ПользовательИБАутентификацияOpenIDРасширеннаяПодсказка" id="230"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="СвойстваАутентификацииОС" id="11">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Аутентификация операционной системы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Operating system authentication</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СвойстваАутентификацииОСExtendedTooltip" id="231"/>
+										<ChildItems>
+											<CheckBoxField name="ПользовательИБАутентификацияОС" id="27">
+												<DataPath>7</DataPath>
+												<TitleLocation>Right</TitleLocation>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Способ входа в программу с помощью имени и пароля,
+указанного для пользователя операционной системы,
+связанного с пользователем 1С:Предприятия.</v8:content>
+													</v8:item>
+												</ToolTip>
+												<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ПользовательИБАутентификацияОСКонтекстноеМеню" id="28"/>
+												<ExtendedTooltip name="ПользовательИБАутентификацияОСРасширеннаяПодсказка" id="232"/>
+											</CheckBoxField>
+											<UsualGroup name="СвойстваПараметрыАутентификацииОС" id="202">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Свойства параметры аутентификации ОС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Properties parameters of authentification of OS</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="СвойстваПараметрыАутентификацииОСExtendedTooltip" id="233"/>
+												<ChildItems>
+													<LabelDecoration name="ДекорацияОтступ" id="203">
+														<Title formatted="false">
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content> </v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content> </v8:content>
+															</v8:item>
+														</Title>
+														<ContextMenu name="ДекорацияОтступКонтекстноеМеню" id="204"/>
+														<ExtendedTooltip name="ДекорацияОтступExtendedTooltip" id="234"/>
+													</LabelDecoration>
+													<InputField name="ПользовательИБПользовательОС" id="29">
+														<DataPath>8</DataPath>
+														<TitleLocation>Left</TitleLocation>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Пользователь операционной системы</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>User of an operating system</v8:content>
+															</v8:item>
+														</ToolTip>
+														<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+														<Width>28</Width>
+														<HorizontalStretch>false</HorizontalStretch>
+														<Wrap>false</Wrap>
+														<ChoiceButton>true</ChoiceButton>
+														<BorderColor>style:BorderColor</BorderColor>
+														<ContextMenu name="ПользовательИБПользовательОСКонтекстноеМеню" id="30"/>
+														<ExtendedTooltip name="ПользовательИБПользовательОСРасширеннаяПодсказка" id="235"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="СвойстваДополнительные" id="91">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Свойства дополнительные</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Properties additional</v8:content>
+											</v8:item>
+										</Title>
+										<HorizontalStretch>false</HorizontalStretch>
+										<Group>Vertical</Group>
+										<Representation>NormalSeparation</Representation>
+										<ChildItemsWidth>Equal</ChildItemsWidth>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СвойстваДополнительныеExtendedTooltip" id="236"/>
+										<ChildItems>
+											<InputField name="ПользовательИБЯзык" id="196">
+												<DataPath>15</DataPath>
+												<FooterHorizontalAlign>Left</FooterHorizontalAlign>
+												<Width>20</Width>
+												<Wrap>false</Wrap>
+												<ClearButton>true</ClearButton>
+												<ListChoiceMode>true</ListChoiceMode>
+												<BorderColor>style:BorderColor</BorderColor>
+												<ContextMenu name="ПользовательИБЯзыкКонтекстноеМеню" id="197"/>
+												<ExtendedTooltip name="ПользовательИБЯзыкРасширеннаяПодсказка" id="237"/>
+											</InputField>
+											<InputField name="ПользовательИБРежимЗапуска" id="198">
+												<DataPath>10</DataPath>
+												<Width>20</Width>
+												<ListChoiceMode>true</ListChoiceMode>
+												<ContextMenu name="ПользовательИБРежимЗапускаКонтекстноеМеню" id="199"/>
+												<ExtendedTooltip name="ПользовательИБРежимЗапускаРасширеннаяПодсказка" id="238"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ОтображениеРолей" id="192">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Разрешенные действия (роли)</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The allowed actions (roles)</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ОтображениеРолейExtendedTooltip" id="239"/>
+								<ChildItems>
+									<Table name="Роли" id="177">
+										<Representation>Tree</Representation>
+										<TitleLocation>Top</TitleLocation>
+										<SkipOnInput>false</SkipOnInput>
+										<ChangeRowSet>false</ChangeRowSet>
+										<ChangeRowOrder>false</ChangeRowOrder>
+										<SelectionMode>SingleRow</SelectionMode>
+										<Header>false</Header>
+										<UseAlternationRowColor>true</UseAlternationRowColor>
+										<AutoInsertNewRow>true</AutoInsertNewRow>
+										<InitialTreeView>ExpandAllLevels</InitialTreeView>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
+										<DataPath>11</DataPath>
+										<RowPictureDataPath>11/3</RowPictureDataPath>
+										<RowsPicture>
+											<xr:Ref>CommonPicture.ПиктограммыЭлементов</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</RowsPicture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Разрешенные действия (роли)</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>The allowed actions (roles)</v8:content>
+											</v8:item>
+										</Title>
+										<SearchStringLocation>None</SearchStringLocation>
+										<ViewStatusLocation>None</ViewStatusLocation>
+										<SearchControlLocation>None</SearchControlLocation>
+										<ContextMenu name="РолиКонтекстноеМеню" id="178">
+											<Autofill>false</Autofill>
+										</ContextMenu>
+										<AutoCommandBar name="РолиКоманднаяПанель" id="179">
+											<Autofill>false</Autofill>
+											<ChildItems>
+												<Button name="РолиУстановитьФлажки" id="185">
+													<Type>CommandBarButton</Type>
+													<SkipOnInput>false</SkipOnInput>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="РолиУстановитьФлажкиExtendedTooltip" id="240"/>
+												</Button>
+												<Button name="РолиСнятьФлажки" id="186">
+													<Type>CommandBarButton</Type>
+													<SkipOnInput>false</SkipOnInput>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="РолиСнятьФлажкиExtendedTooltip" id="241"/>
+												</Button>
+												<Button name="РолиПоказатьТолькоВыбранныеРоли" id="187">
+													<Type>CommandBarButton</Type>
+													<SkipOnInput>false</SkipOnInput>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="РолиПоказатьТолькоВыбранныеРолиExtendedTooltip" id="242"/>
+												</Button>
+												<Button name="РолиПоказатьПодсистемыРолей" id="193">
+													<Type>CommandBarButton</Type>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<ExtendedTooltip name="РолиПоказатьПодсистемыРолейExtendedTooltip" id="243"/>
+												</Button>
+												<ButtonGroup name="РолиСтандартныеКоманды" id="281">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Роли стандартные команды</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Roles are standard commands</v8:content>
+														</v8:item>
+													</Title>
+													<CommandSource>Item.Роли</CommandSource>
+													<ExtendedTooltip name="РолиСтандартныеКомандыРасширеннаяПодсказка" id="282"/>
+												</ButtonGroup>
+											</ChildItems>
+										</AutoCommandBar>
+										<ExtendedTooltip name="РолиExtendedTooltip" id="244"/>
+										<SearchStringAddition name="РолиСтрокаПоиска" id="283">
+											<AdditionSource>
+												<Item>Роли</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="РолиСтрокаПоискаКонтекстноеМеню" id="284"/>
+											<ExtendedTooltip name="РолиСтрокаПоискаРасширеннаяПодсказка" id="285"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="РолиСостояниеПросмотра" id="286">
+											<AdditionSource>
+												<Item>Роли</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="РолиСостояниеПросмотраКонтекстноеМеню" id="287"/>
+											<ExtendedTooltip name="РолиСостояниеПросмотраРасширеннаяПодсказка" id="288"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="РолиУправлениеПоиском" id="289">
+											<AdditionSource>
+												<Item>Роли</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="РолиУправлениеПоискомКонтекстноеМеню" id="290"/>
+											<ExtendedTooltip name="РолиУправлениеПоискомРасширеннаяПодсказка" id="291"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<ColumnGroup name="РолиКолонок" id="180">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Роли колонок</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Roles of columns</v8:content>
+													</v8:item>
+												</Title>
+												<Group>InCell</Group>
+												<ExtendedTooltip name="РолиКолонокExtendedTooltip" id="245"/>
+												<ChildItems>
+													<CheckBoxField name="РолиПометка" id="188">
+														<DataPath>11/1</DataPath>
+														<EditMode>Directly</EditMode>
+														<ShowInHeader>false</ShowInHeader>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="РолиПометкаКонтекстноеМеню" id="189"/>
+														<ExtendedTooltip name="РолиПометкаExtendedTooltip" id="246"/>
+													</CheckBoxField>
+													<InputField name="РолиСиноним" id="190">
+														<DataPath>11/2</DataPath>
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="РолиСинонимКонтекстноеМеню" id="191"/>
+														<ExtendedTooltip name="РолиСинонимExtendedTooltip" id="247"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="КонтактнаяИнформация" id="71">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Адреса, телефоны</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Addresses, phones</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="КонтактнаяИнформацияExtendedTooltip" id="248"/>
+						<ChildItems>
+							<CheckBoxField name="CRM_ОтписалсяОтEmailРассылок" id="418">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="CRM_ОтписалсяОтEmailРассылокКонтекстноеМеню" id="419"/>
+								<ExtendedTooltip name="CRM_ОтписалсяОтEmailРассылокРасширеннаяПодсказка" id="420"/>
+							</CheckBoxField>
+						</ChildItems>
+					</Page>
+					<Page name="ГруппаДополнительныеРеквизитыОбщая" id="376">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дополнительные реквизиты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additional details</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаДополнительныеРеквизитыОбщаяExtendedTooltip" id="377"/>
+						<ChildItems>
+							<UsualGroup name="СтраницаДополнительныеРеквизиты" id="292">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дополнительные реквизиты</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional details</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Collapsible</Behavior>
+								<ControlRepresentation>Picture</ControlRepresentation>
+								<ExtendedTooltip name="СтраницаДополнительныеРеквизитыРасширеннаяПодсказка" id="293"/>
+							</UsualGroup>
+							<UsualGroup name="ГруппаДополнительнаяИнформация" id="346">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дополнительная информация</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional Information</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Behavior>Collapsible</Behavior>
+								<ControlRepresentation>Picture</ControlRepresentation>
+								<ExtendedTooltip name="ГруппаДополнительнаяИнформацияExtendedTooltip" id="347"/>
+								<ChildItems>
+									<Table name="CRM_ДополнительнаяИнформация" id="348">
+										<AutoInsertNewRow>true</AutoInsertNewRow>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<FileDragMode>AsFile</FileDragMode>
+										<SearchStringLocation>None</SearchStringLocation>
+										<ViewStatusLocation>None</ViewStatusLocation>
+										<SearchControlLocation>None</SearchControlLocation>
+										<RowFilter xsi:nil="true"/>
+										<ContextMenu name="CRM_ДополнительнаяИнформацияКонтекстноеМеню" id="349"/>
+										<AutoCommandBar name="CRM_ДополнительнаяИнформацияКоманднаяПанель" id="350"/>
+										<ExtendedTooltip name="CRM_ДополнительнаяИнформацияРасширеннаяПодсказка" id="351"/>
+										<SearchStringAddition name="CRM_ДополнительнаяИнформацияСтрокаПоиска" id="352">
+											<AdditionSource>
+												<Item>CRM_ДополнительнаяИнформация</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияСтрокаПоискаКонтекстноеМеню" id="353"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСтрокаПоискаРасширеннаяПодсказка" id="354"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="CRM_ДополнительнаяИнформацияСостояниеПросмотра" id="355">
+											<AdditionSource>
+												<Item>CRM_ДополнительнаяИнформация</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияСостояниеПросмотраКонтекстноеМеню" id="356"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСостояниеПросмотраРасширеннаяПодсказка" id="357"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="CRM_ДополнительнаяИнформацияУправлениеПоиском" id="358">
+											<AdditionSource>
+												<Item>CRM_ДополнительнаяИнформация</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="CRM_ДополнительнаяИнформацияУправлениеПоискомКонтекстноеМеню" id="359"/>
+											<ExtendedTooltip name="CRM_ДополнительнаяИнформацияУправлениеПоискомРасширеннаяПодсказка" id="360"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<LabelField name="CRM_ДополнительнаяИнформацияНомерСтроки" id="361">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="CRM_ДополнительнаяИнформацияНомерСтрокиКонтекстноеМеню" id="362"/>
+												<ExtendedTooltip name="CRM_ДополнительнаяИнформацияНомерСтрокиExtendedTooltip" id="363"/>
+											</LabelField>
+											<InputField name="CRM_ДополнительнаяИнформацияСвойство" id="364">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="CRM_ДополнительнаяИнформацияСвойствоКонтекстноеМеню" id="365"/>
+												<ExtendedTooltip name="CRM_ДополнительнаяИнформацияСвойствоExtendedTooltip" id="366"/>
+											</InputField>
+											<InputField name="CRM_ДополнительнаяИнформацияЗначение" id="367">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="CRM_ДополнительнаяИнформацияЗначениеКонтекстноеМеню" id="368"/>
+												<ExtendedTooltip name="CRM_ДополнительнаяИнформацияЗначениеExtendedTooltip" id="369"/>
+											</InputField>
+											<InputField name="CRM_ДополнительнаяИнформацияДатаРегистрации" id="370">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="CRM_ДополнительнаяИнформацияДатаРегистрацииКонтекстноеМеню" id="371"/>
+												<ExtendedTooltip name="CRM_ДополнительнаяИнформацияДатаРегистрацииExtendedTooltip" id="372"/>
+											</InputField>
+											<InputField name="CRM_ДополнительнаяИнформацияДатаОкончания" id="373">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="CRM_ДополнительнаяИнформацияДатаОкончанияКонтекстноеМеню" id="374"/>
+												<ExtendedTooltip name="CRM_ДополнительнаяИнформацияДатаОкончанияExtendedTooltip" id="375"/>
+											</InputField>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаКомментарий" id="279">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Комментарий</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Comment</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаКомментарийРасширеннаяПодсказка" id="280"/>
+						<ChildItems>
+							<InputField name="Комментарий" id="258">
+								<TitleLocation>None</TitleLocation>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<AutoMaxHeight>false</AutoMaxHeight>
+								<MultiLine>true</MultiLine>
+								<ContextMenu name="КомментарийКонтекстноеМеню" id="259"/>
+								<ExtendedTooltip name="КомментарийExtendedTooltip" id="260"/>
+							</InputField>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

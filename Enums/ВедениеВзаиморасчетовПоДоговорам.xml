@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="a70b9c3e-bf39-45e0-bad1-4b51b6ad3729">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВедениеВзаиморасчетовПоДоговорам" category="Ref">
+				<xr:TypeId>769d2950-9cb5-4191-a8ae-8bbf94f53e6c</xr:TypeId>
+				<xr:ValueId>c20051d1-b462-4de8-85ad-988ace6e3c23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВедениеВзаиморасчетовПоДоговорам" category="Manager">
+				<xr:TypeId>d9f3c268-4918-4496-84e1-74d8a61044a4</xr:TypeId>
+				<xr:ValueId>cc006cbd-ef56-4bc6-9c47-eba53dd90eb2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВедениеВзаиморасчетовПоДоговорам" category="List">
+				<xr:TypeId>a00be137-5c9f-4837-8f1f-e1dd8f7ac93d</xr:TypeId>
+				<xr:ValueId>71719a59-4fe8-4e7c-9288-9a55045655ed</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВедениеВзаиморасчетовПоДоговорам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>e8bcbecd-86c1-4929-be1a-d0e5bbf3d75c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e7ce6d1f-94c8-4193-a7b0-e04855dae594">
+				<InternalInfo/>
+				<Properties>
+					<Name>франПоМесяцам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>507eb2e1-b24b-415b-9122-81a5629c3d5f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

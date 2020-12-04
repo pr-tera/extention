@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="b3508377-23e5-4d42-a732-fc6d880b7565">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЭлектронныеДокументыОтправкаКаталога" category="Object">
+				<xr:TypeId>ad67e41b-51a4-4d8b-a7df-39cf04b11978</xr:TypeId>
+				<xr:ValueId>b27123d3-ec7a-4c6e-bfc0-49e263b980e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЭлектронныеДокументыОтправкаКаталога" category="Manager">
+				<xr:TypeId>89811245-bb2d-4e2b-9c9f-7a6aa0bcaa1e</xr:TypeId>
+				<xr:ValueId>3a6df5fd-b8d8-46ca-a0a2-49c47f0be094</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЭлектронныеДокументыОтправкаКаталога</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5a73e935-4e64-4557-bb8a-f08894c29f16</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="62ef1a9d-2f7a-493e-b480-c425958928ca">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗагрузкаДанныхКонтрагента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>86124699-a156-477b-8375-b2287b554fb4</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

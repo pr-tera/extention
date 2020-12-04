@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="346d179e-6fb5-4907-a580-41003987182e">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыОперацийКадровоеПеремещение" category="Ref">
+				<xr:TypeId>017c11d7-8726-4967-a12f-26687cf9c94b</xr:TypeId>
+				<xr:ValueId>8b8a5f0a-6fdb-40ab-a4ea-6390d252494b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыОперацийКадровоеПеремещение" category="Manager">
+				<xr:TypeId>00ec442f-1063-437e-a579-bd491f8e87aa</xr:TypeId>
+				<xr:ValueId>3838805f-ce9c-4aab-aa8c-c3168aab3ab9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыОперацийКадровоеПеремещение" category="List">
+				<xr:TypeId>25eef4d7-13e4-4398-bc72-4b0c9d60fd90</xr:TypeId>
+				<xr:ValueId>413eb2a2-0d49-43d8-8915-5947198b5b10</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыОперацийКадровоеПеремещение</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>03fd51ed-0c39-4493-9aea-e0bb2f2b013d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0a0741c2-7cbb-4607-a04f-6ed4e7539b0c">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПеремещениеИИзменениеСпособаОплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d2862382-3a14-40e7-870e-9cb332f4fe94</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8d16b1c4-1739-4778-ad9e-af99dce483a5">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИзменениеСпособаОплаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7d4b0c37-6fa4-4565-ab99-ffcdeda73706</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

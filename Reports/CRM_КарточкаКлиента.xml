@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="f266da68-3f85-47ae-a73a-5adf91fde9f7">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.CRM_КарточкаКлиента" category="Object">
+				<xr:TypeId>0eccdafe-825a-45fb-b10e-d373c77e8d2a</xr:TypeId>
+				<xr:ValueId>baf850b7-4cf9-4127-ab5c-203015a832b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.CRM_КарточкаКлиента" category="Manager">
+				<xr:TypeId>b5f7f319-0554-4c8b-8fe9-56d1a011d899</xr:TypeId>
+				<xr:ValueId>2813ad02-24e9-4b6d-9a77-9ba02d2d4a48</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_КарточкаКлиента</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9db78060-314b-43ed-b08b-9bb2bddc0d93</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="5cd1b33b-92a7-4c38-ab4a-0e13262783bc">
+				<InternalInfo/>
+				<Properties>
+					<Name>КарточкаКлиента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1bf19474-5e3e-4f20-9575-a3a4d9d9506a</ExtendedConfigurationObject>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>

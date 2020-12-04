@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="ce5de1b4-dc19-417b-8d0a-e7c78a00ca29">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.пр_RocketChatКаналы" category="Object">
+				<xr:TypeId>40b6e7a1-db93-40cd-b344-162a035ef890</xr:TypeId>
+				<xr:ValueId>13cd0524-42af-4c1e-906e-a2460ce7e2d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.пр_RocketChatКаналы" category="Ref">
+				<xr:TypeId>3c1cb5ae-a4d4-42f7-a0b7-acf0d6f4febc</xr:TypeId>
+				<xr:ValueId>63549a03-714f-45a8-9cfa-be698517d826</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.пр_RocketChatКаналы" category="Selection">
+				<xr:TypeId>17bf3f2d-cb22-4d77-9496-4d31d036efc4</xr:TypeId>
+				<xr:ValueId>14342f99-6d6e-41a9-8b4f-8cfab0651938</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.пр_RocketChatКаналы" category="List">
+				<xr:TypeId>7abef039-8c4f-4084-ae33-b8447e9a39c3</xr:TypeId>
+				<xr:ValueId>53b21cde-4278-4a8d-a5b1-b04618c16695</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.пр_RocketChatКаналы" category="Manager">
+				<xr:TypeId>26cab44c-cc4f-474b-84e9-abb26ba4f98e</xr:TypeId>
+				<xr:ValueId>c25c5e5a-8f17-4068-af8c-367d50a28144</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_RocketChatКаналы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>2c5830e8-2cf8-474b-a559-18e103a4f899</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

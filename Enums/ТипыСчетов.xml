@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="a1000d89-4108-49b9-90f4-2584606d29e1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыСчетов" category="Ref">
+				<xr:TypeId>cf801ef0-c93e-4d4d-89d1-0fcbced242e4</xr:TypeId>
+				<xr:ValueId>d7b55e88-9136-4fa4-9d62-dd0530f66de4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыСчетов" category="Manager">
+				<xr:TypeId>91c0d182-e6d7-4184-bac5-af4c33d3e1de</xr:TypeId>
+				<xr:ValueId>0e132618-c993-43fb-8e64-6ca3bda9a2fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыСчетов" category="List">
+				<xr:TypeId>7e411993-5613-4efc-8b89-5a79d2d4300f</xr:TypeId>
+				<xr:ValueId>6c8227fa-8299-4beb-847f-ef9f3147aa3b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыСчетов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>9d8e09d4-753a-421c-a041-840d13ac7fdd</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="979e78c9-5245-4ccb-9ed4-d4d7a9a6b4c8">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дебиторы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0c4c49bb-1b81-4602-8b39-d3564cf564a7</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="ba208cea-b696-474f-8bb2-3309a9f36f69">
+				<InternalInfo/>
+				<Properties>
+					<Name>Кредиторы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>677ef3a3-7629-4daa-a942-b0a6be1b0302</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

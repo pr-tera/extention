@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="f0107129-9a3e-4ff1-9265-9a4fc50b87ad">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.удалитьCRM_Мероприятие" category="Object">
+				<xr:TypeId>29dbb9c3-469d-4e8e-8ece-cd05b63bffa1</xr:TypeId>
+				<xr:ValueId>f75d126c-14e1-4047-8b70-35fd4b5b9226</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.удалитьCRM_Мероприятие" category="Ref">
+				<xr:TypeId>55accb8f-cba7-4d14-9b67-20c6ff2837a1</xr:TypeId>
+				<xr:ValueId>ce00e430-13cc-4fb0-a92e-c6766ea18308</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.удалитьCRM_Мероприятие" category="Selection">
+				<xr:TypeId>e6f2b124-811e-44e0-b517-8269167c18e0</xr:TypeId>
+				<xr:ValueId>136aee92-dee4-4c76-8463-79ccbc957c35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.удалитьCRM_Мероприятие" category="List">
+				<xr:TypeId>f1208fea-0fd2-47b7-b58b-ad31c913880c</xr:TypeId>
+				<xr:ValueId>e3e5df5c-b941-4321-bff4-f1fa4e8c06cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.удалитьCRM_Мероприятие" category="Manager">
+				<xr:TypeId>feaacc08-9d6e-4239-a5d1-6f2a210ff54d</xr:TypeId>
+				<xr:ValueId>21484188-2500-4da3-a746-c9a96a675565</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>удалитьCRM_Мероприятие</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>08f6a299-6bb7-47d3-b41a-e1df9bc2b544</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b4d445cc-49af-424c-b1e9-3102515b1b8d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2d6ede6a-501d-4dd8-8a8e-81f3642529e7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.CRM_Интерес</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

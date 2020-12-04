@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="1959290b-a589-4d6b-aec8-d51e5ddcf3ea">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.CRM_ВидыСобытий" category="Ref">
+				<xr:TypeId>2467bcb0-79ff-4560-974e-26430426a665</xr:TypeId>
+				<xr:ValueId>470082be-d1e8-46db-a468-2a42a5689e79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.CRM_ВидыСобытий" category="Manager">
+				<xr:TypeId>98e588ad-ea48-4765-82ec-1c5ea7e09271</xr:TypeId>
+				<xr:ValueId>32a8e45b-c74e-4069-b1a6-69c8b7f55282</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.CRM_ВидыСобытий" category="List">
+				<xr:TypeId>85034547-b51c-4c50-9f28-3a13a0b874a3</xr:TypeId>
+				<xr:ValueId>cc45a9bf-1b20-45fe-a01b-0a48c7d4d9c8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_ВидыСобытий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>1750e924-0bdf-46af-a4e3-01a88a444de3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3cb46af5-84a5-4608-bb97-d2ab4cac8421">
+				<InternalInfo/>
+				<Properties>
+					<Name>ТелефонныйЗвонок</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2ce27414-a052-4c1d-a2ff-555832a9d195</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

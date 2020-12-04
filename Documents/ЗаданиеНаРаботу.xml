@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="33e36788-716d-4238-9983-55478297ffb2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗаданиеНаРаботу" category="Object">
+				<xr:TypeId>5c1a5be3-adfc-418b-bd2b-71498a7bfaab</xr:TypeId>
+				<xr:ValueId>b9743db3-fa5f-43df-b0c6-5584b1206616</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗаданиеНаРаботу" category="Ref">
+				<xr:TypeId>0031c4f2-8eaa-44aa-957c-6c4f0ef4c975</xr:TypeId>
+				<xr:ValueId>67a6c5ab-d7c0-46ec-a4c3-ba7518822f27</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗаданиеНаРаботу" category="Selection">
+				<xr:TypeId>0d269e30-3a8d-467c-989b-c275fb2dda15</xr:TypeId>
+				<xr:ValueId>9861b6d2-c5ba-4106-bb80-d09183e3500e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗаданиеНаРаботу" category="List">
+				<xr:TypeId>76fe5755-ed73-49e0-ad87-87089c261945</xr:TypeId>
+				<xr:ValueId>970a0973-d909-4616-a292-20379dfaf427</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗаданиеНаРаботу" category="Manager">
+				<xr:TypeId>ba4c6d73-d71c-4416-9e34-2f3b46212a15</xr:TypeId>
+				<xr:ValueId>278f0c54-0a05-4540-9e11-dbbf7e46e815</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаданиеНаРаботу</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>eae1be44-3cb9-4a33-bc8d-9e48abdd4599</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6531e222-2faf-4898-a1b4-7ece4b9228f9">
+				<InternalInfo/>
+				<Properties>
+					<Name>Событие</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2971dcfd-7603-44a0-9cab-c3d418b23cda</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.Событие</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="65cd83dc-82da-437d-8130-29ae698f5f2f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ЗаданиеНаРаботу.Работы" category="TabularSection">
+						<xr:TypeId>035fae32-d2dd-4956-9f85-506f19a7055c</xr:TypeId>
+						<xr:ValueId>98ca25e7-cf2f-4b5f-99c6-4e2f53c69b7a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаданиеНаРаботу.Работы" category="TabularSectionRow">
+						<xr:TypeId>5c421581-ef27-4ff3-833e-37da3a5fb250</xr:TypeId>
+						<xr:ValueId>47967116-3782-4b09-993c-c85e6c8af8b7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Работы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ba2cb4c3-f1e8-4d6c-9ebf-df8eb244a690</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c905e274-0daa-4154-a054-0c85b390677a">
+						<InternalInfo/>
+						<Properties>
+							<Name>Заказчик</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>6f2e1936-6327-4ce6-ad09-feb6d3087984</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

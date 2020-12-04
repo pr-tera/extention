@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="462aa874-0441-4a06-816c-59f1af1a7102">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РасходИзКассы" category="Object">
+				<xr:TypeId>665cdd22-ecbf-43ad-ad09-4763ec366386</xr:TypeId>
+				<xr:ValueId>bb846e95-9ace-4f9a-966c-5b7be8b723b6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РасходИзКассы" category="Ref">
+				<xr:TypeId>d3a0a8ee-da81-47be-a636-5911bc2ff613</xr:TypeId>
+				<xr:ValueId>fed0cd46-8e8b-4e65-a44a-0c4390d9d597</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РасходИзКассы" category="Selection">
+				<xr:TypeId>e8b5e432-8160-4719-9e76-43b603accd5e</xr:TypeId>
+				<xr:ValueId>0cef8fec-9848-4e25-85fb-836fd1179a21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РасходИзКассы" category="List">
+				<xr:TypeId>3137c7d4-20db-45e8-8564-9542b38bde25</xr:TypeId>
+				<xr:ValueId>79b284d9-aac6-409f-a346-cbde0917968a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РасходИзКассы" category="Manager">
+				<xr:TypeId>99e79bcc-a7d9-47d1-8446-d3989303b8c4</xr:TypeId>
+				<xr:ValueId>820cdc9d-7ca0-4676-969a-90dac8d0cddf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РасходИзКассы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6904862f-9209-4970-b2d7-4e1b473c6807</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="c65fee61-4126-48cd-811c-3f13e596b95f">
+				<InternalInfo/>
+				<Properties>
+					<Name>Документ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1fd63415-62ff-4d4d-b439-86d5e97eea62</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.АвансовыйОтчет</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0593abc3-b15c-4ea0-91a7-e3f01131117e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a585ac56-7606-43b4-80d1-8bb70cf431df</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="688991a9-3a2a-4b5a-a5ee-539f256026a1">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВУправленческомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0705ea33-1020-489d-a364-3371c1fc3eea</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a20c5c5f-18ea-4494-9967-f7abc6a06303">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fdfd2132-95d2-4856-af97-c7dee92e8d18</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="eb14aae6-f090-424d-8f81-ad0c19caca95">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РасходИзКассы.РасшифровкаПлатежа" category="TabularSection">
+						<xr:TypeId>5ac270dd-9bf6-4d01-9ee5-cad996c8cb22</xr:TypeId>
+						<xr:ValueId>11e2829f-ccc0-4d31-84b1-81d9b46a13fb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасходИзКассы.РасшифровкаПлатежа" category="TabularSectionRow">
+						<xr:TypeId>80366216-c3b4-4664-bba7-636a6c005bfb</xr:TypeId>
+						<xr:ValueId>e30a16b3-7485-4748-9fed-c8198d4645a7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>РасшифровкаПлатежа</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4eb412c2-cc7b-4b51-b2a4-1639685ff1af</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="66086307-b373-45b3-99c7-1f9366173c62">
+						<InternalInfo/>
+						<Properties>
+							<Name>Документ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>e2baeb62-2745-47b5-beec-e8669b6a945e</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="600cfe71-8af9-493f-b699-47ab8655b50a">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДокументПланирования</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>d686647f-d48a-4b86-a789-effa472fc732</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="2f131dcd-cf7c-4e8e-a758-38a5b0783d8c">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РасходИзКассы.ВыплатаЗаработнойПлаты" category="TabularSection">
+						<xr:TypeId>6d09a5cd-04c4-48c2-98dd-b3711d9ca7df</xr:TypeId>
+						<xr:ValueId>40a77092-517f-48a7-abd7-ce81b6120571</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РасходИзКассы.ВыплатаЗаработнойПлаты" category="TabularSectionRow">
+						<xr:TypeId>b37d2bcf-1564-44d7-b665-15bd8ca98d69</xr:TypeId>
+						<xr:ValueId>99ddf444-06b5-429c-a833-646303aa019e</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ВыплатаЗаработнойПлаты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>176e5904-d3e0-43cd-b262-57f1952bcc14</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5856e4aa-3e9c-4766-8569-27b1b0d73738">
+						<InternalInfo/>
+						<Properties>
+							<Name>Ведомость</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>2d63476c-033d-4d12-b7dd-80fc76b0d06e</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПлатежнаяВедомость</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

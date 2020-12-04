@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="f8aaca79-2984-45ac-a7a8-2bd6ede6b48f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.франТипыЗаданий" category="Object">
+				<xr:TypeId>fbeab6c8-e7ad-45e4-a0c4-4505668cde12</xr:TypeId>
+				<xr:ValueId>d80ca46b-af7d-4ff7-8dda-672ffca0ebed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.франТипыЗаданий" category="Ref">
+				<xr:TypeId>729f5fc6-aef9-4315-a8fe-0c6668b146f7</xr:TypeId>
+				<xr:ValueId>b2a7f803-4dfc-4b70-9880-7d5c6df09981</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.франТипыЗаданий" category="Selection">
+				<xr:TypeId>5d268f98-619b-4298-af62-37880dcdb0f3</xr:TypeId>
+				<xr:ValueId>d0e11d23-7a9e-4a4d-9e67-412e951ace53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.франТипыЗаданий" category="List">
+				<xr:TypeId>1d5ee480-29b5-45f9-aa87-af4e3724b122</xr:TypeId>
+				<xr:ValueId>d7680c1f-e1c7-4c41-b96a-52b90ca1daa7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.франТипыЗаданий" category="Manager">
+				<xr:TypeId>86d8d9dd-ac3c-4b08-9596-f2bf3aa514e8</xr:TypeId>
+				<xr:ValueId>0b6cd26d-ce28-4157-a34f-67f0778f2254</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>франТипыЗаданий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>82306144-8925-415c-a686-5f17fbd22d0d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="44e0de40-30e4-4e67-8c4d-4addf4d42312">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.пр_ВидНачисленияОклад" category="Manager">
+				<xr:TypeId>d022132a-0afa-40e8-ae48-8aac505e4c88</xr:TypeId>
+				<xr:ValueId>74c344f5-4bb5-4969-92d3-d4a9e3da1f12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.пр_ВидНачисленияОклад" category="ValueManager">
+				<xr:TypeId>10859808-4cde-4316-8de3-73f1040bc215</xr:TypeId>
+				<xr:ValueId>d1bf9507-7105-473a-8d80-ffa7fe386fa1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.пр_ВидНачисленияОклад" category="ValueKey">
+				<xr:TypeId>ef0f2e64-5900-45ac-943a-1e34179ca30f</xr:TypeId>
+				<xr:ValueId>b0c8cd47-0436-4de0-941b-cccb0ec3aa0a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>пр_ВидНачисленияОклад</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d493b084-092d-499e-9667-3ea0d3fe0caf</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ВидыНачисленийИУдержаний</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

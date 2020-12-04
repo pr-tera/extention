@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="b62bf049-b7e7-4784-9fa5-2daaf494f1fd">
+		<Name>прДоговорИТССПакетомЧасов</Name>
+		<Code>000000062</Code>
+		<Description>Договор ИТС с пакетом часов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e2cb11e2-11b8-4c23-8504-b80c5950ac31">
+		<Name>прПакетыЧасов</Name>
+		<Code>000000060</Code>
+		<Description>Пакеты часов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="eb9b9c19-6a18-48c6-b377-e011823f5417">
+		<Name>прПоФакту</Name>
+		<Code>000000061</Code>
+		<Description>По факту</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="42256ea3-5e10-48ac-8520-ce7216b8c8bb">
+		<Name>франПодпискаИТС</Name>
+		<Code>000000001</Code>
+		<Description>Подписка ИТС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f36d131-8e89-44d8-8d8e-7f9af7ea45c1">
+		<Name>прСервисы</Name>
+		<Code>000000026</Code>
+		<Description>Сервисы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

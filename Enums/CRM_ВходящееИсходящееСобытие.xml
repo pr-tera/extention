@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="22659a93-10bb-47ce-b7ce-bc86ed322ce6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.CRM_ВходящееИсходящееСобытие" category="Ref">
+				<xr:TypeId>c8e9ea5a-474f-419a-a656-374937074ee1</xr:TypeId>
+				<xr:ValueId>9dd83ebe-85d7-4df5-bc44-1bddee543d61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.CRM_ВходящееИсходящееСобытие" category="Manager">
+				<xr:TypeId>bc2bb0c3-9f22-406f-8ab5-8def4b312c87</xr:TypeId>
+				<xr:ValueId>bfeffb80-69d0-4c37-8cda-196360eda22f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.CRM_ВходящееИсходящееСобытие" category="List">
+				<xr:TypeId>4dd964f2-9c9d-454e-a33b-22ca8814f29e</xr:TypeId>
+				<xr:ValueId>12fa8ecb-bbbe-46cd-9957-c9ca5f8f8f78</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>CRM_ВходящееИсходящееСобытие</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fe56be15-4ba4-429c-8eb6-27f08d73e0d4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="687bfb17-2186-4598-90a9-e44dfac97e1e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Исходящее</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6b76ead7-eb6d-4dfc-976c-421a3319176b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="c21919c4-231e-49f3-bea5-a92a85ad6bb6">
+		<Name>Документ_франДоговорОбслуживания</Name>
+		<Code/>
+		<Description>Документ "Договор обслуживания" (ПР)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

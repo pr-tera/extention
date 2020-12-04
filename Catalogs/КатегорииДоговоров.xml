@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="c47f9ed4-3e19-4243-a054-72e008c12716">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КатегорииДоговоров" category="Object">
+				<xr:TypeId>a82ef11b-f178-42eb-a834-018d0455f9ca</xr:TypeId>
+				<xr:ValueId>7215dd00-3137-4aa5-b3d8-489b434e76cb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КатегорииДоговоров" category="Ref">
+				<xr:TypeId>d3962302-1230-465a-a87d-b6020f777d24</xr:TypeId>
+				<xr:ValueId>7f65a8bb-4d3c-4626-ae0a-a70357fefd28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КатегорииДоговоров" category="Selection">
+				<xr:TypeId>48ec9215-09c6-49d0-afae-6b8d2f30dbb1</xr:TypeId>
+				<xr:ValueId>2df09b28-91eb-43cd-8602-8844145f9056</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КатегорииДоговоров" category="List">
+				<xr:TypeId>72c5fee9-738f-4ea6-ac86-65c53fe0fa05</xr:TypeId>
+				<xr:ValueId>d18a7d50-75ce-4562-bf07-f9b8fb10aee1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КатегорииДоговоров" category="Manager">
+				<xr:TypeId>a71759b9-faff-4f7b-9920-350fe240a078</xr:TypeId>
+				<xr:ValueId>d8b96c06-cc02-41c6-b489-09a7976cafbf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииДоговоров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>df638a70-69dc-4839-a95c-7af8c2bcc093</ExtendedConfigurationObject>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

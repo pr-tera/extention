@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<ChartOfCharacteristicTypes uuid="957832c4-a7e0-4ce8-9c12-cff1760f48cf">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.НастройкиПользователей" category="Object">
+				<xr:TypeId>e74aa850-099a-4165-8a07-cd30dada7ee1</xr:TypeId>
+				<xr:ValueId>fe5a9152-3381-4127-9443-55bd75b60f85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.НастройкиПользователей" category="Ref">
+				<xr:TypeId>92f6e794-f4cb-4fe3-9570-f904525cdc56</xr:TypeId>
+				<xr:ValueId>b88a261f-aff5-4929-b1d2-01d1b9845c43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.НастройкиПользователей" category="Selection">
+				<xr:TypeId>0124bc73-c95d-4a49-b0a3-13471f1348e3</xr:TypeId>
+				<xr:ValueId>f64e3bdc-f532-4772-a093-31256809f8aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.НастройкиПользователей" category="List">
+				<xr:TypeId>f52fb72e-3927-44a4-adec-7f0117ae0bf8</xr:TypeId>
+				<xr:ValueId>1dfd87b3-74fc-433b-8518-56012e69ec5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.НастройкиПользователей" category="Characteristic">
+				<xr:TypeId>f6f70a3c-0624-437c-8af0-8659759758b7</xr:TypeId>
+				<xr:ValueId>7bc668df-66f8-4093-8597-4a111e8f94c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.НастройкиПользователей" category="Manager">
+				<xr:TypeId>7d4fd1e8-6a13-4084-83d8-acbe517ecc11</xr:TypeId>
+				<xr:ValueId>b8805ab0-e6b7-4c64-b52b-ce0ee4a85632</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиПользователей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>05ab3c5c-d7c8-4157-a85b-bf9a7d170884</ExtendedConfigurationObject>
+			<CodeLength>5</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

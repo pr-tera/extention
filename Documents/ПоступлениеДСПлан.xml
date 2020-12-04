@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="1cdaf8f7-a343-498b-aa0a-cf5463fd9e2d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПоступлениеДСПлан" category="Object">
+				<xr:TypeId>a13a2fd9-3c87-4147-8d54-d0a50c0bf4c7</xr:TypeId>
+				<xr:ValueId>c34aff24-a582-44fd-8ac1-94c5a137c8b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПоступлениеДСПлан" category="Ref">
+				<xr:TypeId>8e9b8070-43a2-4107-b311-20b24d4db728</xr:TypeId>
+				<xr:ValueId>ad4c1ce3-146d-4163-bedf-d48d79f49159</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПоступлениеДСПлан" category="Selection">
+				<xr:TypeId>da1e59e9-bc5e-4677-884a-51729b69822a</xr:TypeId>
+				<xr:ValueId>3f41011b-7756-4b5b-8b5c-fdca69365652</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПоступлениеДСПлан" category="List">
+				<xr:TypeId>ed9df559-704e-43ab-83e1-11d9e3a2c6df</xr:TypeId>
+				<xr:ValueId>9966bc23-5fbc-4494-8a8a-b10c65e94d1a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПоступлениеДСПлан" category="Manager">
+				<xr:TypeId>7d4fc456-6ba1-481a-a831-9d03d8a4e765</xr:TypeId>
+				<xr:ValueId>52bd0c4c-6586-485f-9c66-d6150b776ec0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоступлениеДСПлан</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c18706f7-84f7-4c9d-ae6a-832e18f1c2ab</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8edc10ed-0b8c-410d-86a1-149c449bb78d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8bd27c7d-1a99-42a0-b331-6c77bcd5079e</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

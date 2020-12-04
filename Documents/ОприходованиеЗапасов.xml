@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="19c1defd-4c17-4285-b7cc-d110dae3cc65">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОприходованиеЗапасов" category="Object">
+				<xr:TypeId>89aae7ca-aac9-4f30-a92e-c3063eec7625</xr:TypeId>
+				<xr:ValueId>2f1db2cd-0b2c-4fd4-8455-e574cb1ff2c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОприходованиеЗапасов" category="Ref">
+				<xr:TypeId>a8d441c1-1e68-4de1-9123-881878ed0ee4</xr:TypeId>
+				<xr:ValueId>e3beae94-2f27-4b51-b4fe-0cf6acc5347f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОприходованиеЗапасов" category="Selection">
+				<xr:TypeId>a348200b-2374-4444-89e6-5c3ede67502b</xr:TypeId>
+				<xr:ValueId>a5fdb537-b0e3-4ffd-b5dd-77bdd1f0eadd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОприходованиеЗапасов" category="List">
+				<xr:TypeId>b76c0f53-9d39-4065-a5b7-6492ab5fbfc8</xr:TypeId>
+				<xr:ValueId>e0f4db27-2eae-4d48-bbc3-747c4317298c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОприходованиеЗапасов" category="Manager">
+				<xr:TypeId>3895a332-6393-4e1d-8832-bf8e57a7f93d</xr:TypeId>
+				<xr:ValueId>d243679e-3896-4906-b9e4-e0d9f5cf2e68</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОприходованиеЗапасов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ddedc4ab-0149-4852-93a6-c895e2793772</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a953c965-99e8-4491-a8dd-c1e6e764575f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>11ac2f58-fde3-4d95-95f2-7b1e9d1f36a5</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="05b8c909-51c6-419e-9940-4f6b5270396d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВУправленческомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8be005c5-5330-4571-b3e9-eea177d171c9</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4309c71a-7972-4f3f-83e0-e1a5ec8c2de4">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьВБухгалтерскомУчете</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ac2286b9-dd34-44d8-8650-0f4119493a53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
